@@ -1,0 +1,26 @@
+# entorno / cache
+__pycache__/
+*.pyc
+.claude/
+
+# repo anidado independiente (ya tiene su propio remoto/token)
+ghl-ofertas-pages/
+
+# datos internos de negocio, no van a un repo publico
+BaseHoteles_PowerApps.xlsx
+EstadoActualDialogos_Arsenal.xlsx
+
+# scripts de exploracion/debug de un solo uso (raiz del proyecto)
+/_*.py
+
+# artefactos de scratch
+scratchpad_*.txt
+debug_*.json
+
+# reportes_ghl: solo se versiona lo del pipeline de webs individuales,
+# no los datos/estado del pipeline corporativo (Pipeline A)
+reportes_ghl/*
+!reportes_ghl/_individual_bil.json
+!reportes_ghl/estado_ofertas_individual.json
+!reportes_ghl/ghl_dashboard_individual_latest.html
+!reportes_ghl/ghl_dashboard_individual_*.html
