@@ -18,8 +18,11 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 
+Copy-Item "reportes_ghl\ghl_dashboard_individual_latest.html" "index.html" -Force
+
 git add reportes_ghl/_individual_bil.json reportes_ghl/estado_ofertas_individual.json `
-        reportes_ghl/ghl_dashboard_individual_latest.html reportes_ghl/ghl_dashboard_individual_*.html
+        reportes_ghl/ghl_dashboard_individual_latest.html reportes_ghl/ghl_dashboard_individual_*.html `
+        index.html
 
 $changes = git diff --cached --name-only
 if ($changes) {
