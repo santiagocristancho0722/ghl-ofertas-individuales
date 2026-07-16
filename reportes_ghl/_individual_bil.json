@@ -1777,10 +1777,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.tequendamahotel.com/offers",
-      "slug": "weekndof",
+      "slug": "",
       "es_id": null,
       "hotel": "Hotel Tequendama Bogota",
-      "hotel_code": "tequendama",
+      "hotel_code": "hoteltequendamabogota",
       "titulo": "Special Weekend Rate",
       "nombre_corto": "Special Weekend Rate",
       "titular": "",
@@ -1791,7 +1791,7 @@
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "weekndof"
+      "match_key": "weekend|None"
     },
     "hash": "70d7ff2e673ad0612b8d442ab535b0cf"
   },
@@ -1823,21 +1823,21 @@
     "en": {
       "lang": "en",
       "url": "https://en.tequendamahotel.com/offers",
-      "slug": "ebkqudof",
+      "slug": "",
       "es_id": null,
       "hotel": "Hotel Tequendama Bogota",
-      "hotel_code": "tequendama",
+      "hotel_code": "hoteltequendamabogota",
       "titulo": "Save when you plan ahead",
       "nombre_corto": "Save when you plan ahead",
       "titular": "",
-      "descripcion": "Plan ahead and save. Book your stay at least 15 days in advance and enjoy an 8% discount on your reservation. Experience comfort and convenience in the heart of the city, perfect for both leisure and business trips. Terms & conditions apply.",
+      "descripcion": "Plan ahead and save. Book your stay at least 15 days in advance and enjoy an 8% discount on your reservation.\n\nExperience comfort and convenience in the heart of the city, perfect for both leisure and business trips.\n\nTerms & conditions apply.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 15,
       "descuento": "8%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebkqudof"
+      "match_key": "early_booking|15"
     },
     "hash": "0a48ae1239cb719b7a0c39091732bb8a"
   },
@@ -1869,21 +1869,21 @@
     "en": {
       "lang": "en",
       "url": "https://en.tequendamahotel.com/offers",
-      "slug": "suite",
+      "slug": "",
       "es_id": null,
       "hotel": "Hotel Tequendama Bogota",
-      "hotel_code": "tequendama",
+      "hotel_code": "hoteltequendamabogota",
       "titulo": "Presidential Suite",
       "nombre_corto": "Presidential Suite",
       "titular": "",
-      "descripcion": "Spacious and elegant 217 m² suite designed for an exclusive and comfortable experience. Features three bedrooms, including a master bedroom with private bathroom and jacuzzi, as well as a large living room, dining area, and fully equipped kitchen. Perfect for families, extended stays, or guests seeking extra privacy and comfort in the heart of the city. A space rich in history, having welcomed distinguished guests and memorable moments throughout the years in one of Bogotá’s most iconic hotels.",
+      "descripcion": "Spacious and elegant 217 m² suite designed for an exclusive and comfortable experience. Features three bedrooms, including a master bedroom with private bathroom and jacuzzi, as well as a large living room, dining area, and fully equipped kitchen.\n\nPerfect for families, extended stays, or guests seeking extra privacy and comfort in the heart of the city.\n\nA space rich in history, having welcomed d",
       "categoria": "Promo Especial",
       "canonical": "special",
       "param": null,
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "suite"
+      "match_key": "special|None"
     },
     "hash": "7fdd79d89afb572822d456d0495fec64"
   },
@@ -2037,17 +2037,17 @@
   },
   {
     "hotel": "LATAM XELA",
-    "hotel_code": "latamhotel",
-    "match_key": "ebkqudof",
+    "hotel_code": "latamxela",
+    "match_key": "early_booking|15",
     "categoria": "Compra Anticipada",
-    "id": "latamhotel_ebkqudof",
+    "id": "latamxela_417347",
     "es": {
       "lang": "es",
       "url": "https://www.latamhotelxela.com/ofertas",
-      "slug": "ebkqudof",
+      "slug": "",
       "es_id": null,
       "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
+      "hotel_code": "latamxela",
       "titulo": "Compra Anticipada 15 días",
       "nombre_corto": "Compra Anticipada 15 días",
       "titular": "",
@@ -2058,7 +2058,7 @@
       "descuento": "10%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebkqudof"
+      "match_key": "early_booking|15"
     },
     "en": {
       "lang": "en",
@@ -2083,28 +2083,28 @@
   },
   {
     "hotel": "LATAM XELA",
-    "hotel_code": "latamhotel",
-    "match_key": "lonstnof",
-    "categoria": "Minima Estadia",
-    "id": "latamhotel_lonstnof",
+    "hotel_code": "latamxela",
+    "match_key": "general|2",
+    "categoria": "Oferta General",
+    "id": "latamxela_b92511",
     "es": {
       "lang": "es",
       "url": "https://www.latamhotelxela.com/ofertas",
-      "slug": "lonstnof",
+      "slug": "",
       "es_id": null,
       "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
+      "hotel_code": "latamxela",
       "titulo": "“Plan 2 Noches, Más Beneficios”",
       "nombre_corto": "“Plan 2 Noches, Más Beneficios”",
       "titular": "",
       "descripcion": "Reserva una estadía mínima de 2 noches en el Hotel Latam Xela Quetzaltenango y obtén un 12% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
-      "categoria": "Minima Estadia",
-      "canonical": "min_stay",
+      "categoria": "Oferta General",
+      "canonical": "general",
       "param": 2,
       "descuento": "12%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "lonstnof"
+      "match_key": "general|2"
     },
     "en": {
       "lang": "en",
@@ -2129,17 +2129,17 @@
   },
   {
     "hotel": "LATAM XELA",
-    "hotel_code": "latamhotel",
-    "match_key": "lasmtdof",
+    "hotel_code": "latamxela",
+    "match_key": "last_minute|None",
     "categoria": "Ultimo Minuto",
-    "id": "latamhotel_lasmtdof",
+    "id": "latamxela_83ee25",
     "es": {
       "lang": "es",
       "url": "https://www.latamhotelxela.com/ofertas",
-      "slug": "lasmtdof",
+      "slug": "",
       "es_id": null,
       "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
+      "hotel_code": "latamxela",
       "titulo": "Escapada de Último Minuto",
       "nombre_corto": "Escapada de Último Minuto",
       "titular": "",
@@ -2150,7 +2150,7 @@
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "lasmtdof"
+      "match_key": "last_minute|None"
     },
     "en": {
       "lang": "en",
@@ -2172,6 +2172,52 @@
       "match_key": "lasmtdof"
     },
     "hash": "4b8b30faf12363ee203b8e8891d13f16"
+  },
+  {
+    "hotel": "Makani Luxury Wanderlust",
+    "hotel_code": "makani",
+    "match_key": "minimonoches",
+    "categoria": "Promo Especial",
+    "id": "makani_minimonoches",
+    "es": {
+      "lang": "es",
+      "url": "https://www.makaniluxury.com/ofertas",
+      "slug": "minimonoches",
+      "es_id": null,
+      "hotel": "Makani Luxury Wanderlust",
+      "hotel_code": "makani",
+      "titulo": "Experiencia dos noches en Makani",
+      "nombre_corto": "Experiencia dos noches en Makani",
+      "titular": "",
+      "descripcion": "Dos noches en tu villa privada mientras el mundo vive el Mundial. Descansa, desconéctate y vive el fútbol en el club de playa cuando quieras. Disponible durante junio y julio. Selecciona tu día de llegada al reservar. Incluye Check-in con bebida de bienvenida Desayuno incluido cada mañana 2x1 en margaritas artesanales",
+      "categoria": "Promo Especial",
+      "canonical": "special",
+      "param": null,
+      "descuento": null,
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "minimonoches"
+    },
+    "en": {
+      "lang": "en",
+      "url": "https://en.makaniluxury.com/offers",
+      "slug": "minimonoches",
+      "es_id": null,
+      "hotel": "Makani Luxury Wanderlust",
+      "hotel_code": "makani",
+      "titulo": "Season Escape",
+      "nombre_corto": "Season Escape",
+      "titular": "",
+      "descripcion": "Two nights in your private villa while the world lives the World Cup. Rest, unwind, and catch the matches at our beach club whenever you feel like it. Includes Check-in with a welcome drink Breakfast included each morning 2-for-1 handcrafted margaritas",
+      "categoria": "Promo Especial",
+      "canonical": "special",
+      "param": null,
+      "descuento": null,
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "minimonoches"
+    },
+    "hash": "d1384a981f8b8c69411f460c05a5111f"
   },
   {
     "hotel": "Park Lake Luxury",
@@ -2566,25 +2612,7 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestacali.com/offers",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "Sonesta Cali",
-      "hotel_code": "cali",
-      "titulo": "60-Day Advance Purchase",
-      "nombre_corto": "60-Day Advance Purchase",
-      "titular": "",
-      "descripcion": "Book ahead and save. Reserve in advance and get the best fare.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": null,
-      "descuento": null,
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
+    "en": null,
     "hash": "1959e915cacfcdc0c81c097ff302dcad"
   },
   {
@@ -2612,25 +2640,7 @@
       "vigencia": null,
       "match_key": "ebktrdof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestacali.com/offers",
-      "slug": "ebktrdof",
-      "es_id": null,
-      "hotel": "Sonesta Cali",
-      "hotel_code": "cali",
-      "titulo": "Compra anticipada 30 días",
-      "nombre_corto": "Compra anticipada 30 días",
-      "titular": "",
-      "descripcion": "Planea tu viaje con tiempo. Al reservar con 30 días de anticipación, recibe 8% de descuento en tu estadía. Promoción no válida durante temporadas altas, Feria de Cali y eventos de ciudad.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 30,
-      "descuento": "8%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebktrdof"
-    },
+    "en": null,
     "hash": "3e6215bd80a9cefdd1f5521b4acb3927"
   },
   {
@@ -2658,25 +2668,7 @@
       "vigencia": null,
       "match_key": "fd"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestacali.com/offers",
-      "slug": "fd",
-      "es_id": null,
-      "hotel": "Sonesta Cali",
-      "hotel_code": "cali",
-      "titulo": "Weekend",
-      "nombre_corto": "Weekend",
-      "titular": "",
-      "descripcion": "Special Weekend Disconnect from your routine and reconnect with your family. Enjoy a different kind of weekend.",
-      "categoria": "Fin de Semana",
-      "canonical": "weekend",
-      "param": null,
-      "descuento": null,
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "fd"
-    },
+    "en": null,
     "hash": "0d84ea090049c70ef1b295f3c842d389"
   },
   {
@@ -3509,28 +3501,28 @@
   },
   {
     "hotel": "Sonesta Puno",
-    "hotel_code": "sonestapuno",
-    "match_key": "special|None",
-    "categoria": "Promo Especial",
-    "id": "sonestapuno_46e5f7",
+    "hotel_code": "ghlsonincapuno",
+    "match_key": "barrateof",
+    "categoria": "Descuento Directo",
+    "id": "ghlsonincapuno_barrateof",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapipuno.com/ofertas",
-      "slug": "",
+      "slug": "barrateof",
       "es_id": null,
       "hotel": "Sonesta Puno",
-      "hotel_code": "sonestapuno",
+      "hotel_code": "ghlsonincapuno",
       "titulo": "Puno Esencial - Tarifa con Descuento",
       "nombre_corto": "Puno Esencial - Tarifa con Descuento",
       "titular": "",
       "descripcion": "No postergues el viaje de tus sueños. Vive la magia y el confort a orillas del lago navegable más alto del mundo con un 15% de descuento exclusivo en Sonesta Posadas del Inca Puno. Desconéctate de la rutina, respira el aire puro de los Andes y asegura una tarifa preferencial reservando desde hoy hasta el 30 de septiembre. El descanso perfecto te espera.",
-      "categoria": "Promo Especial",
-      "canonical": "special",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
       "param": null,
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "special|None"
+      "match_key": "barrateof"
     },
     "en": {
       "lang": "en",
@@ -3555,17 +3547,17 @@
   },
   {
     "hotel": "Sonesta Puno",
-    "hotel_code": "sonestapuno",
-    "match_key": "general|None",
+    "hotel_code": "ghlsonincapuno",
+    "match_key": "prcperof",
     "categoria": "Oferta General",
-    "id": "sonestapuno_c69dc9",
+    "id": "ghlsonincapuno_prcperof",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapipuno.com/ofertas",
-      "slug": "",
+      "slug": "prcperof",
       "es_id": null,
       "hotel": "Sonesta Puno",
-      "hotel_code": "sonestapuno",
+      "hotel_code": "ghlsonincapuno",
       "titulo": "CYBER PERÚ 15% OFF",
       "nombre_corto": "CYBER PERÚ 15% OFF",
       "titular": "",
@@ -3576,7 +3568,7 @@
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "general|None"
+      "match_key": "prcperof"
     },
     "en": {
       "lang": "en",
@@ -3601,17 +3593,17 @@
   },
   {
     "hotel": "Sonesta Puno",
-    "hotel_code": "sonestapuno",
-    "match_key": "general|None",
+    "hotel_code": "ghlsonincapuno",
+    "match_key": "latam",
     "categoria": "Oferta General",
-    "id": "sonestapuno_97d377",
+    "id": "ghlsonincapuno_latam",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapipuno.com/ofertas",
-      "slug": "",
+      "slug": "latam",
       "es_id": null,
       "hotel": "Sonesta Puno",
-      "hotel_code": "sonestapuno",
+      "hotel_code": "ghlsonincapuno",
       "titulo": "Titicaca LATAM -10%",
       "nombre_corto": "Titicaca LATAM -10%",
       "titular": "",
@@ -3622,7 +3614,7 @@
       "descuento": "10%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "general|None"
+      "match_key": "latam"
     },
     "en": {
       "lang": "en",
@@ -3670,25 +3662,7 @@
       "vigencia": null,
       "match_key": "barrateof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestapiyucay.com/offers",
-      "slug": "barrateof",
-      "es_id": null,
-      "hotel": "Sonesta Yucay",
-      "hotel_code": "ghlsonvallesagrado",
-      "titulo": "Peru's Independence Month in the Heart of the Sacred Valley",
-      "nombre_corto": "Peru's Independence Month in the Heart of the Sacred Valley",
-      "titular": "",
-      "descripcion": "Celebrate Peru's Independence Month at Sonesta Posasda del Inca Valle Sagrado and enjoy an exclusive 15% discount on your stay. Experience the perfect combination of nature, culture, and comfort in one of Peru's most iconic destinations. 📅 Valid from July 1 to July 31, 2026",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "barrateof"
-    },
+    "en": null,
     "hash": "8f0e4142be916cb83ed77a83a688ce91"
   },
   {
@@ -3716,25 +3690,7 @@
       "vigencia": null,
       "match_key": "prcperof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestapiyucay.com/offers",
-      "slug": "prcperof",
-      "es_id": null,
-      "hotel": "Sonesta Yucay",
-      "hotel_code": "ghlsonvallesagrado",
-      "titulo": "CYBER PERÚ 15% OFF",
-      "nombre_corto": "CYBER PERÚ 15% OFF",
-      "titular": "",
-      "descripcion": "Book from July 10th to 31st and receive a 15% discount for trips until December 2026. Not applicable to flight + hotel plans or packages. Subject to hotel availability. Not applicable to Sheraton or Four Points brand hotels and valid only for selected hotels.",
-      "categoria": "Oferta General",
-      "canonical": "general",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "prcperof"
-    },
+    "en": null,
     "hash": "bb129fc3d505eb35cf7b5c31a357cb69"
   },
   {
@@ -3762,51 +3718,33 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestapiyucay.com/offers",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "Sonesta Yucay",
-      "hotel_code": "ghlsonvallesagrado",
-      "titulo": "The Call of the Sacred Valley",
-      "nombre_corto": "The Call of the Sacred Valley",
-      "titular": "",
-      "descripcion": "Some places call to the soul long before they are ever visited. The Sacred Valley is one of them. Answer that call and reserve your stay 60 days in advance to receive an exclusive 30% discount. At Sonesta Posadas del Inca, every sunrise, every mountain, and every moment of silence invites you to reconnect with what truly matters. An experience to be honored from the very moment you choose to live it. Non-refundable rate.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 60,
-      "descuento": "30%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
+    "en": null,
     "hash": "034e003e7ef0a288c1e9f2da8786f2a2"
   },
   {
     "hotel": "Sonesta Miraflores",
-    "hotel_code": "ghlsonmfl",
-    "match_key": "barrateof",
-    "categoria": "Descuento Directo",
-    "id": "ghlsonmfl_barrateof",
+    "hotel_code": "sonestamiraflores",
+    "match_key": "general|None",
+    "categoria": "Oferta General",
+    "id": "sonestamiraflores_5c9ebd",
     "es": {
       "lang": "es",
       "url": "https://www.sonestamiraflores.com/ofertas",
-      "slug": "barrateof",
+      "slug": "",
       "es_id": null,
       "hotel": "Sonesta Miraflores",
-      "hotel_code": "ghlsonmfl",
+      "hotel_code": "sonestamiraflores",
       "titulo": "Escapada Miraflores -15% - tarifa de temporada",
       "nombre_corto": "Escapada Miraflores -15% - tarifa de temporada",
       "titular": "",
       "descripcion": "Evite comisiones de intermediarios. Obtenga un 15% de descuento real e inmediato reservando hoy su estancia para 2026. Beneficio exclusivo para compras web con vigencia de viaje hasta septiembre de 2026. Cancelación flexible disponible",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
+      "categoria": "Oferta General",
+      "canonical": "general",
       "param": null,
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "barrateof"
+      "match_key": "general|None"
     },
     "en": {
       "lang": "en",
@@ -3831,17 +3769,17 @@
   },
   {
     "hotel": "Sonesta Miraflores",
-    "hotel_code": "ghlsonmfl",
-    "match_key": "prcperof",
+    "hotel_code": "sonestamiraflores",
+    "match_key": "general|None",
     "categoria": "Oferta General",
-    "id": "ghlsonmfl_prcperof",
+    "id": "sonestamiraflores_c69dc9",
     "es": {
       "lang": "es",
       "url": "https://www.sonestamiraflores.com/ofertas",
-      "slug": "prcperof",
+      "slug": "",
       "es_id": null,
       "hotel": "Sonesta Miraflores",
-      "hotel_code": "ghlsonmfl",
+      "hotel_code": "sonestamiraflores",
       "titulo": "CYBER PERÚ 15% OFF",
       "nombre_corto": "CYBER PERÚ 15% OFF",
       "titular": "",
@@ -3852,7 +3790,7 @@
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "prcperof"
+      "match_key": "general|None"
     },
     "en": {
       "lang": "en",

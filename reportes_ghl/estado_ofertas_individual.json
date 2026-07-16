@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 1,
-  "last_run": "2026-07-16 12:31",
-  "prev_run": "—",
+  "escaneos": 2,
+  "last_run": "2026-07-16 14:25",
+  "prev_run": "2026-07-16 12:31",
   "last_kpis": {
-    "activas": 87,
-    "nuevas": 87,
-    "eliminadas": 0,
+    "activas": 88,
+    "nuevas": 9,
+    "eliminadas": 8,
     "cambios": 0,
-    "escaneos": 1
+    "escaneos": 2
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -24,7 +24,7 @@
       "c_sub": "",
       "c_desc": "Aprovecha tu estadia por minimo tres noches. Una experiencia exclusiva. Un 18% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
       "c_disc": "18%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -42,7 +42,7 @@
       "c_sub": "",
       "c_desc": "anticípate 60 días a tu fecha de estadía y adquiere un 12% de descuento, hasta 30% de descuento si te registras en ghlpluss",
       "c_disc": "12%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -60,7 +60,7 @@
       "c_sub": "",
       "c_desc": "Que esperas para programar tu viaje y disfrutar un 5% OFF en tu estadía, y si te registras en GHL Plus podrás obtener un descuento mayor. Estadías hasta el 30 de julio 2026 sujeto a disponibilidad",
       "c_disc": "5%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -78,7 +78,7 @@
       "c_sub": "",
       "c_desc": "Aprovecha nuestra oferta exclusiva Paga 2 Noches y Quédate 3 en el Hotel GHL Arsenal. Beneficios de la promoción Hospédate 3 noches y paga solo 2 Estadía mínima: 3 noches Disponibilidad limitada No acumulable con otras promociones Reserva ahora y asegura esta oferta exclusiva para disfrutar Cartagena en su mejor temporada.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -96,7 +96,7 @@
       "c_sub": "",
       "c_desc": "Reserva con 30 días de anticipación y disfruta de un 10% de descuento en tu próxima estadía.",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -114,7 +114,7 @@
       "c_sub": "",
       "c_desc": "Planifica tu viaje con tiempo y ahorra un 15% reservando con 60 días de anticipación.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -132,7 +132,7 @@
       "c_sub": "",
       "c_desc": "¿Ya tienes tu concierto programado en Bogotá? En GHL Bioxury nos unimos a tu plan con 10% OFF en hospedaje para que disfrutes el concierto y vivas lo mejor de la Zona Rosa. Código promocional: BIOCONCERT",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -150,7 +150,7 @@
       "c_sub": "",
       "c_desc": "Promoción Estancia Mínima 3 Noches – 10% OFF Vive Bogotá con más tiempo, más experiencias y más beneficios. Hospédate mínimo 3 noches y disfruta de un 10% de descuento en tu estadía. Además, recibe un 20% de descuento en Restaurante Salvaje o restaurante Arrogante, restaurantes más reconocidos y exclusivos, ideal para disfrutar alta cocina y un ambiente único durante tu visita a la ciudad. sujeto a disponibilidad",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -168,7 +168,7 @@
       "c_sub": "",
       "c_desc": "¡Los que planifican, ganan más! Reserva con 8 días o más de anticipación y ahorra un 20% nuestro mejor precio disponible. Asegura tu habitación hoy y viaja a Antofagasta sin preocupaciones. Válido para reservas con 8 o más días de anticipación.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -186,7 +186,7 @@
       "c_sub": "",
       "c_desc": "Viaje de última hora. Nosotros te esperamos. Reserva hoy para hoy o mañana y llévate un 15% de descuento. En Geotel Antofagasta sabemos que los mejores planes nacen en el último momento — y estamos listos para recibirte. Válido para reservas con 0 a 1 día de antelación. Sujeto a disponibilidad.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -204,7 +204,7 @@
       "c_sub": "",
       "c_desc": "Quédate más, paga menos. Reserva 3 noches o más y disfruta un 12% de descuento. El norte de Chile tiene mucho por darte: el desierto de Atacama, el Pacífico y una ciudad que no para. Dale el tiempo que merece. Descuento aplicable a reservas de 3 noches o más.",
       "c_disc": "12%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -222,7 +222,7 @@
       "c_sub": "",
       "c_desc": "Quédate 3 noches o más y ahorra un 12%. Ideal para viajes de trabajo de varios días o para explorar el desierto de Atacama sin apuros. Descuento aplicado automáticamente al seleccionar 3 o más noches.",
       "c_disc": "12%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -240,7 +240,7 @@
       "c_sub": "",
       "c_desc": "En Hotel Armería, en el corazón de Getsemaní, las mejores experiencias también llegan sin planearse. Reserva tu escapada de último minuto y obtén 10% de descuento con desayuno incluido. Descubre la magia, la cultura y el encanto de Cartagena mientras disfrutas una estadía llena de confort y estilo.",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -258,7 +258,7 @@
       "c_sub": "",
       "c_desc": "Más noches, más beneficios En Armería Real Getsemaní, tu estadía se disfruta mejor sin prisa. Reserva un mínimo de noches y accede a beneficios exclusivos para hacer de tu experiencia algo aún más especial. Vive el encanto, la cultura y la energía única de Getsemaní con el confort que mereces. Haz de tu viaje una experiencia completa.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -276,7 +276,7 @@
       "c_sub": "",
       "c_desc": "En el Hotel Armería, en el corazón de Getsemaní, te premiamos por planear tu viaje con anticipación. Reserva con 45 días de antelación Obtén 20% de descuento en tu estadía Disfruta de la magia, el color y la historia de Cartagena con el mejor precio garantizado.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -294,7 +294,7 @@
       "c_sub": "",
       "c_desc": "Reserva una estadía mínima de 2 noches en el Hotel GHL Collection Hamilton y obtén un 7% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
       "c_disc": "7%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -312,7 +312,7 @@
       "c_sub": "",
       "c_desc": "Planifica tu próxima estadía en el GHL Hotel Villavicencio y accede a un 7% de descuento reservando con al menos 15 días de anticipación. Además, al hacerte miembro de GHL Plus, podrás disfrutar de hasta un 17% de descuento y beneficios exclusivos. Vive una experiencia de confort, ubicación estratégica y el mejor servicio en el corazón de la ciudad. Aprovecha esta oferta exclusiva para asegurar el mejor precio en tus viajes de negocios o placer. Incluye: Alojamiento en habitación elegida Acceso a las instalaciones del hotel WiFi gratuito",
       "c_disc": "7%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -330,7 +330,7 @@
       "c_sub": "",
       "c_desc": "Entre más tiempo pases en el GHL Hotel Capital, más ahorras. Reserva 4 noches o más y obtén un 15% de descuento en toda tu estadía. Más comodidad, más Bogotá, más experiencias, y tu bolsillo lo nota. ¡No dejes pasar esta oportunidad!",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -348,7 +348,7 @@
       "c_sub": "",
       "c_desc": "El descanso que mereces, al precio que te mereces. Escápate este fin de semana al GHL Hotel Capital y disfruta todo el confort, la gastronomía y la ubicación privilegiada de Bogotá con un 15% de descuento exclusivo. Porque el fin de semana perfecto empieza con la reserva correcta.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -366,7 +366,7 @@
       "c_sub": "",
       "c_desc": "Planear tiene sus ventajas, y esta es una muy buena. Reserva tu estadía en el GHL Hotel Capital con 15 días de anticipación y recibe un 15% de descuento como recompensa por tu buena decisión. Planeaste bien. Ahora relájate, lo demás corre por nuestra cuenta.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -384,7 +384,7 @@
       "c_sub": "",
       "c_desc": "¿Plan de último momento? ¡Mejor! Reserva hoy, llega hoy y vive Bogotá como se debe: sin itinerarios rígidos, con todo el confort del GHL Hotel Capital y un 15% de descuento para que la aventura espontánea salga aún mejor. Las mejores historias empiezan con una reserva de último minuto.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -402,7 +402,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -420,7 +420,7 @@
       "c_sub": "",
       "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -438,7 +438,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -456,7 +456,7 @@
       "c_sub": "",
       "c_desc": "Rompe la rutina y conéctate con la magia del Lago Titicaca. Disfruta de un descanso único en la Isla Esteves con un 20% de descuento exclusivo reservando desde hoy hasta el 30 de septiembre. Paisajes inolvidables y amaneceres únicos te esperan en tus próximas vacaciones. ¡Reserva tu lugar en el paraíso hoy!",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -474,7 +474,7 @@
       "c_sub": "",
       "c_desc": "Reserva tu viaje con 30 días de anticipación y disfruta de 10% OFF en tu próxima estadía en Montería. Incluye desayuno y una ubicación estratégica junto al Centro Comercial Alamedas, Reserva desde hoy y hasta 31 de diciembre de 2026 para viajar hasta el 31 de diciembre de 2026. Sujeto a disponibilidad.",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -492,7 +492,7 @@
       "c_sub": "",
       "c_desc": "¿Buscas un plan diferente para desconectarte? Hazte miembro de GHL Plus y disfruta un 20% de descuento en tu estadía en GHL Hotel Montería. Vive una experiencia única con la comodidad, gastronomía y ubicación ideal para disfrutar de la ciudad durante los fines de semana. Incluye alojamiento con todos los beneficios de ser parte de GHL Plus. Reserva y viaja del 26 de junio al 31 de julio de 2026. Aplica para hospedajes los viernes, sábados, domingos y lunes festivos. Sujeto a disponibilidad y términos y condiciones de la promoción.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -510,7 +510,7 @@
       "c_sub": "",
       "c_desc": "¿Decisión de último momento? ¡No hay problema! Aprovecha nuestras tarifas especiales para reservas inmediatas y asegura tu estadía hoy mismo.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -528,7 +528,7 @@
       "c_sub": "",
       "c_desc": "Quédate más tiempo y disfruta Medellín sin afanes. Hospédate mínimo 3 noches y recibe 8% Off, desayuno incluido y una ubicación ideal en El Poblado, cerca de Santafé, Oviedo y una amplia oferta gastronómica. Reserva desde hoy y hasta el 31 de diciembre de 2026, para viajar hasta el 31 de diciembre de 2026. Sujeto a disponibilidad.",
       "c_disc": "8%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -546,7 +546,7 @@
       "c_sub": "",
       "c_desc": "Reserva tu viaje 30 días antes y obtén 15% OFF para tu próxima estadía en Medellín. Incluye desayuno y acceso a una ubicación estratégica en El Poblado, cerca de zonas comerciales, empresariales y de entretenimiento. Reserva desde hoy hasta al 31 de diciembre de 2026 para viajar hasta el 31 de diciembre de 2026. Sujeto a disponibilidad.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -564,7 +564,7 @@
       "c_sub": "",
       "c_desc": "¿Escapada de último minuto a Medellín? Aprovecha un 5% OFF y disfruta una estadía en El Poblado, cerca de centros comerciales, restaurantes y zonas de entretenimiento. Incluye desayuno. Reserva desde hoy y hasta el 31 de diciembre de 2026 para viajar hasta el 31 de diciembre de 2026. Aplica para reservas realizadas hasta 3 días antes de la llegada. Sujeto a disponibilidad.",
       "c_disc": "5%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -582,7 +582,7 @@
       "c_sub": "",
       "c_desc": "Disfruta una estadía inolvidable en Corales de Indias con desayuno buffet incluido, internet WiFi de cortesía, habitaciones con vista al mar y acceso a nuestras piscinas para adultos y niños.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -600,7 +600,7 @@
       "c_sub": "",
       "c_desc": "Reserva mínimo 3 noches en Hotel Corales de Indias y vive días de descanso frente al mar, atardeceres inolvidables y momentos únicos en familia o pareja.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -618,7 +618,7 @@
       "c_sub": "",
       "c_desc": "Descripción ¡Escápate al paraíso con un 5% de descuento! ¿Buscas desconectar del estrés y disfrutar de un entorno único? Disfruta de la ubicación ideal frente al mar, en una de las zonas más privilegiadas de Santa Marta.",
       "c_disc": "5%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -636,7 +636,7 @@
       "c_sub": "",
       "c_desc": "anticípate 60 días a tu fecha de estadía y adquiere un 12% de descuento, hasta 30% de descuento si te registras en ghlpluss",
       "c_disc": "12%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -654,7 +654,7 @@
       "c_sub": "",
       "c_desc": "Aprovecha nuestra oferta exclusiva Paga 2 Noches y Quédate 3 en el Hotel GHL Costa Azul. Beneficios de la promoción Hospédate 3 noches y paga solo 2 Estadía mínima: 3 noches Disponibilidad limitada No acumulable con otras promociones Reserva ahora y asegura esta oferta exclusiva para disfrutar Santa Marta",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -672,7 +672,7 @@
       "c_sub": "",
       "c_desc": "Planea antes, paga menos. Obtén una tarifa especial reservando tu estadía con 90 días de anticipación en Sunrise.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -690,7 +690,7 @@
       "c_sub": "",
       "c_desc": "Vive la pasión del fútbol con una experiencia de alojamiento llena de emoción y la mejor energía tricolor✨ 🔥 20% de descuento en alojamiento 📅 Reserva hasta el 31 de julio 🛎️ Para estadías hasta el 31 de octubre Celebra cada gol, disfruta momentos inolvidables y vive una escapada perfecta al mejor estilo futbolero.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -708,7 +708,7 @@
       "c_sub": "",
       "c_desc": "Disfruta de un 15% de descuento al reservar con 30 días de anticipación. Haz tu reserva desde hoy y hasta el 31 de diciembre de 2026 y viaja hasta el 31 de enero de 2027. ¡Planifica con tiempo y aprovecha esta oferta exclusiva!",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -726,7 +726,7 @@
       "c_sub": "",
       "c_desc": "Disfruta de un 20% de descuento al reservar con 60 días de anticipación. Reserva hasta el 31 de enero de 2027 y asegura la mejor tarifa para tu próxima estadía.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -744,7 +744,7 @@
       "c_sub": "",
       "c_desc": "Escápate de la rutina y disfruta de un fin de semana lleno de confort y tranquilidad. Ideal para desconectarte y recargar energías en la ciudad.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -762,7 +762,7 @@
       "c_sub": "",
       "c_desc": "Planifica con anticipación y ahorra. Reserva tu estadía con al menos 15 días de antelación y accede a una tarifa especial con 7% de descuento. Disfruta de una experiencia cómoda y tranquila en el corazón de la ciudad, ideal para viajes de descanso o negocios. Aplican términos y condiciones.",
       "c_disc": "7%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -780,7 +780,7 @@
       "c_sub": "",
       "c_desc": "Amplia y elegante suite de 217 m² diseñada para una experiencia exclusiva y confortable. Cuenta con tres habitaciones, incluyendo una habitación principal con baño privado y jacuzzi, además de una espaciosa sala, comedor y cocina totalmente equipada. Ideal para familias, estadías prolongadas o quienes buscan mayor privacidad y comodidad en el corazón de la ciudad. Un espacio lleno de historia, que ha acogido a importantes personalidades y momentos memorables a lo largo de los años en uno de los hoteles más emblemáticos de Bogotá.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -798,7 +798,7 @@
       "c_sub": "",
       "c_desc": "15% de descuento exclusivo en estancias de viernes a domingo",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -816,7 +816,7 @@
       "c_sub": "",
       "c_desc": "Vive un fin de semana diferente con nuestra mejor tarifa disponible para estadías de mínimo 2 noches. Ideal para desconectarte y disfrutar sin prisa, exclusiva para fines de semana seleccionados",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -834,7 +834,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -852,62 +852,80 @@
       "c_sub": "",
       "c_desc": "Escápate y disfruta de un 15% de descuento en tu estadía. Reserva desde hoy y aprovecha esta oferta exclusiva, válida para viajar hasta el 31 de agosto. ¡Es el momento perfecto para descansar y vivir una experiencia inolvidable!",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "latamhotel_ebkqudof": {
+    "latamxela_417347": {
       "hash": "98d1017dc4554eba02a1570bf8ba7993",
       "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
+      "hotel_code": "latamxela",
       "titulo": "Compra Anticipada 15 Días",
       "categoria": "Compra Anticipada",
       "url": "https://www.latamhotelxela.com/ofertas",
-      "country": "Guatemala",
-      "city": "Quetzaltenango",
+      "country": "Otro",
+      "city": "—",
       "c_tit": "Compra Anticipada 15 días",
       "c_sub": "",
       "c_desc": "¡Reserva con anticipación! Latam Xela Quetzaltenango te espera. Obtén un 10% OFF.",
       "c_disc": "10%",
       "estado": "nueva",
-      "fecha_alta": "2026-07-16 12:31",
+      "fecha_alta": "2026-07-16 14:25",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "latamhotel_lonstnof": {
+    "latamxela_b92511": {
       "hash": "f24ed82a5b6865aebbe61e505e2d811f",
       "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
+      "hotel_code": "latamxela",
       "titulo": "“Plan 2 Noches, Más Beneficios”",
-      "categoria": "Minima Estadia",
+      "categoria": "Oferta General",
       "url": "https://www.latamhotelxela.com/ofertas",
-      "country": "Guatemala",
-      "city": "Quetzaltenango",
+      "country": "Otro",
+      "city": "—",
       "c_tit": "“Plan 2 Noches, Más Beneficios”",
       "c_sub": "",
       "c_desc": "Reserva una estadía mínima de 2 noches en el Hotel Latam Xela Quetzaltenango y obtén un 12% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
       "c_disc": "12%",
       "estado": "nueva",
-      "fecha_alta": "2026-07-16 12:31",
+      "fecha_alta": "2026-07-16 14:25",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "latamhotel_lasmtdof": {
+    "latamxela_83ee25": {
       "hash": "fd984ce13e7fc9105a78563fc4f7cdd4",
       "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
+      "hotel_code": "latamxela",
       "titulo": "Escapada de Último Minuto",
       "categoria": "Ultimo Minuto",
       "url": "https://www.latamhotelxela.com/ofertas",
-      "country": "Guatemala",
-      "city": "Quetzaltenango",
+      "country": "Otro",
+      "city": "—",
       "c_tit": "Escapada de Último Minuto",
       "c_sub": "",
       "c_desc": "¿Decisión de último momento? ¡No hay problema! Aprovecha nuestras tarifas especiales para reservas inmediatas y asegura tu estadía hoy mismo.",
       "c_disc": null,
       "estado": "nueva",
-      "fecha_alta": "2026-07-16 12:31",
+      "fecha_alta": "2026-07-16 14:25",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "makani_minimonoches": {
+      "hash": "fc0556696fb5ee5b10a0fed11797c3ad",
+      "hotel": "Makani Luxury Wanderlust",
+      "hotel_code": "makani",
+      "titulo": "Experiencia Dos Noches en Makani",
+      "categoria": "Promo Especial",
+      "url": "https://www.makaniluxury.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Experiencia dos noches en Makani",
+      "c_sub": "",
+      "c_desc": "Dos noches en tu villa privada mientras el mundo vive el Mundial. Descansa, desconéctate y vive el fútbol en el club de playa cuando quieras. Disponible durante junio y julio. Selecciona tu día de llegada al reservar. Incluye Check-in con bebida de bienvenida Desayuno incluido cada mañana 2x1 en margaritas artesanales",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 14:25",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -924,7 +942,7 @@
       "c_sub": "",
       "c_desc": "Ahorra un 30% reservando con al menos 30 días de anticipación. Planifica tu próxima estadía en Park Lake Luxury Hotel y disfruta de una experiencia de lujo al mejor precio disponible en nuestra web oficial.",
       "c_disc": "30%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -942,7 +960,7 @@
       "c_sub": "",
       "c_desc": "Reserva anticipada y vive Park Lake con un beneficio especial Obtén un 15% de descuento reservando con al menos 15 días de anticipación y asegura una escapada de primer nivel. Un entorno privilegiado, servicio de excelencia y el descanso que mereces, al mejor valor por planificar con tiempo.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -960,7 +978,7 @@
       "c_sub": "",
       "c_desc": "Vive el encanto histórico de Cartagena desde el Hotel San Lázaro y aprovecha nuestra oferta exclusiva con 23% de descuento por tiempo limitado. Ubicado frente al imponente Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel es el punto de partida perfecto para descubrir la ciudad mientras disfrutas de confort, gastronomía y vistas únicas. Incluye: Alojamiento en habitaciones confortables Desayuno incluido para empezar el día con energía Acceso a nuestras instalaciones y rooftop con vista panorámica Ubicación privilegiada cerca de los principales atractivos",
       "c_disc": "23%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -978,7 +996,7 @@
       "c_sub": "",
       "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico y de las playas más hermosas. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -996,7 +1014,7 @@
       "c_sub": "",
       "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1014,7 +1032,7 @@
       "c_sub": "",
       "c_desc": "¡Escápate hoy y vive Cartagena al mejor precio! Aprovecha nuestra exclusiva oferta de último minuto y disfruta de una estadía inolvidable en el Hotel San Lázaro. Ideal para viajeros espontáneos que buscan confort, ubicación privilegiada y una experiencia auténtica en la ciudad. Ubicado frente al histórico Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel te invita a descubrir lo mejor de Cartagena con una tarifa especial disponible por tiempo limitado. La oferta incluye: Alojamiento en habitaciones confortables Acceso a nuestras instalaciones y rooftop con vista pano",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1032,7 +1050,7 @@
       "c_sub": "",
       "c_desc": "¡No esperes para viajar! Planea con tiempo, reserva con 30 días de anticipación y disfruta de un 10% de descuento pensado para quienes saben aprovechar las mejores oportunidades. No válido en temporadas altas, ni eventos de ciudad.",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1050,7 +1068,7 @@
       "c_sub": "",
       "c_desc": "Haz una pausa, desconéctate de la rutina y regálate un fin de semana perfecto. Disfruta de habitaciones confortables, excelente ubicación y el descanso que estabas esperando.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1068,7 +1086,7 @@
       "c_sub": "",
       "c_desc": "Anticípate y ahorra. Reserva con 60 días de anticipación y obtén 12% de descuento sobre nuestra mejor tarifa disponible. No aplica para temporadas altas, Feria de Cali ni eventos de ciudad.",
       "c_disc": "12%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1086,7 +1104,7 @@
       "c_sub": "",
       "c_desc": "Planea tu viaje con tiempo. Al reservar con 30 días de anticipación, recibe 8% de descuento en tu estadía. Promoción no válida durante temporadas altas, Feria de Cali y eventos de ciudad.",
       "c_disc": "8%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1104,7 +1122,7 @@
       "c_sub": "",
       "c_desc": "Fin de semana especial en familia Desconéctate de la rutina y disfruta una experiencia pensada para el descanso, la tranquilidad y la conexión en familia. Un espacio ideal para relajarte y compartir momentos que importan. No aplica para temporadas altas, Feria de Cali ni eventos de ciudad.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1122,7 +1140,7 @@
       "c_sub": "",
       "c_desc": "Vive una experiencia única en Sonesta Cartagena con acceso directo a una playa tranquila y segura, desayuno buffet incluido, WiFi de cortesía y cancha de tenis.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1140,7 +1158,7 @@
       "c_sub": "",
       "c_desc": "Vive la magia de Cartagena con el estilo y confort que solo Sonesta puede ofrecerte. Reserva tu estadía con llegada en los próximos 30 días y recibe 10% de descuento con desayuno incluido. Disfruta esos pequeños grandes momentos junto al mar",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1158,7 +1176,7 @@
       "c_sub": "",
       "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1176,7 +1194,7 @@
       "c_sub": "",
       "c_desc": "Disfruta de una tarifa especial reservando un mínimo de 3 noches y descubre Cusco a tu ritmo, con mayor comodidad y mejor valor por noche. Sujeto a disponibilidad.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1194,7 +1212,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1212,7 +1230,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1230,7 +1248,7 @@
       "c_sub": "",
       "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1248,7 +1266,7 @@
       "c_sub": "",
       "c_desc": "Fusiona productividad y desconexión en el corazón corporativo y residencial de San Isidro. Reservando con 60 días de anticipación en Sonesta El Olivar, obtienes un 17% de descuento exclusivo. Disfruta de la conectividad que exige tu agenda y el entorno relajante de nuestro bosque ancestral para tus momentos de ocio. Asegura eficiencia y confort al mejor precio reservando antes del 30 de septiembre.",
       "c_disc": "17%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1266,7 +1284,7 @@
       "c_sub": "",
       "c_desc": "Tarifa con descuento -BARATE",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1284,7 +1302,7 @@
       "c_sub": "",
       "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1302,7 +1320,7 @@
       "c_sub": "",
       "c_desc": "Disfruta Arequipa con más comodidad y menos excusas: 10% de descuento exclusivo para residentes en Perú. Perfecto para escapadas de fin de semana, vacaciones cortas o viajes de trabajo con premio incluido.",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1320,7 +1338,7 @@
       "c_sub": "",
       "c_desc": "Anticípate a tu viaje y obtén más por menos. Reserva tu estadía en Sonesta Arequipa con 30 días de anticipación y recibe un 17% de descuento exclusivo. Vive el confort y la elegancia Sonesta con el mejor precio.",
       "c_disc": "17%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1338,7 +1356,7 @@
       "c_sub": "",
       "c_desc": "Reserva con mínimo 7 días de anticipación y recibe hasta un 12% de descuento en tu estadía. Aprovecha tarifas preferenciales y organiza tu viaje con mayor tranquilidad. Válido para reservas realizadas con anticipación y estadías en fechas seleccionadas. Aplican T&C.",
       "c_disc": "12%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1356,7 +1374,7 @@
       "c_sub": "",
       "c_desc": "Reserva una estadía mínima de 3 noches y accede a tarifas especiales para disfrutar más tiempo de tu destino favorito. Una oportunidad ideal para viajes de descanso o negocios prolongados. Válido para reservas y estadías en fechas seleccionadas. Aplican T&C.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1374,7 +1392,7 @@
       "c_sub": "",
       "c_desc": "Vive la emoción mundialista con un 20% OFF en alojamiento una experiencia única de alojamiento llena de sabor y la mejor energía tricolor. ⚽✨ 📅 Reserva hasta el 30 de septiembre 🛎️ Para estadías desde hoy y hasta el 31 de octubre Tu experiencia incluye: ✅ Alojamiento ✅ Desayuno incluido ✅ Acceso a zonas húmedas Disfruta cada momento, celebra cada gol y vive una escapada inolvidable al mejor estilo colombiano",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1392,7 +1410,7 @@
       "c_sub": "",
       "c_desc": "Disfruta 15% de descuento en fines de semana",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1410,7 +1428,7 @@
       "c_sub": "",
       "c_desc": "Reserva Anticipadamente y recibe 5% OFF",
       "c_disc": "5%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1428,62 +1446,62 @@
       "c_sub": "",
       "c_desc": "Planifica con tiempo y obtén un beneficio exclusivo reservando con mínimo 60 días de anticipación.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sonestapuno_46e5f7": {
+    "ghlsonincapuno_barrateof": {
       "hash": "71842f2b0d286e27eeefc45762dd1192",
       "hotel": "Sonesta Puno",
-      "hotel_code": "sonestapuno",
+      "hotel_code": "ghlsonincapuno",
       "titulo": "Puno Esencial - Tarifa con Descuento",
-      "categoria": "Promo Especial",
+      "categoria": "Descuento Directo",
       "url": "https://www.sonestapipuno.com/ofertas",
-      "country": "Otro",
-      "city": "—",
+      "country": "Perú",
+      "city": "Puno",
       "c_tit": "Puno Esencial - Tarifa con Descuento",
       "c_sub": "",
       "c_desc": "No postergues el viaje de tus sueños. Vive la magia y el confort a orillas del lago navegable más alto del mundo con un 15% de descuento exclusivo en Sonesta Posadas del Inca Puno. Desconéctate de la rutina, respira el aire puro de los Andes y asegura una tarifa preferencial reservando desde hoy hasta el 30 de septiembre. El descanso perfecto te espera.",
       "c_disc": "15%",
       "estado": "nueva",
-      "fecha_alta": "2026-07-16 12:31",
+      "fecha_alta": "2026-07-16 14:25",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sonestapuno_c69dc9": {
+    "ghlsonincapuno_prcperof": {
       "hash": "d7fcc30ef7e85c340a85cb94532bc67c",
       "hotel": "Sonesta Puno",
-      "hotel_code": "sonestapuno",
+      "hotel_code": "ghlsonincapuno",
       "titulo": "Cyber Perú 15% Off",
       "categoria": "Oferta General",
       "url": "https://www.sonestapipuno.com/ofertas",
-      "country": "Otro",
-      "city": "—",
+      "country": "Perú",
+      "city": "Puno",
       "c_tit": "CYBER PERÚ 15% OFF",
       "c_sub": "",
       "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
       "c_disc": "15%",
       "estado": "nueva",
-      "fecha_alta": "2026-07-16 12:31",
+      "fecha_alta": "2026-07-16 14:25",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sonestapuno_97d377": {
+    "ghlsonincapuno_latam": {
       "hash": "2cb6024e50d8e8a0a6183563a81f0242",
       "hotel": "Sonesta Puno",
-      "hotel_code": "sonestapuno",
+      "hotel_code": "ghlsonincapuno",
       "titulo": "Titicaca Latam -10%",
       "categoria": "Oferta General",
       "url": "https://www.sonestapipuno.com/ofertas",
-      "country": "Otro",
-      "city": "—",
+      "country": "Perú",
+      "city": "Puno",
       "c_tit": "Titicaca LATAM -10%",
       "c_sub": "",
       "c_desc": "Descubre Puno desde la orilla del Lago Titicaca con 10% de descuento en tu estadía. Un plan perfecto para desconectarte, explorar cultura viva y volver con la mente en modo “reset”. Reserva directo y ahorra. Aplican términos y condiciones.",
       "c_disc": "10%",
       "estado": "nueva",
-      "fecha_alta": "2026-07-16 12:31",
+      "fecha_alta": "2026-07-16 14:25",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1500,7 +1518,7 @@
       "c_sub": "",
       "c_desc": "Celebra las Fiestas Patrias en Sonesta Posadas del Inca Yucay y disfruta de un 15% de descuento exclusivo en tu estadía. Vive una experiencia única rodeado de naturaleza, cultura y confort en uno de los destinos más emblemáticos del Perú. 📅 Válido del 1 al 31 de julio de 2026",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1518,7 +1536,7 @@
       "c_sub": "",
       "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1536,12 +1554,170 @@
       "c_sub": "",
       "c_desc": "Hay lugares que llaman al alma mucho antes de ser visitados. El Valle Sagrado es uno de ellos. Atiende ese llamado y reserva tu estadía con 60 días de anticipación para recibir un 30% de descuento exclusivo. En Sonesta Posadas del Inca, cada amanecer, cada montaña y cada silencio te invitan a reconectar con lo esencial. Una experiencia que se honra desde el momento en que se decide vivirla. Tarifa no reembolsable.",
       "c_disc": "30%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsonmfl_barrateof": {
+    "sonestamiraflores_5c9ebd": {
+      "hash": "ccc25d2b62e3a1209d3a6a139b691a79",
+      "hotel": "Sonesta Miraflores",
+      "hotel_code": "sonestamiraflores",
+      "titulo": "Escapada Miraflores -15% - Tarifa de Temporada",
+      "categoria": "Oferta General",
+      "url": "https://www.sonestamiraflores.com/ofertas",
+      "country": "Otro",
+      "city": "—",
+      "c_tit": "Escapada Miraflores -15% - tarifa de temporada",
+      "c_sub": "",
+      "c_desc": "Evite comisiones de intermediarios. Obtenga un 15% de descuento real e inmediato reservando hoy su estancia para 2026. Beneficio exclusivo para compras web con vigencia de viaje hasta septiembre de 2026. Cancelación flexible disponible",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 14:25",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "sonestamiraflores_c69dc9": {
+      "hash": "d7fcc30ef7e85c340a85cb94532bc67c",
+      "hotel": "Sonesta Miraflores",
+      "hotel_code": "sonestamiraflores",
+      "titulo": "Cyber Perú 15% Off",
+      "categoria": "Oferta General",
+      "url": "https://www.sonestamiraflores.com/ofertas",
+      "country": "Otro",
+      "city": "—",
+      "c_tit": "CYBER PERÚ 15% OFF",
+      "c_sub": "",
+      "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 14:25",
+      "cambios": [],
+      "fecha_cambio": ""
+    }
+  },
+  "removed": [
+    {
+      "hash": "98d1017dc4554eba02a1570bf8ba7993",
+      "hotel": "LATAM XELA",
+      "hotel_code": "latamhotel",
+      "titulo": "Compra Anticipada 15 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.latamhotelxela.com/ofertas",
+      "country": "Guatemala",
+      "city": "Quetzaltenango",
+      "c_tit": "Compra Anticipada 15 días",
+      "c_sub": "",
+      "c_desc": "¡Reserva con anticipación! Latam Xela Quetzaltenango te espera. Obtén un 10% OFF.",
+      "c_disc": "10%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "latamhotel_ebkqudof",
+      "fecha_baja": "2026-07-16 14:25"
+    },
+    {
+      "hash": "f24ed82a5b6865aebbe61e505e2d811f",
+      "hotel": "LATAM XELA",
+      "hotel_code": "latamhotel",
+      "titulo": "“Plan 2 Noches, Más Beneficios”",
+      "categoria": "Minima Estadia",
+      "url": "https://www.latamhotelxela.com/ofertas",
+      "country": "Guatemala",
+      "city": "Quetzaltenango",
+      "c_tit": "“Plan 2 Noches, Más Beneficios”",
+      "c_sub": "",
+      "c_desc": "Reserva una estadía mínima de 2 noches en el Hotel Latam Xela Quetzaltenango y obtén un 12% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
+      "c_disc": "12%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "latamhotel_lonstnof",
+      "fecha_baja": "2026-07-16 14:25"
+    },
+    {
+      "hash": "fd984ce13e7fc9105a78563fc4f7cdd4",
+      "hotel": "LATAM XELA",
+      "hotel_code": "latamhotel",
+      "titulo": "Escapada de Último Minuto",
+      "categoria": "Ultimo Minuto",
+      "url": "https://www.latamhotelxela.com/ofertas",
+      "country": "Guatemala",
+      "city": "Quetzaltenango",
+      "c_tit": "Escapada de Último Minuto",
+      "c_sub": "",
+      "c_desc": "¿Decisión de último momento? ¡No hay problema! Aprovecha nuestras tarifas especiales para reservas inmediatas y asegura tu estadía hoy mismo.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "latamhotel_lasmtdof",
+      "fecha_baja": "2026-07-16 14:25"
+    },
+    {
+      "hash": "71842f2b0d286e27eeefc45762dd1192",
+      "hotel": "Sonesta Puno",
+      "hotel_code": "sonestapuno",
+      "titulo": "Puno Esencial - Tarifa con Descuento",
+      "categoria": "Promo Especial",
+      "url": "https://www.sonestapipuno.com/ofertas",
+      "country": "Otro",
+      "city": "—",
+      "c_tit": "Puno Esencial - Tarifa con Descuento",
+      "c_sub": "",
+      "c_desc": "No postergues el viaje de tus sueños. Vive la magia y el confort a orillas del lago navegable más alto del mundo con un 15% de descuento exclusivo en Sonesta Posadas del Inca Puno. Desconéctate de la rutina, respira el aire puro de los Andes y asegura una tarifa preferencial reservando desde hoy hasta el 30 de septiembre. El descanso perfecto te espera.",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "sonestapuno_46e5f7",
+      "fecha_baja": "2026-07-16 14:25"
+    },
+    {
+      "hash": "d7fcc30ef7e85c340a85cb94532bc67c",
+      "hotel": "Sonesta Puno",
+      "hotel_code": "sonestapuno",
+      "titulo": "Cyber Perú 15% Off",
+      "categoria": "Oferta General",
+      "url": "https://www.sonestapipuno.com/ofertas",
+      "country": "Otro",
+      "city": "—",
+      "c_tit": "CYBER PERÚ 15% OFF",
+      "c_sub": "",
+      "c_desc": "Reserva del 10 al 31 de julio y recibe un 15% de descuento para viajes hasta diciembre de 2026, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados.",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "sonestapuno_c69dc9",
+      "fecha_baja": "2026-07-16 14:25"
+    },
+    {
+      "hash": "2cb6024e50d8e8a0a6183563a81f0242",
+      "hotel": "Sonesta Puno",
+      "hotel_code": "sonestapuno",
+      "titulo": "Titicaca Latam -10%",
+      "categoria": "Oferta General",
+      "url": "https://www.sonestapipuno.com/ofertas",
+      "country": "Otro",
+      "city": "—",
+      "c_tit": "Titicaca LATAM -10%",
+      "c_sub": "",
+      "c_desc": "Descubre Puno desde la orilla del Lago Titicaca con 10% de descuento en tu estadía. Un plan perfecto para desconectarte, explorar cultura viva y volver con la mente en modo “reset”. Reserva directo y ahorra. Aplican términos y condiciones.",
+      "c_disc": "10%",
+      "estado": "nueva",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "sonestapuno_97d377",
+      "fecha_baja": "2026-07-16 14:25"
+    },
+    {
       "hash": "ccc25d2b62e3a1209d3a6a139b691a79",
       "hotel": "Sonesta Miraflores",
       "hotel_code": "ghlsonmfl",
@@ -1557,9 +1733,11 @@
       "estado": "nueva",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
-      "fecha_cambio": ""
+      "fecha_cambio": "",
+      "id": "ghlsonmfl_barrateof",
+      "fecha_baja": "2026-07-16 14:25"
     },
-    "ghlsonmfl_prcperof": {
+    {
       "hash": "d7fcc30ef7e85c340a85cb94532bc67c",
       "hotel": "Sonesta Miraflores",
       "hotel_code": "ghlsonmfl",
@@ -1575,8 +1753,9 @@
       "estado": "nueva",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
-      "fecha_cambio": ""
+      "fecha_cambio": "",
+      "id": "ghlsonmfl_prcperof",
+      "fecha_baja": "2026-07-16 14:25"
     }
-  },
-  "removed": []
+  ]
 }
