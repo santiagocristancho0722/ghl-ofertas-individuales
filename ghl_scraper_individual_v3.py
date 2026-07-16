@@ -208,6 +208,20 @@ async def scrape_hotel(page, hotel_entry):
 
 FOOTER_OLD = "Dashboard generado automáticamente desde la web oficial GHL Hoteles · ghlhoteles.com/es/ofertas y /en/offers"
 FOOTER_NEW = "Dashboard generado automáticamente desde las webs individuales de cada hotel GHL"
+CONS_NORESULTS = '<div class="no-results" id="cons-noresults">Sin resultados para los filtros seleccionados.</div>'
+
+def render_sin_ofertas(sin_ofertas):
+    if not sin_ofertas:
+        return ""
+    rows = ""
+    for h in sin_ofertas:
+        url = h["urls"].get("es") or next(iter(h["urls"].values()), "")
+        rows += (f'<tr><td><div class="m-offer">{dv3.esc(h["hotel"])}</div></td>'
+                 f'<td><a class="ver-link" href="{dv3.esc(url)}" target="_blank">Ver web &rarr;</a></td></tr>')
+    return (f'<div class="sec-title" style="margin-top:28px">Hoteles sin ofertas activas actualmente '
+            f'<span class="tag">{len(sin_ofertas)}</span></div>'
+            f'<div class="tbl-card"><table class="master"><thead><tr>'
+            f'<th>Hotel</th><th>Web</th></tr></thead><tbody>{rows}</tbody></table></div>')
 
 async def run(test=False):
     OUT_DIR.mkdir(exist_ok=True)
@@ -262,14 +276,19 @@ async def run(test=False):
             archive.append({**prev[oid], "id": oid, "fecha_baja": run_date})
     archive = [r for r in archive if r.get("id") not in cur_ids]
 
-    n_hoteles = len(set(o["hotel"] for o in all_unified)) or dv3.TOTAL_PROPIEDADES
+    n_con_ofertas = len(set(o["hotel"] for o in all_unified))
+    total_monitoreados = len(hotels)
+    con_ofertas = set(o["hotel"] for o in all_unified)
+    sin_ofertas = [h for h in hotels if h["hotel"] not in con_ofertas]
+
     prev_total = dv3.TOTAL_PROPIEDADES
-    dv3.TOTAL_PROPIEDADES = n_hoteles
+    dv3.TOTAL_PROPIEDADES = total_monitoreados
     try:
         html_out = dv3.build_html(all_unified, kpis, run_date, prev_date, removed=archive)
     finally:
         dv3.TOTAL_PROPIEDADES = prev_total
     html_out = html_out.replace(FOOTER_OLD, FOOTER_NEW)
+    html_out = html_out.replace(CONS_NORESULTS, CONS_NORESULTS + render_sin_ofertas(sin_ofertas))
 
     out_latest = OUT_DIR / f"ghl_dashboard_individual_latest{suffix}.html"
     out_latest.write_text(html_out, encoding="utf-8")
@@ -286,7 +305,9 @@ async def run(test=False):
     }
     state_path.write_text(json.dumps(new_state, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    print(f"\n=== LISTO: {len(all_unified)} ofertas de {n_hoteles} hoteles ===")
+    print(f"\n=== LISTO: {len(all_unified)} ofertas de {n_con_ofertas}/{total_monitoreados} hoteles con ofertas activas ===")
+    if sin_ofertas:
+        print(f"Sin ofertas activas ({len(sin_ofertas)}): " + ", ".join(h["hotel"] for h in sin_ofertas))
     print(f"Dashboard: {out_latest}")
 
 if __name__ == "__main__":
