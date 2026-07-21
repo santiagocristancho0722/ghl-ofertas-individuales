@@ -4,17 +4,31 @@
 $proj = "C:\Users\santiago.cristancho\OneDrive - Holding Hotelera GHL\Documentos\Automatizaciones"
 $py   = "C:\Users\santiago.cristancho\AppData\Local\Programs\Python\Python312\python.exe"
 $log  = Join-Path $proj "reportes_ghl\cron_individual.log"
+$stderrFile = Join-Path $proj "reportes_ghl\_last_stderr.txt"
 
 Set-Location $proj
 $fecha = Get-Date -Format "yyyy-MM-dd HH:mm"
 Add-Content $log "`n=== $fecha ==="
 
-# Nota: no se combinan stdout/stderr de los ejecutables nativos (python/git) con 2>&1 -
-# en PowerShell 5.1 eso envuelve cada linea de stderr como NativeCommandError aunque
-# el proceso termine con exito, lo que ensucia el log. Se deja stderr fluir aparte.
-& $py "ghl_scraper_individual_v3.py" | Tee-Object -Append -FilePath $log
-if ($LASTEXITCODE -ne 0) {
-    Add-Content $log "ERROR: el scraper terminó con código $LASTEXITCODE"
+# Nota: no se combina stdout/stderr con 2>&1 (eso envuelve cada linea de stderr como
+# NativeCommandError en PowerShell 5.1 aunque el proceso termine bien). En su lugar,
+# stderr se redirige a un archivo aparte (redireccion nativa, no merge de streams) para
+# poder ver el traceback real si el scraper falla.
+if (Test-Path $stderrFile) { Remove-Item $stderrFile -Force }
+& $py "ghl_scraper_individual_v3.py" 2> $stderrFile | Tee-Object -Append -FilePath $log
+$exitCode = $LASTEXITCODE
+
+if (Test-Path $stderrFile) {
+    $stderrContent = Get-Content $stderrFile -Raw
+    if ($stderrContent) { Add-Content $log "`n--- STDERR ---`n$stderrContent" }
+    Remove-Item $stderrFile -Force
+}
+
+if ($exitCode -eq 3) {
+    Add-Content $log "Escaneo con demasiados errores tecnicos/red - NO se publica este cambio (ver JSON _FAILED_* para detalle)."
+    exit 0
+} elseif ($exitCode -ne 0) {
+    Add-Content $log "ERROR: el scraper terminó con código $exitCode"
     exit 1
 }
 

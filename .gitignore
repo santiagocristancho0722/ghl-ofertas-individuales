@@ -24,3 +24,6 @@ reportes_ghl/*
 !reportes_ghl/estado_ofertas_individual.json
 !reportes_ghl/ghl_dashboard_individual_latest.html
 !reportes_ghl/ghl_dashboard_individual_*.html
+reportes_ghl/*_test.html
+reportes_ghl/*_test.json
+reportes_ghl/_individual_bil_FAILED_*.json

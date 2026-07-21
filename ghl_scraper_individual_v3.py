@@ -24,6 +24,11 @@ import dashboard_v3 as dv3
 
 OUT_DIR = Path("reportes_ghl")
 
+# Si mas de esta fraccion de hoteles falla por error tecnico/red (no por falta real de
+# ofertas), no se actualiza el estado ni el dashboard publicado - evita reportar
+# "sin ofertas" en hoteles que en realidad no se pudieron verificar.
+ERROR_RATE_THRESHOLD = 0.15
+
 # ---------- Extracción DOM ----------
 
 JS_EXTRACT_PRIMARY = """
@@ -181,9 +186,13 @@ def build_unified(hotel_display, rows, hotel_code_hint):
 # ---------- Scraping por hotel ----------
 
 async def scrape_hotel(page, hotel_entry):
+    """Devuelve (ofertas_unificadas, verificado). `verificado`=False significa que
+    NINGUN idioma cargo correctamente (falla tecnica/red) - en ese caso el hotel NO
+    debe reportarse como "sin ofertas", porque no se pudo confirmar su estado real."""
     name = hotel_entry["hotel"]
     fallback_code = slugify(name)
     per_lang = {}
+    lang_ok = {}
     for lang, url in hotel_entry["urls"].items():
         if lang not in ("es", "en"):
             continue
@@ -193,16 +202,19 @@ async def scrape_hotel(page, hotel_entry):
         except Exception as e:
             print(f"ERROR {str(e)[:120]}")
             per_lang[lang] = []
+            lang_ok[lang] = False
             continue
         built = [build_lang_offer(name, url, lang, o, fallback_code) for o in offers_raw]
         per_lang[lang] = built
+        lang_ok[lang] = True
         print(f"OK {len(built)} oferta(s)")
     es_list = per_lang.get("es", [])
     en_list = per_lang.get("en", [])
+    verified = any(lang_ok.values())
     if not es_list and not en_list:
-        return []
+        return [], verified
     rows = pair_es_en(es_list, en_list)
-    return build_unified(name, rows, fallback_code)
+    return build_unified(name, rows, fallback_code), verified
 
 # ---------- Orquestación / dashboard ----------
 
@@ -231,6 +243,7 @@ async def run(test=False):
         print("\nModo test -- solo Arsenal\n")
 
     all_unified = []
+    hoteles_error = []
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         ctx = await browser.new_context(
@@ -240,18 +253,34 @@ async def run(test=False):
         for i, hotel in enumerate(hotels, 1):
             print(f"[{i:02d}/{len(hotels)}] {hotel['hotel']}")
             try:
-                unified = await scrape_hotel(page, hotel)
+                unified, verified = await scrape_hotel(page, hotel)
             except Exception as e:
                 print(f"  ERROR general: {str(e)[:150]}")
-                unified = []
+                unified, verified = [], False
             if not unified:
-                print("  -> sin ofertas detectadas")
+                if verified:
+                    print("  -> sin ofertas detectadas (confirmado)")
+                else:
+                    print("  -> ERROR: no se pudo verificar (fallo tecnico/red)")
+                    hoteles_error.append(hotel["hotel"])
             all_unified.extend(unified)
             if i < len(hotels):
                 await asyncio.sleep(0.5)
         await browser.close()
 
+    error_rate = len(hoteles_error) / len(hotels) if hotels else 0
+
     suffix = "_test" if test else ""
+
+    if error_rate > ERROR_RATE_THRESHOLD:
+        ts = datetime.now().strftime("%Y-%m-%d_%H-%M")
+        fail_path = OUT_DIR / f"_individual_bil_FAILED_{ts}{suffix}.json"
+        fail_path.write_text(json.dumps(all_unified, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"\n⚠ ADVERTENCIA: {len(hoteles_error)}/{len(hotels)} hoteles fallaron por error "
+              f"tecnico/red ({error_rate:.0%}): {', '.join(hoteles_error)}")
+        print(f"No se actualiza el estado ni el dashboard publicado (se guardo solo para inspeccion en {fail_path}).")
+        return 3
+
     json_path = OUT_DIR / f"_individual_bil{suffix}.json"
     json_path.write_text(json.dumps(all_unified, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -279,7 +308,8 @@ async def run(test=False):
     n_con_ofertas = len(set(o["hotel"] for o in all_unified))
     total_monitoreados = len(hotels)
     con_ofertas = set(o["hotel"] for o in all_unified)
-    sin_ofertas = [h for h in hotels if h["hotel"] not in con_ofertas]
+    error_set = set(hoteles_error)
+    sin_ofertas = [h for h in hotels if h["hotel"] not in con_ofertas and h["hotel"] not in error_set]
 
     prev_total = dv3.TOTAL_PROPIEDADES
     dv3.TOTAL_PROPIEDADES = total_monitoreados
@@ -308,7 +338,10 @@ async def run(test=False):
     print(f"\n=== LISTO: {len(all_unified)} ofertas de {n_con_ofertas}/{total_monitoreados} hoteles con ofertas activas ===")
     if sin_ofertas:
         print(f"Sin ofertas activas ({len(sin_ofertas)}): " + ", ".join(h["hotel"] for h in sin_ofertas))
+    if hoteles_error:
+        print(f"No verificados por error tecnico ({len(hoteles_error)}): " + ", ".join(hoteles_error))
     print(f"Dashboard: {out_latest}")
+    return 0
 
 if __name__ == "__main__":
-    asyncio.run(run(test="--test" in sys.argv))
+    sys.exit(asyncio.run(run(test="--test" in sys.argv)))
