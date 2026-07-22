@@ -47,6 +47,14 @@ HOTELS = [
     {"hotel":"Sonesta Yucay","urls":{"es":"https://www.sonestapiyucay.com/ofertas","en":"https://en.sonestapiyucay.com/offers"}},
     {"hotel":"Sonesta Valledupar","urls":{"es":"https://www.sonestavalledupar.com/ofertas","en":"https://en.sonestavalledupar.com/offers"}},
     {"hotel":"Sonesta Miraflores","urls":{"es":"https://www.sonestamiraflores.com/ofertas","en":"https://en.sonestamiraflores.com/offers"}},
+    # Irotama Resort (Santa Marta): un complejo con 6 torres, todas comparten la misma
+    # pagina de ofertas; se filtran por el codigo de torre embebido en el link de reserva.
+    {"hotel":"Irotama del Mar","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irodmr"},
+    {"hotel":"Irotama del Sol","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irodsl"},
+    {"hotel":"Irotama Bungalows y Bohios","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irohbb"},
+    {"hotel":"Irotama Lago","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irolago"},
+    {"hotel":"Irotama Reservado","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irorvd"},
+    {"hotel":"Irotama XXI","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"iroxxl"},
 ]
 
 CATEGORIES = {

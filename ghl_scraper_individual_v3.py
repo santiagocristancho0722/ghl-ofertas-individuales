@@ -190,7 +190,8 @@ async def scrape_hotel(page, hotel_entry):
     NINGUN idioma cargo correctamente (falla tecnica/red) - en ese caso el hotel NO
     debe reportarse como "sin ofertas", porque no se pudo confirmar su estado real."""
     name = hotel_entry["hotel"]
-    fallback_code = slugify(name)
+    code_filter = hotel_entry.get("hotel_code_filter")
+    fallback_code = code_filter or slugify(name)
     per_lang = {}
     lang_ok = {}
     for lang, url in hotel_entry["urls"].items():
@@ -205,6 +206,10 @@ async def scrape_hotel(page, hotel_entry):
             lang_ok[lang] = False
             continue
         built = [build_lang_offer(name, url, lang, o, fallback_code) for o in offers_raw]
+        if code_filter:
+            # pagina compartida entre varias torres/propiedades: solo se queda con las
+            # ofertas cuyo link de reserva apunta a esta torre en particular.
+            built = [b for b in built if b["hotel_code"] == code_filter]
         per_lang[lang] = built
         lang_ok[lang] = True
         print(f"OK {len(built)} oferta(s)")
