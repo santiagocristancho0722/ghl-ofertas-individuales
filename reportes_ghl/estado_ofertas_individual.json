@@ -1,16 +1,34 @@
 {
   "hash_version": 2,
-  "escaneos": 7,
-  "last_run": "2026-08-12 08:38",
-  "prev_run": "2026-07-27 17:06",
+  "escaneos": 8,
+  "last_run": "2026-08-18 09:43",
+  "prev_run": "2026-08-12 08:38",
   "last_kpis": {
     "activas": 97,
-    "nuevas": 12,
-    "eliminadas": 16,
-    "cambios": 6,
-    "escaneos": 7
+    "nuevas": 1,
+    "eliminadas": 1,
+    "cambios": 3,
+    "escaneos": 8
   },
   "offers": {
+    "arsenal_lonscnof": {
+      "hash": "b9803ff7c580c8ceb9c8258d4c5e28fa",
+      "hotel": "Arsenal",
+      "hotel_code": "arsenal",
+      "titulo": "Minima Estadía 3 Noches",
+      "categoria": "Minima Estadia",
+      "url": "https://www.arsenalhotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Minima estadía 3 Noches",
+      "c_sub": "",
+      "c_desc": "Aprovecha tu estadia por minimo tres noches. Una experiencia exclusiva. Un 18% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
+      "c_disc": "18%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "arsenal_barrateof": {
       "hash": "faab83564202160c5f4f651445be0932",
       "hotel": "Arsenal",
@@ -47,24 +65,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "arsenal_lonscnof": {
-      "hash": "b9803ff7c580c8ceb9c8258d4c5e28fa",
-      "hotel": "Arsenal",
-      "hotel_code": "arsenal",
-      "titulo": "Minima Estadía 3 Noches",
-      "categoria": "Minima Estadia",
-      "url": "https://www.arsenalhotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Minima estadía 3 Noches",
-      "c_sub": "",
-      "c_desc": "Aprovecha tu estadia por minimo tres noches. Una experiencia exclusiva. Un 18% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
-      "c_disc": "18%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "arsenal_lasmtdof": {
       "hash": "46c4f71cdffa4e4050cb0ebbbd070702",
       "hotel": "Arsenal",
@@ -96,7 +96,7 @@
       "c_sub": "",
       "c_desc": "Aprovecha nuestra oferta exclusiva Paga 2 Noches y Quédate 3 en el Hotel GHL Arsenal. Beneficios de la promoción Hospédate 3 noches y paga solo 2 Estadía mínima: 3 noches Disponibilidad limitada No acumulable con otras promociones Reserva ahora y asegura esta oferta exclusiva para disfrutar Cartagena en su mejor temporada.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -156,7 +156,7 @@
       "fecha_cambio": ""
     },
     "bioxury_ebktrdof": {
-      "hash": "760a3ea87d486bf599e3d7f6878f5a96",
+      "hash": "68235eac2a5c35a9e32c01ce76ceb2a2",
       "hotel": "Bioxury",
       "hotel_code": "bioxury",
       "titulo": "Compra Anticipada 30 Días",
@@ -166,12 +166,15 @@
       "city": "Bogotá",
       "c_tit": "Compra Anticipada 30 días",
       "c_sub": "",
-      "c_desc": "Planifica tu viaje con anticipación y disfruta de un 5% de descuento al reservar con mínimo 30 días de anticipación.",
-      "c_disc": "5%",
-      "estado": "nueva",
+      "c_desc": "Planifica tu viaje con anticipación y disfruta de un10% de descuento al reservar con mínimo 30 días de anticipación.",
+      "c_disc": "10%",
+      "estado": "cambio",
       "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descuento/beneficio: 5% → 10%",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-08-18 09:43"
     },
     "bioxury_lonstnof": {
       "hash": "ee3116944b00e4ede332fe5f848935e5",
@@ -371,6 +374,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "ghlcapital_ebkqudof": {
+      "hash": "6ec37420fa850070fa7b82de4c815ee9",
+      "hotel": "GHL Hotel Capital",
+      "hotel_code": "ghlcapital",
+      "titulo": "Tu Recompensa por Planear",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.hotelcapital.com.co/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Tu Recompensa por Planear",
+      "c_sub": "",
+      "c_desc": "Planear tiene sus ventajas, y esta es una muy buena. Reserva tu estadía en el GHL Hotel Capital con 15 días de anticipación y recibe un 15% de descuento como recompensa por tu buena decisión. Planeaste bien. Ahora relájate, lo demás corre por nuestra cuenta.",
+      "c_disc": "15%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "ghlcapital_lasmtdof": {
       "hash": "8210f0a57a6b8ed8653e64a7b23be556",
       "hotel": "GHL Hotel Capital",
@@ -419,24 +440,6 @@
       "c_tit": "Quédate Más, Paga Menos",
       "c_sub": "",
       "c_desc": "Entre más tiempo pases en el GHL Hotel Capital, más ahorras. Reserva 4 noches o más y obtén un 15% de descuento en toda tu estadía. Más comodidad, más Bogotá, más experiencias, y tu bolsillo lo nota. ¡No dejes pasar esta oportunidad!",
-      "c_disc": "15%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
-    "ghlcapital_ebkqudof": {
-      "hash": "6ec37420fa850070fa7b82de4c815ee9",
-      "hotel": "GHL Hotel Capital",
-      "hotel_code": "ghlcapital",
-      "titulo": "Tu Recompensa por Planear",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.hotelcapital.com.co/ofertas",
-      "country": "Colombia",
-      "city": "Bogotá",
-      "c_tit": "Tu Recompensa por Planear",
-      "c_sub": "",
-      "c_desc": "Planear tiene sus ventajas, y esta es una muy buena. Reserva tu estadía en el GHL Hotel Capital con 15 días de anticipación y recibe un 15% de descuento como recompensa por tu buena decisión. Planeaste bien. Ahora relájate, lo demás corre por nuestra cuenta.",
       "c_disc": "15%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
@@ -534,40 +537,26 @@
       "fecha_cambio": ""
     },
     "ghlportonmedellin_lonstnof": {
-      "hash": "2e9e84fa9061621b794e0df8f3bf38c1",
+      "hash": "8310a47d50affac0151d47e8feb5c465",
       "hotel": "GHL Porton Medellin",
       "hotel_code": "ghlportonmedellin",
-      "titulo": "Quédate Más Tiempo en El Poblado y Ahorra 8%",
+      "titulo": "Quédate Más Tiempo en El Poblado y Ahorra 17%",
       "categoria": "Minima Estadia",
       "url": "https://www.hotelportonmedellin.com/ofertas",
       "country": "Colombia",
       "city": "Medellín",
-      "c_tit": "Quédate más tiempo en El Poblado y ahorra 8%",
+      "c_tit": "Quédate más tiempo en El Poblado y ahorra 17%",
       "c_sub": "",
-      "c_desc": "Quédate más tiempo y disfruta Medellín sin afanes. Hospédate mínimo 3 noches y recibe 8% Off, desayuno incluido y una ubicación ideal en El Poblado, cerca de Santafé, Oviedo y una amplia oferta gastronómica. Reserva desde hoy y hasta el 31 de diciembre de 2026, para viajar hasta el 31 de diciembre de 2026. Sujeto a disponibilidad.",
-      "c_disc": "8%",
-      "estado": "vigente",
+      "c_desc": "Quédate más tiempo y disfruta Medellín sin afanes. Hospédate mínimo 4 noches y recibe 17% Off, desayuno incluido y una ubicación ideal en El Poblado, cerca de Santafé, Oviedo y una amplia oferta gastronómica. Reserva desde hoy y hasta el 31 de diciembre de 2026, para viajar hasta el 31 de diciembre de 2026. Sujeto a disponibilidad.",
+      "c_disc": "17%",
+      "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
-    "ghlportonmedellin_lasmudof": {
-      "hash": "19056d269388c05ee0f85fee70bd9bfc",
-      "hotel": "GHL Porton Medellin",
-      "hotel_code": "ghlportonmedellin",
-      "titulo": "Escápate a Medellín de Último Minuto",
-      "categoria": "Ultimo Minuto",
-      "url": "https://www.hotelportonmedellin.com/ofertas",
-      "country": "Colombia",
-      "city": "Medellín",
-      "c_tit": "Escápate a Medellín de Último Minuto",
-      "c_sub": "",
-      "c_desc": "¿Escapada de último minuto a Medellín? Aprovecha un 5% OFF y disfruta una estadía en El Poblado, cerca de centros comerciales, restaurantes y zonas de entretenimiento. Incluye desayuno. Reserva desde hoy y hasta el 31 de diciembre de 2026 para viajar hasta el 31 de diciembre de 2026. Aplica para reservas realizadas hasta 3 días antes de la llegada. Sujeto a disponibilidad.",
-      "c_disc": "5%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descuento/beneficio: 8% → 17%",
+        "Título modificado",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-08-18 09:43"
     },
     "ghlportonmedellin_ebktrdof": {
       "hash": "89c7207e413b1ae8f6118bd32bb7c649",
@@ -587,23 +576,26 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlcoralesindias_ebkssdof": {
-      "hash": "31e658cf1f865c645160c162facc7d21",
-      "hotel": "GHL Relax Corales de Indias",
-      "hotel_code": "ghlcoralesindias",
-      "titulo": "Escápense Juntos a Cartagena",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.coralesdeindias.com/ofertas",
+    "ghlportonmedellin_lasmudof": {
+      "hash": "174cd91e3f74af5f8560848c8015a6ad",
+      "hotel": "GHL Porton Medellin",
+      "hotel_code": "ghlportonmedellin",
+      "titulo": "Escápate a Medellín de Último Minuto",
+      "categoria": "Ultimo Minuto",
+      "url": "https://www.hotelportonmedellin.com/ofertas",
       "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Escápense juntos a Cartagena",
+      "city": "Medellín",
+      "c_tit": "Escápate a Medellín de Último Minuto",
       "c_sub": "",
-      "c_desc": "Planeen ese momento especial con anticipación y disfruten 15% OFF reservando con 60 días de anticipación. Habitación con vista al mar Desayuno tipo buffet incluido Cartagena, el mar y tiempo para disfrutar en pareja Reserva hoy y aseguren su escapada al mejor precio. Compra Anticipada 60 días | 15% OFF",
-      "c_disc": "15%",
-      "estado": "nueva",
-      "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
+      "c_desc": "¿Escapada de último minuto a Medellín? Aprovecha un 12% OFF y disfruta una estadía en El Poblado, cerca de centros comerciales, restaurantes y zonas de entretenimiento. Incluye desayuno. Reserva desde hoy y hasta el 31 de diciembre de 2026 para viajar hasta el 31 de diciembre de 2026. Aplica para reservas realizadas hasta 3 días antes de la llegada. Sujeto a disponibilidad.",
+      "c_disc": "12%",
+      "estado": "cambio",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [
+        "Descuento/beneficio: 5% → 12%",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-08-18 09:43"
     },
     "ghlcoralesindias_ebktrdof": {
       "hash": "bd4c415c256f0bb22bbcd03eec19526a",
@@ -618,29 +610,26 @@
       "c_sub": "",
       "c_desc": "Disfruta una estadía inolvidable en Corales de Indias con desayuno buffet incluido, internet WiFi de cortesía, habitaciones con vista al mar y acceso a nuestras piscinas para adultos y niños.",
       "c_disc": "10%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 20% → 10%",
-        "Título modificado"
-      ],
-      "fecha_cambio": "2026-08-12 08:38"
+      "cambios": [],
+      "fecha_cambio": ""
     },
-    "ghlcoralesindias_barrateof": {
-      "hash": "0feebe040682fcd79c6eaaa7bc3a2fc1",
+    "ghlcoralesindias_ebkssdof": {
+      "hash": "31e658cf1f865c645160c162facc7d21",
       "hotel": "GHL Relax Corales de Indias",
       "hotel_code": "ghlcoralesindias",
-      "titulo": "¡Escápate Al Caribe en los Próximos 30 Días!",
-      "categoria": "Descuento Directo",
+      "titulo": "Escápense Juntos a Cartagena",
+      "categoria": "Compra Anticipada",
       "url": "https://www.coralesdeindias.com/ofertas",
       "country": "Colombia",
       "city": "Cartagena",
-      "c_tit": "¡Escápate al Caribe en los próximos 30 días!",
+      "c_tit": "Escápense juntos a Cartagena",
       "c_sub": "",
-      "c_desc": "Haz de tus próximas vacaciones una experiencia inolvidable en GHL Relax Corales de Indias. Reserva ahora y disfruta de: Desayuno buffet incluido. Todas nuestras habitaciones con vista frente al mar. Piscinas, acceso directo a la playa y el mejor ambiente para descansar en Cartagena. Oferta válida para estadías dentro de los próximos 30 días. ¡Tu descanso frente al mar te está esperando! Reserva hoy y vive Cartagena con el confort y la tranquilidad que mereces.",
-      "c_disc": null,
+      "c_desc": "Planeen ese momento especial con anticipación y disfruten 15% OFF reservando con 60 días de anticipación. Habitación con vista al mar Desayuno tipo buffet incluido Cartagena, el mar y tiempo para disfrutar en pareja Reserva hoy y aseguren su escapada al mejor precio. Compra Anticipada 60 días | 15% OFF",
+      "c_disc": "15%",
       "estado": "vigente",
-      "fecha_alta": "2026-07-27 17:06",
+      "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -729,13 +718,10 @@
       "c_sub": "",
       "c_desc": "Disfruta de un 8% de descuento al reservar con 30 días de anticipación. Haz tu reserva desde hoy y hasta el 31 de diciembre de 2026 y viaja hasta el 31 de enero de 2027. ¡Planifica con tiempo y aprovecha esta oferta exclusiva!",
       "c_disc": "8%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 15% → 8%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-08-12 08:38"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlstyleoccidente_ebkssdof": {
       "hash": "746c70024e18b529a17feeaf224fe22b",
@@ -750,13 +736,28 @@
       "c_sub": "",
       "c_desc": "Disfruta de un 12% de descuento al reservar con 60 días de anticipación. Reserva hasta el 31 de enero de 2027 y asegura la mejor tarifa para tu próxima estadía.",
       "c_disc": "12%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 20% → 12%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-08-12 08:38"
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlstyleyopal_weekndof": {
+      "hash": "9f06ec36fffc1c4353c53a8a264db1ee",
+      "hotel": "GHL Style Yopal",
+      "hotel_code": "ghlstyleyopal",
+      "titulo": "Tarifa Fin de Semana",
+      "categoria": "Fin de Semana",
+      "url": "https://www.ghlhotelyopal.com/ofertas",
+      "country": "Colombia",
+      "city": "Yopal",
+      "c_tit": "Tarifa Fin de semana",
+      "c_sub": "",
+      "c_desc": "Disfruta de un 20% de descuento para estadías los fines de semana de agosto",
+      "c_disc": "20%",
+      "estado": "nueva",
+      "fecha_alta": "2026-08-18 09:43",
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlstyleyopal_barrateof": {
       "hash": "70a1a608607a32ad07e4b39a3784175c",
@@ -771,7 +772,7 @@
       "c_sub": "",
       "c_desc": "Disfruta de un 15% de descuento reservando desde hoy y hasta el 30 de septiembre Promoción válida para estadías de viernes a domingo del mes de septiembre, ideal para disfrutar de un fin de semana de descanso, naturaleza y la auténtica hospitalidad llanera. ¡Reserva ahora y déjate enamorar por la esencia del Llano!",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -789,7 +790,7 @@
       "c_sub": "",
       "c_desc": "Este octubre cambia los sustos por una escapada inolvidable. Reserva directamente y obtén un 20% de descuento para hospedarte cualquier día de la semana de octubre. Descubre los paisajes del Llano, disfruta de la gastronomía local y vive una experiencia donde la magia de Halloween se une con el espíritu llanero.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -807,7 +808,7 @@
       "c_sub": "",
       "c_desc": "Te invitamos a vivir un Diciembre Inolvidable en el Llano, disfrutando de la hospitalidad, la tranquilidad y la riqueza cultural de los Llanos Orientales. Reserva y aprovecha un 25% de descuento para compartir momentos únicos con tu familia, pareja o amigos. Reserva desde hoy para tus estadías en diciembre Déjate sorprender por la magia de la temporada, la calidez de nuestro servicio y los inolvidables atardeceres llaneros.",
       "c_disc": "25%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -902,24 +903,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "latamhotel_lonstnof": {
-      "hash": "f24ed82a5b6865aebbe61e505e2d811f",
-      "hotel": "LATAM XELA",
-      "hotel_code": "latamhotel",
-      "titulo": "“Plan 2 Noches, Más Beneficios”",
-      "categoria": "Minima Estadia",
-      "url": "https://www.latamhotelxela.com/ofertas",
-      "country": "Guatemala",
-      "city": "Quetzaltenango",
-      "c_tit": "“Plan 2 Noches, Más Beneficios”",
-      "c_sub": "",
-      "c_desc": "Reserva una estadía mínima de 2 noches en el Hotel Latam Xela Quetzaltenango y obtén un 12% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
-      "c_disc": "12%",
-      "estado": "nueva",
-      "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "latamhotel_ebkqudof": {
       "hash": "98d1017dc4554eba02a1570bf8ba7993",
       "hotel": "LATAM XELA",
@@ -933,7 +916,25 @@
       "c_sub": "",
       "c_desc": "¡Reserva con anticipación! Latam Xela Quetzaltenango te espera. Obtén un 10% OFF.",
       "c_disc": "10%",
-      "estado": "nueva",
+      "estado": "vigente",
+      "fecha_alta": "2026-08-12 08:38",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "latamhotel_lonstnof": {
+      "hash": "f24ed82a5b6865aebbe61e505e2d811f",
+      "hotel": "LATAM XELA",
+      "hotel_code": "latamhotel",
+      "titulo": "“Plan 2 Noches, Más Beneficios”",
+      "categoria": "Minima Estadia",
+      "url": "https://www.latamhotelxela.com/ofertas",
+      "country": "Guatemala",
+      "city": "Quetzaltenango",
+      "c_tit": "“Plan 2 Noches, Más Beneficios”",
+      "c_sub": "",
+      "c_desc": "Reserva una estadía mínima de 2 noches en el Hotel Latam Xela Quetzaltenango y obtén un 12% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
+      "c_disc": "12%",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -951,7 +952,7 @@
       "c_sub": "",
       "c_desc": "¿Decisión de último momento? ¡No hay problema! Aprovecha nuestras tarifas especiales para reservas inmediatas y asegura tu estadía hoy mismo.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -969,7 +970,7 @@
       "c_sub": "",
       "c_desc": "En Makani creemos que lo mejor de la isla sucede cuando el tiempo se detiene. Por eso, cuando reservas dos noches, nosotros nos encargamos de la tercera y tienes un masaje para dos incluido. Un día extra para seguir disfrutando del mar, el sol y esos momentos inesperados que solo se viven aquí.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -987,7 +988,7 @@
       "c_sub": "",
       "c_desc": "Reserva con 30 días o más de anticipación y recibe un increible descuento.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -1005,14 +1006,10 @@
       "c_sub": "",
       "c_desc": "Regálate una escapada de mínimo 2 noches en Makani y disfruta un 15% OFF sobre la tarifa, pensada para quienes quieren vivir el destino sin apuros. Desde que llegas hasta que te vas, cada detalle está diseñado para que solo te preocupes por disfrutar. Incluye: Check-in con bebida de bienvenida Desayuno incluido cada mañana 2x1 en margaritas artesanales Válido para reservas de 2 noches o más. Aplican restricciones de fecha y disponibilidad.",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 14:25",
-      "cambios": [
-        "Descuento/beneficio: — → 15%",
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-08-12 08:38"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "pllh_ebktrdof": {
       "hash": "2560cbe8d4b220076a4df4b35dab5537",
@@ -1086,24 +1083,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_lasmudof": {
-      "hash": "b1e1c7b0eeea9e6cb9251333c5a06ead",
-      "hotel": "San Lazaro Art",
-      "hotel_code": "sanlazaro",
-      "titulo": "Ultimo Minuto 1 Día",
-      "categoria": "Ultimo Minuto",
-      "url": "https://www.sanlazaroarthotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Ultimo minuto 1 día",
-      "c_sub": "",
-      "c_desc": "¡Escápate hoy y vive Cartagena al mejor precio! Aprovecha nuestra exclusiva oferta de último minuto y disfruta de una estadía inolvidable en el Hotel San Lázaro. Ideal para viajeros espontáneos que buscan confort, ubicación privilegiada y una experiencia auténtica en la ciudad. Ubicado frente al histórico Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel te invita a descubrir lo mejor de Cartagena con una tarifa especial disponible por tiempo limitado. La oferta incluye: Alojamiento en habitaciones confortables Acceso a nuestras instalaciones y rooftop con vista pano",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "sanlazaro_ebktrdof": {
       "hash": "d2ed4f748af785a303736d685886a788",
       "hotel": "San Lazaro Art",
@@ -1116,6 +1095,24 @@
       "c_tit": "Ahorra reservando con 30 días de antelación",
       "c_sub": "",
       "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "sanlazaro_lasmudof": {
+      "hash": "b1e1c7b0eeea9e6cb9251333c5a06ead",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Ultimo Minuto 1 Día",
+      "categoria": "Ultimo Minuto",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Ultimo minuto 1 día",
+      "c_sub": "",
+      "c_desc": "¡Escápate hoy y vive Cartagena al mejor precio! Aprovecha nuestra exclusiva oferta de último minuto y disfruta de una estadía inolvidable en el Hotel San Lázaro. Ideal para viajeros espontáneos que buscan confort, ubicación privilegiada y una experiencia auténtica en la ciudad. Ubicado frente al histórico Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel te invita a descubrir lo mejor de Cartagena con una tarifa especial disponible por tiempo limitado. La oferta incluye: Alojamiento en habitaciones confortables Acceso a nuestras instalaciones y rooftop con vista pano",
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
@@ -1225,13 +1222,10 @@
       "c_sub": "",
       "c_desc": "Vive una experiencia única en Sonesta Cartagena con acceso directo a una playa tranquila y segura, desayuno buffet incluido, WiFi de cortesía y cancha de tenis.",
       "c_disc": "10%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 15% → 10%",
-        "Título modificado"
-      ],
-      "fecha_cambio": "2026-08-12 08:38"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsoncartagena_ebkssdof": {
       "hash": "030fff2401e20d97ff2d20d26a2e731f",
@@ -1246,7 +1240,7 @@
       "c_sub": "",
       "c_desc": "Tu descanso incluye: Acceso directo a la playa Piscina semiolímpica Cancha de tenis Espacios ideales para relajarte frente al mar Habitaciones con el confort que mereces",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -1287,24 +1281,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsonolivar_lasmtdof": {
-      "hash": "f3a80be9e2ec73257411df74435e924a",
-      "hotel": "Sonesta El Olivar",
-      "hotel_code": "ghlsonolivar",
-      "titulo": "Ultimo Minuto 3 Días",
-      "categoria": "Ultimo Minuto",
-      "url": "https://www.sonestaelolivar.com/ofertas",
-      "country": "Perú",
-      "city": "Lima",
-      "c_tit": "Ultimo minuto 3 días",
-      "c_sub": "",
-      "c_desc": "",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlsonolivar_ebkssdof": {
       "hash": "e8f9cfe3afad827513452df67c4cebcf",
       "hotel": "Sonesta El Olivar",
@@ -1318,6 +1294,24 @@
       "c_sub": "",
       "c_desc": "Fusiona productividad y desconexión en el corazón corporativo y residencial de San Isidro. Reservando con 60 días de anticipación en Sonesta El Olivar, obtienes un 17% de descuento exclusivo. Disfruta de la conectividad que exige tu agenda y el entorno relajante de nuestro bosque ancestral para tus momentos de ocio. Asegura eficiencia y confort al mejor precio reservando antes del 30 de septiembre.",
       "c_disc": "17%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlsonolivar_lasmtdof": {
+      "hash": "f3a80be9e2ec73257411df74435e924a",
+      "hotel": "Sonesta El Olivar",
+      "hotel_code": "ghlsonolivar",
+      "titulo": "Ultimo Minuto 3 Días",
+      "categoria": "Ultimo Minuto",
+      "url": "https://www.sonestaelolivar.com/ofertas",
+      "country": "Perú",
+      "city": "Lima",
+      "c_tit": "Ultimo minuto 3 días",
+      "c_sub": "",
+      "c_desc": "",
+      "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
@@ -1390,12 +1384,10 @@
       "c_sub": "",
       "c_desc": "Reserva con mínimo 7 días de anticipación y recibe hasta un 12% de descuento en tu estadía. Aprovecha tarifas preferenciales y organiza tu viaje con mayor tranquilidad. Válido para reservas realizadas con anticipación y estadías en fechas seleccionadas. Aplican T&C.",
       "c_disc": "12%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Título modificado"
-      ],
-      "fecha_cambio": "2026-08-12 08:38"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsonbogota_lonstnof": {
       "hash": "5aba2b539cdb8f8aa01c34ae5fbe35b5",
@@ -2256,6 +2248,26 @@
       "fecha_cambio": "",
       "id": "ghlsonmfl_prcperof",
       "fecha_baja": "2026-08-12 08:38"
+    },
+    {
+      "hash": "0feebe040682fcd79c6eaaa7bc3a2fc1",
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "¡Escápate Al Caribe en los Próximos 30 Días!",
+      "categoria": "Descuento Directo",
+      "url": "https://www.coralesdeindias.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "¡Escápate al Caribe en los próximos 30 días!",
+      "c_sub": "",
+      "c_desc": "Haz de tus próximas vacaciones una experiencia inolvidable en GHL Relax Corales de Indias. Reserva ahora y disfruta de: Desayuno buffet incluido. Todas nuestras habitaciones con vista frente al mar. Piscinas, acceso directo a la playa y el mejor ambiente para descansar en Cartagena. Oferta válida para estadías dentro de los próximos 30 días. ¡Tu descanso frente al mar te está esperando! Reserva hoy y vive Cartagena con el confort y la tranquilidad que mereces.",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-27 17:06",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghlcoralesindias_barrateof",
+      "fecha_baja": "2026-08-18 09:43"
     }
   ]
 }
