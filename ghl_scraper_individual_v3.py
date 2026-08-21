@@ -55,11 +55,40 @@ JS_EXTRACT_PRIMARY = """
 })()
 """
 
+# Extractor propio para Bastion Luxury Hotel: web en plataforma reservhotel, sin
+# .titular-title. Cada oferta vive en un div.item__text (titulo hN, descripcion p, link a
+# reservhotel). Hay copias en lightboxes -> se deduplican por titulo.
+JS_EXTRACT_BASTION = """
+(() => {
+  const offers = [];
+  const seen = new Set();
+  document.querySelectorAll('div.item__text').forEach(card => {
+    const h = card.querySelector('h1,h2,h3,h4,.h4');
+    const title = h ? h.innerText.trim() : '';
+    if (!title || title.length < 3 || title.length > 200) return;
+    const GENERIC = ['ofertas','offers','promociones','promotions'];
+    if (GENERIC.includes(title.toLowerCase())) return;
+    const key = title.toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    const paras = Array.from(card.querySelectorAll('p')).map(p => p.innerText.trim()).filter(t => t && t !== title);
+    const descripcion = paras.join(' ').trim();
+    const link = card.querySelector('a[href*="reservhotel"], a[href*="ibe5"], a.btn, a');
+    const href = link ? link.href : '';
+    offers.push({titulo: title, descripcion, href});
+  });
+  return JSON.stringify(offers);
+})()
+"""
+
 GENERIC_TITLES = {"ofertas", "offers", "promociones", "promotions"}
 
-async def extract_offers_from_page(page, url):
+async def extract_offers_from_page(page, url, extractor=None):
     await page.goto(url, wait_until="domcontentloaded", timeout=30000)
     await page.wait_for_timeout(3500)
+    if extractor == "bastion":
+        offers = json.loads(await page.evaluate(JS_EXTRACT_BASTION))
+        return [o for o in offers if o["titulo"].strip().lower() not in GENERIC_TITLES]
     raw = await page.evaluate(JS_EXTRACT_PRIMARY)
     offers = json.loads(raw)
     if not offers:
@@ -191,7 +220,9 @@ async def scrape_hotel(page, hotel_entry):
     debe reportarse como "sin ofertas", porque no se pudo confirmar su estado real."""
     name = hotel_entry["hotel"]
     code_filter = hotel_entry.get("hotel_code_filter")
-    fallback_code = code_filter or slugify(name)
+    code_hint = hotel_entry.get("code_hint")
+    extractor = hotel_entry.get("extractor")
+    fallback_code = code_filter or code_hint or slugify(name)
     per_lang = {}
     lang_ok = {}
     for lang, url in hotel_entry["urls"].items():
@@ -199,7 +230,7 @@ async def scrape_hotel(page, hotel_entry):
             continue
         print(f"  [{lang.upper()}] {url}", end=" ... ", flush=True)
         try:
-            offers_raw = await extract_offers_from_page(page, url)
+            offers_raw = await extract_offers_from_page(page, url, extractor)
         except Exception as e:
             print(f"ERROR {str(e)[:120]}")
             per_lang[lang] = []

@@ -55,6 +55,10 @@ HOTELS = [
     {"hotel":"Irotama Lago","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irolago"},
     {"hotel":"Irotama Reservado","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"irorvd"},
     {"hotel":"Irotama XXI","urls":{"es":"https://www.irotama.com/ofertas"},"hotel_code_filter":"iroxxl"},
+    # Bastion Luxury Hotel (Cartagena): web en otra plataforma (reservhotel), solo espanol,
+    # sin la estructura .titular-title ni links con ?co=. Usa un extractor propio ("bastion",
+    # ver ghl_scraper_individual_v3.py) y code_hint fija el hotel_code para que geo_of resuelva.
+    {"hotel":"Bastión Luxury Hotel","urls":{"es":"https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena"},"extractor":"bastion","code_hint":"bastionlux"},
 ]
 
 CATEGORIES = {
