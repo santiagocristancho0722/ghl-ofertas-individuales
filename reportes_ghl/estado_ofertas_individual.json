@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 9,
-  "last_run": "2026-08-21 10:06",
-  "prev_run": "2026-08-18 09:43",
+  "escaneos": 10,
+  "last_run": "2026-08-21 10:24",
+  "prev_run": "2026-08-21 10:06",
   "last_kpis": {
-    "activas": 98,
-    "nuevas": 3,
-    "eliminadas": 2,
-    "cambios": 2,
-    "escaneos": 9
+    "activas": 102,
+    "nuevas": 4,
+    "eliminadas": 0,
+    "cambios": 0,
+    "escaneos": 10
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -24,14 +24,10 @@
       "c_sub": "",
       "c_desc": "Aprovecha tu estadia por minimo Cuatro noches. Una experiencia exclusiva. Un 15% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 18% → 15%",
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-08-21 10:06"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "arsenal_barrateof": {
       "hash": "faab83564202160c5f4f651445be0932",
@@ -64,13 +60,10 @@
       "c_sub": "",
       "c_desc": "anticípate 60 días a tu fecha de estadía y adquiere un 18% de descuento, hasta 30% de descuento si te registras en ghlpluss",
       "c_disc": "18%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 12% → 18%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-08-21 10:06"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "arsenal_lasmtdof": {
       "hash": "46c4f71cdffa4e4050cb0ebbbd070702",
@@ -247,7 +240,7 @@
       "c_sub": "",
       "c_desc": "La Semana de Receso es la excusa perfecta para hacer una pausa, salir de la rutina y disfrutar unos días de vacaciones en familia. Aprovecha esta temporada y quédate más, disfruta más y paga menos: 20% de descuento reservando 4 noches o más Hasta 2 niños menores de 12 años gratis Desayuno incluido Acceso a terraza y piscina WiFi de cortesía",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-21 10:06",
       "cambios": [],
       "fecha_cambio": ""
@@ -643,7 +636,7 @@
       "c_sub": "",
       "c_desc": "anticípate 30 días a tu fecha de estadía y adquiere un 5% de descuento adicional",
       "c_disc": "5%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-21 10:06",
       "cambios": [],
       "fecha_cambio": ""
@@ -1453,7 +1446,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-08-21 10:06",
       "cambios": [],
       "fecha_cambio": ""
@@ -1779,6 +1772,78 @@
       "c_disc": "25%",
       "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bastionlux_d2d7c5": {
+      "hash": "b97c3f54f7f2282b9968af1c69fdedbd",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Hotel + Vuelo, la Combinación Perfecta",
+      "categoria": "Promo Especial",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "HOTEL + VUELO, LA COMBINACIÓN PERFECTA",
+      "c_sub": "",
+      "c_desc": "Comienza tu viaje a Cartagena con mayor facilidad. Reserva tu hotel y vuelo juntos para acceder a tarifas preferenciales, beneficios exclusivos y una experiencia fluida de principio a fin.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-08-21 10:24",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bastionlux_efa3df": {
+      "hash": "300890e303d2a42bbfeb685bf39664af",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Reserva con Dos Meses de Antelación",
+      "categoria": "Oferta General",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "RESERVA CON DOS MESES DE ANTELACIÓN",
+      "c_sub": "",
+      "c_desc": "Planifica tu estancia con 60 días de antelación y descubre cómo el verdadero confort empieza mucho antes de tu llegada a Cartagena. Aplica para reservas y estancias hasta diciembre de 2026.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-08-21 10:24",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bastionlux_da2075": {
+      "hash": "894f3de60e5b054f3081cdbd7f77ffe4",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Bastión + Makani",
+      "categoria": "Oferta General",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "BASTIÓN + MAKANI",
+      "c_sub": "",
+      "c_desc": "Vive dos noches únicas: una entre los muros históricos de Bastión y otra en el exclusivo Makani Beach Club. Esta oferta incluye cóctel de bienvenida y traslados.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-08-21 10:24",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bastionlux_39af65": {
+      "hash": "842ba202cf711a523be6838f2a7f7aa9",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "15% Menos en Gastronomía",
+      "categoria": "Promo Especial",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "15% MENOS EN GASTRONOMÍA",
+      "c_sub": "",
+      "c_desc": "Al reservar directamente en nuestra web, disfruta un 15% menos en experiencias culinarias en El Gobernador.",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-08-21 10:24",
       "cambios": [],
       "fecha_cambio": ""
     }
