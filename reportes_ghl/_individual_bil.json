@@ -576,25 +576,7 @@
       "vigencia": null,
       "match_key": "lonscnof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.armeriarealhotel.com/offers",
-      "slug": "lonscnof",
-      "es_id": null,
-      "hotel": "Armeria Real",
-      "hotel_code": "ghlarmeriareal",
-      "titulo": "Semana de Receso en Familia & Amigos",
-      "nombre_corto": "Semana de Receso en Familia & Amigos",
-      "titular": "",
-      "descripcion": "La Semana de Receso es la excusa perfecta para hacer una pausa, salir de la rutina y disfrutar unos días de vacaciones en familia. Aprovecha esta temporada y quédate más, disfruta más y paga menos: 20% de descuento reservando 4 noches o más Hasta 2 niños menores de 12 años gratis Desayuno incluido Acceso a terraza y piscina WiFi de cortesía",
-      "categoria": "Minima Estadia",
-      "canonical": "min_stay",
-      "param": 4,
-      "descuento": "20%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "lonscnof"
-    },
+    "en": null,
     "hash": "ae3bfa42b13dfa97d59bb736aa863fc5"
   },
   {
@@ -622,25 +604,7 @@
       "vigencia": null,
       "match_key": "barrateof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.armeriarealhotel.com/offers",
-      "slug": "barrateof",
-      "es_id": null,
-      "hotel": "Armeria Real",
-      "hotel_code": "ghlarmeriareal",
-      "titulo": "Last-minute getaway? Save more and enjoy more.",
-      "nombre_corto": "Last-minute getaway? Save more and enjoy more.",
-      "titular": "",
-      "descripcion": "At Hotel Armería, in the heart of Getsemaní, the best experiences can also happen spontaneously. Book your last-minute escape and enjoy 10% off with breakfast included. Discover the magic, culture, and charm of Cartagena while enjoying a stay full of comfort and style.",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
-      "param": null,
-      "descuento": "10%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "barrateof"
-    },
+    "en": null,
     "hash": "95db08b0c058625e76a6ca488bbe7572"
   },
   {
@@ -668,25 +632,7 @@
       "vigencia": null,
       "match_key": "lonstnof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.armeriarealhotel.com/offers",
-      "slug": "lonstnof",
-      "es_id": null,
-      "hotel": "Armeria Real",
-      "hotel_code": "ghlarmeriareal",
-      "titulo": "Minimum stay 3 nights",
-      "nombre_corto": "Minimum stay 3 nights",
-      "titular": "",
-      "descripcion": "More nights, more benefits At Armería Real Getsemaní, your stay is best enjoyed without rushing. Book a minimum number of nights and enjoy exclusive benefits that make your experience even more special. Discover the charm, culture, and vibrant energy of Getsemaní with the comfort you deserve. Turn your trip into a complete experience.",
-      "categoria": "Minima Estadia",
-      "canonical": "min_stay",
-      "param": 3,
-      "descuento": null,
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "lonstnof"
-    },
+    "en": null,
     "hash": "28989687e5546570de2c1b98ab3a498e"
   },
   {
@@ -714,25 +660,7 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.armeriarealhotel.com/offers",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "Armeria Real",
-      "hotel_code": "ghlarmeriareal",
-      "titulo": "Book early and save more",
-      "nombre_corto": "Book early and save more",
-      "titular": "",
-      "descripcion": "Planning ahead pays off At Hotel Armería, in the heart of Getsemaní, we reward you for booking your trip in advance. Book 45 days in advance Enjoy 20% off your stay Immerse yourself in the magic, color, and history of Cartagena at the best guaranteed rate. Secure your next getaway today.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 45,
-      "descuento": "20%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
+    "en": null,
     "hash": "ecf66d54c45cbaf74b2ce98c6d8fb4da"
   },
   {
@@ -1455,21 +1383,21 @@
     "en": {
       "lang": "en",
       "url": "https://en.ghlhotelcostaazul.com/offers",
-      "slug": "barrateof",
+      "slug": "",
       "es_id": null,
       "hotel": "GHL Relax Costa Azul",
-      "hotel_code": "ghlcostazul",
+      "hotel_code": "ghlrelaxcostaazul",
       "titulo": "Oferta Escapada",
       "nombre_corto": "Oferta Escapada",
       "titular": "",
       "descripcion": "Aprovecha un 15% off para estadías entre semana",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
+      "categoria": "Oferta General",
+      "canonical": "general",
       "param": null,
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "barrateof"
+      "match_key": "general|None"
     },
     "hash": "5a70be8a7154b921a2604c6b1a891046"
   },
@@ -1501,10 +1429,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.ghlhotelcostaazul.com/offers",
-      "slug": "ebktrdof",
+      "slug": "",
       "es_id": null,
       "hotel": "GHL Relax Costa Azul",
-      "hotel_code": "ghlcostazul",
+      "hotel_code": "ghlrelaxcostaazul",
       "titulo": "Compra Anticipada 30 días",
       "nombre_corto": "Compra Anticipada 30 días",
       "titular": "",
@@ -1515,7 +1443,7 @@
       "descuento": "5%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebktrdof"
+      "match_key": "early_booking|30"
     },
     "hash": "fa9c08a61876fb08ada8c306c9f919ce"
   },
@@ -1547,10 +1475,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.ghlhotelcostaazul.com/offers",
-      "slug": "ebkssdof",
+      "slug": "",
       "es_id": null,
       "hotel": "GHL Relax Costa Azul",
-      "hotel_code": "ghlcostazul",
+      "hotel_code": "ghlrelaxcostaazul",
       "titulo": "Early Booking 60 Days",
       "nombre_corto": "Early Booking 60 Days",
       "titular": "",
@@ -1561,7 +1489,7 @@
       "descuento": "12%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebkssdof"
+      "match_key": "early_booking|60"
     },
     "hash": "e2fad9fe5731e8107f22405897ce8119"
   },
@@ -1593,21 +1521,21 @@
     "en": {
       "lang": "en",
       "url": "https://en.ghlhotelcostaazul.com/offers",
-      "slug": "lonstnof",
+      "slug": "",
       "es_id": null,
       "hotel": "GHL Relax Costa Azul",
-      "hotel_code": "ghlcostazul",
+      "hotel_code": "ghlrelaxcostaazul",
       "titulo": "The Magic of Santa Marta Includes One Free Night",
       "nombre_corto": "The Magic of Santa Marta Includes One Free Night",
       "titular": "",
-      "descripcion": "Take advantage of our exclusive Stay 3, Pay 2 offer at Hotel GHL Costa Azul. Promotion Benefits Stay 3 nights and pay only for 2 Minimum stay: 3 nights Limited availability Cannot be combined with other promotions Book now and secure this exclusive offer to enjoy Santa Marta",
+      "descripcion": "Take advantage of our exclusive Stay 3, Pay 2 offer at Hotel GHL Costa Azul.\n\nPromotion Benefits Stay 3 nights and pay only for 2 Minimum stay: 3 nights Limited availability Cannot be combined with other promotions\n\nBook now and secure this exclusive offer to enjoy Santa Marta",
       "categoria": "Minima Estadia",
       "canonical": "min_stay",
       "param": 3,
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "lonstnof"
+      "match_key": "min_stay|3"
     },
     "hash": "b30507c03fd42662d394aa44982884e1"
   },
@@ -3067,28 +2995,28 @@
   },
   {
     "hotel": "Sonesta El Olivar",
-    "hotel_code": "ghlsonolivar",
-    "match_key": "ebktrdof",
+    "hotel_code": "sonestaelolivar",
+    "match_key": "early_booking|30",
     "categoria": "Compra Anticipada",
-    "id": "ghlsonolivar_ebktrdof",
+    "id": "sonestaelolivar_6533a7",
     "es": {
       "lang": "es",
       "url": "https://www.sonestaelolivar.com/ofertas",
-      "slug": "ebktrdof",
+      "slug": "",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "ghlsonolivar",
+      "hotel_code": "sonestaelolivar",
       "titulo": "Compra Anticipada 30 días",
       "nombre_corto": "Compra Anticipada 30 días",
       "titular": "",
-      "descripcion": "",
+      "descripcion": "Compra Anticipada 30 días",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 30,
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebktrdof"
+      "match_key": "early_booking|30"
     },
     "en": {
       "lang": "en",
@@ -3109,32 +3037,32 @@
       "vigencia": null,
       "match_key": "ebktrdof"
     },
-    "hash": "0607d80f3c5116aa18a350823203e539"
+    "hash": "fff93ff0b28b91b2512ede7da5b61546"
   },
   {
     "hotel": "Sonesta El Olivar",
-    "hotel_code": "ghlsonolivar",
-    "match_key": "ebkssdof",
+    "hotel_code": "sonestaelolivar",
+    "match_key": "early_booking|60",
     "categoria": "Compra Anticipada",
-    "id": "ghlsonolivar_ebkssdof",
+    "id": "sonestaelolivar_328bef",
     "es": {
       "lang": "es",
       "url": "https://www.sonestaelolivar.com/ofertas",
-      "slug": "ebkssdof",
+      "slug": "",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "ghlsonolivar",
+      "hotel_code": "sonestaelolivar",
       "titulo": "El Olivar 60: Estrategia y Descanso - Compra Anticipada 60 días",
       "nombre_corto": "El Olivar 60: Estrategia y Descanso - Compra Anticipada 60 días",
       "titular": "",
-      "descripcion": "Fusiona productividad y desconexión en el corazón corporativo y residencial de San Isidro. Reservando con 60 días de anticipación en Sonesta El Olivar, obtienes un 17% de descuento exclusivo. Disfruta de la conectividad que exige tu agenda y el entorno relajante de nuestro bosque ancestral para tus momentos de ocio. Asegura eficiencia y confort al mejor precio reservando antes del 30 de septiembre.",
+      "descripcion": "Fusiona productividad y desconexión en el corazón corporativo y residencial de San Isidro. Reservando con 60 días de anticipación en Sonesta El Olivar, obtienes un 17% de descuento exclusivo. Disfruta de la conectividad que exige tu agenda y el entorno relajante de nuestro bosque ancestral para tus momentos de ocio. Asegura eficiencia y confort al mejor precio reservando antes del 30 de septiembre",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 60,
       "descuento": "17%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebkssdof"
+      "match_key": "early_booking|60"
     },
     "en": {
       "lang": "en",
@@ -3155,32 +3083,32 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "hash": "2f0647f6b1cd28124bde2a4d0348d228"
+    "hash": "6d3bc671331c94650a1afb52c3683fc6"
   },
   {
     "hotel": "Sonesta El Olivar",
-    "hotel_code": "ghlsonolivar",
-    "match_key": "lasmtdof",
+    "hotel_code": "sonestaelolivar",
+    "match_key": "last_minute|3",
     "categoria": "Ultimo Minuto",
-    "id": "ghlsonolivar_lasmtdof",
+    "id": "sonestaelolivar_ef1536",
     "es": {
       "lang": "es",
       "url": "https://www.sonestaelolivar.com/ofertas",
-      "slug": "lasmtdof",
+      "slug": "",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "ghlsonolivar",
+      "hotel_code": "sonestaelolivar",
       "titulo": "Ultimo minuto 3 días",
       "nombre_corto": "Ultimo minuto 3 días",
       "titular": "",
-      "descripcion": "",
+      "descripcion": "Ultimo minuto 3 días",
       "categoria": "Ultimo Minuto",
       "canonical": "last_minute",
       "param": 3,
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "lasmtdof"
+      "match_key": "last_minute|3"
     },
     "en": {
       "lang": "en",
@@ -3201,32 +3129,32 @@
       "vigencia": null,
       "match_key": "lasmtdof"
     },
-    "hash": "319b3280890108fd0223a2e7db1366a1"
+    "hash": "961f705b1b172e99136c8f897c299684"
   },
   {
     "hotel": "Sonesta El Olivar",
-    "hotel_code": "ghlsonolivar",
-    "match_key": "barrateof",
-    "categoria": "Descuento Directo",
-    "id": "ghlsonolivar_barrateof",
+    "hotel_code": "sonestaelolivar",
+    "match_key": "general|None",
+    "categoria": "Oferta General",
+    "id": "sonestaelolivar_6c2933",
     "es": {
       "lang": "es",
       "url": "https://www.sonestaelolivar.com/ofertas",
-      "slug": "barrateof",
+      "slug": "",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "ghlsonolivar",
+      "hotel_code": "sonestaelolivar",
       "titulo": "Tarifa con descuento - BARATE",
       "nombre_corto": "Tarifa con descuento - BARATE",
       "titular": "",
       "descripcion": "Tarifa con descuento -BARATE",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
+      "categoria": "Oferta General",
+      "canonical": "general",
       "param": null,
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "barrateof"
+      "match_key": "general|None"
     },
     "en": {
       "lang": "en",
@@ -3434,6 +3362,52 @@
     "hash": "a2cda6d8f494730b50353674f2923f72"
   },
   {
+    "hotel": "Sonesta Ibague",
+    "hotel_code": "sonestaibague",
+    "match_key": "barrateof",
+    "categoria": "Descuento Directo",
+    "id": "sonestaibague_barrateof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.sonestaibague.com/ofertas",
+      "slug": "barrateof",
+      "es_id": null,
+      "hotel": "Sonesta Ibague",
+      "hotel_code": "sonestaibague",
+      "titulo": "Escapada Tolimense",
+      "nombre_corto": "Escapada Tolimense",
+      "titular": "",
+      "descripcion": "Date un respiro en Ibagué y disfruta una escapada llena de descanso, sabor y momentos especiales. Reserva hasta el 12 de octubre y obtén un 15% de descuento en estadías entre el 2 y el 12 de octubre. Tu descanso empieza en Ibagué. ¡Haz tu Escapada Tolimense!",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
+      "param": null,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "barrateof"
+    },
+    "en": {
+      "lang": "en",
+      "url": "https://en.sonestaibague.com/offers",
+      "slug": "barrateof",
+      "es_id": null,
+      "hotel": "Sonesta Ibague",
+      "hotel_code": "sonestaibague",
+      "titulo": "Tolima Getaway",
+      "nombre_corto": "Tolima Getaway",
+      "titular": "",
+      "descripcion": "Take a breath in Ibagué and enjoy a getaway filled with relaxation, flavor, and special moments. Book by October 12 and get 15% off stays between October 2 and October 12. Your getaway starts in Ibagué. Enjoy your Tolima Escape!",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
+      "param": null,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "barrateof"
+    },
+    "hash": "8cc709b79bbe12d99bdc80b7b9fb2ad6"
+  },
+  {
     "hotel": "Sonesta Loja",
     "hotel_code": "ghlhjloja",
     "match_key": "weekndof",
@@ -3504,25 +3478,7 @@
       "vigencia": null,
       "match_key": "earlytwenty"
     },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestaosorno.com/offers",
-      "slug": "earlytwenty",
-      "es_id": null,
-      "hotel": "Sonesta Osorno",
-      "hotel_code": "ghlsonosorno",
-      "titulo": "Compra Anticipada 5% OFF",
-      "nombre_corto": "Compra Anticipada 5% OFF",
-      "titular": "",
-      "descripcion": "Reserva Anticipadamente y recibe 5% OFF",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": null,
-      "descuento": "5%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "earlytwenty"
-    },
+    "en": null,
     "hash": "1c95a373c70abe345555ee861360b06a"
   },
   {
