@@ -3,7 +3,7 @@
 # Pensado para Windows Task Scheduler (sin abrir Claude Code).
 
 $proj      = "C:\Users\santiago.cristancho\OneDrive - Holding Hotelera GHL\Documentos\Automatizaciones"
-$pagesRepo = Join-Path $proj "ghl-planes-pages"
+$pagesRepo = Join-Path $proj "ghl-planes-y-ofertas-pages"
 $py        = "C:\Users\santiago.cristancho\AppData\Local\Programs\Python\Python312\python.exe"
 $log       = Join-Path $proj "reportes_ghl\cron_planes.log"
 $stderrFile = Join-Path $proj "reportes_ghl\_last_stderr_planes.txt"
@@ -52,7 +52,7 @@ if ($pchanges) {
     git commit -m "Dashboard planes actualizado - $fecha" | Tee-Object -Append -FilePath $log
     git push | Tee-Object -Append -FilePath $log
     if ($LASTEXITCODE -eq 0) {
-        Add-Content $log "Dashboard de planes publicado en https://santiagocristancho0722.github.io/ghl-planes-individuales/"
+        Add-Content $log "Dashboard de planes publicado en https://santiagocristancho0722.github.io/ghl-planes-y-ofertas/"
     } else {
         Add-Content $log "ERROR: git push (pages planes) codigo $LASTEXITCODE"
     }

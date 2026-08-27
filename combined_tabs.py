@@ -6,10 +6,16 @@ que enlazan al otro dashboard.
 
 Se importa desde ghl_scraper_individual_v3.py (active="ofertas") y ghl_scraper_planes.py
 (active="planes") para que cada corrida semanal conserve las pestañas.
+
+Ambos dashboards se publican en UN SOLO repo (ghl-planes-y-ofertas): index.html = planes,
+ofertas.html = ofertas. Por eso las pills usan enlaces relativos dentro del mismo repo.
 """
 
-URL_PLANES = "https://santiagocristancho0722.github.io/ghl-planes-individuales/"
-URL_OFERTAS = "https://santiagocristancho0722.github.io/ghl-ofertas-individuales/"
+# Rutas relativas dentro del repo unico ghl-planes-y-ofertas:
+#   index.html   -> Planes    (se enlaza como "./")
+#   ofertas.html -> Ofertas
+HREF_PLANES = "./"
+HREF_OFERTAS = "ofertas.html"
 
 COMBINED_TITLE = "Dashboard Planes y ofertas"
 
@@ -30,8 +36,8 @@ _STYLE = """
 def _pills(active):
     cp = ' class="active"' if active == "planes" else ""
     co = ' class="active"' if active == "ofertas" else ""
-    hp = "#" if active == "planes" else URL_PLANES
-    ho = "#" if active == "ofertas" else URL_OFERTAS
+    hp = "#" if active == "planes" else HREF_PLANES
+    ho = "#" if active == "ofertas" else HREF_OFERTAS
     return (f'{_STYLE}'
             f'<div class="poc-tabs">'
             f'<a href="{hp}"{cp}>Planes</a>'

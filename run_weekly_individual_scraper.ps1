@@ -32,21 +32,33 @@ if ($exitCode -eq 3) {
     exit 1
 }
 
-Copy-Item "reportes_ghl\ghl_dashboard_individual_latest.html" "index.html" -Force
-
+# 1) Versiona datos y dashboards en el repo de codigo (ghl-ofertas-individuales)
 git add reportes_ghl/_individual_bil.json reportes_ghl/estado_ofertas_individual.json `
-        reportes_ghl/ghl_dashboard_individual_latest.html reportes_ghl/ghl_dashboard_individual_*.html `
-        index.html
-
+        reportes_ghl/ghl_dashboard_individual_latest.html reportes_ghl/ghl_dashboard_individual_*.html
 $changes = git diff --cached --name-only
 if ($changes) {
     git commit -m "Escaneo semanal ofertas individuales - $fecha" | Tee-Object -Append -FilePath $log
     git push | Tee-Object -Append -FilePath $log
+    if ($LASTEXITCODE -ne 0) { Add-Content $log "ERROR: git push (repo codigo) codigo $LASTEXITCODE" }
+} else {
+    Add-Content $log "Datos de ofertas sin cambios en el repo de codigo."
+}
+
+# 2) Publica en el repo UNICO de dashboards (ghl-planes-y-ofertas), como ofertas.html
+$combinedRepo = Join-Path $proj "ghl-planes-y-ofertas-pages"
+Copy-Item "reportes_ghl\ghl_dashboard_individual_latest.html" (Join-Path $combinedRepo "ofertas.html") -Force
+Set-Location $combinedRepo
+git add ofertas.html
+$pchanges = git diff --cached --name-only
+if ($pchanges) {
+    git commit -m "Dashboard ofertas actualizado - $fecha" | Tee-Object -Append -FilePath $log
+    git push | Tee-Object -Append -FilePath $log
     if ($LASTEXITCODE -eq 0) {
-        Add-Content $log "Cambios subidos a GitHub."
+        Add-Content $log "Ofertas publicado en https://santiagocristancho0722.github.io/ghl-planes-y-ofertas/ofertas.html"
     } else {
-        Add-Content $log "ERROR: git push termino con codigo $LASTEXITCODE"
+        Add-Content $log "ERROR: git push (repo combinado) codigo $LASTEXITCODE"
     }
 } else {
-    Add-Content $log "Sin cambios detectados, no se hizo commit."
+    Add-Content $log "Dashboard de ofertas sin cambios, no se publico."
 }
+Set-Location $proj
