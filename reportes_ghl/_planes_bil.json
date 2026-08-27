@@ -932,7 +932,7 @@
       "descripcion": "Incluye:\n- Habitación Matrimonial con vista al lago (1 noche)\n- Cena Romántica de 3 tiempos\n- Copa de vino\n- Desayuno buffet\n- Estacionamiento\nCheck-in: 15:00 p.m. | Check-out: 10:00 a.m.\n\nTarifa: S/ 690.00 (no incluye 18% de IGV y 10% de Servicios) Imagen referencial (no incluye decoración)",
       "categoria": "Romántico",
       "descuento": "18%",
-      "precio_desde": null,
+      "precio_desde": "PEN 690",
       "vigencia": null
     },
     "en": {
@@ -948,10 +948,10 @@
       "descripcion": "Includes:\n- Matrimonial Room with Lake View (1 night)\n- 3-Course Romantic Dinner\n- Glass of Wine\n- Buffet Breakfast\n- Parking\nCheck-in: 3:00 p.m. | Check-out: 10:00 a.m.\n\nRate: S/ 659.00 (final rate, includes 18% VAT and 10% Service Fee)",
       "categoria": "Romántico",
       "descuento": "18%",
-      "precio_desde": null,
+      "precio_desde": "PEN 659",
       "vigencia": null
     },
-    "hash": "2b234b9ce78310a3dc67dbd4b0905b17"
+    "hash": "76620cb471e759a9ac7b7439840bc4f5"
   },
   {
     "hotel": "GHL Monteria",
@@ -2456,7 +2456,7 @@
       "descripcion": "Vamos a sellar nuestro amor.\n\nIncluye:\n- Noche de alojamiento en habitación estándar.\n- Desayuno en la habitación o en el restaurante.\n- Botella de espumante de 750 ml.\n- Bouquet de flores.\n- Trufas y fresas bañadas en chocolate.\n- Acceso a sauna y jacuzzi.\n- Late check-out sujeto a disponibilidad.\n- Estacionamiento de cortesía.",
       "categoria": "Noche de bodas",
       "descuento": null,
-      "precio_desde": null,
+      "precio_desde": "PEN 580",
       "vigencia": null
     },
     "en": {
@@ -2472,10 +2472,10 @@
       "descripcion": "Let's seal our love.\n\nIncludes:\n- One night of accommodation in a Standard Room.\n- Breakfast served in the room or at the restaurant.\n- One 750 ml bottle of sparkling wine.\n- Bouquet of flowers.\n- Chocolate truffles and chocolate-covered strawberries.\n- Access to the sauna and jacuzzi.\n- Late check-out subject to availability.\n- Complimentary parking.",
       "categoria": "Noche de bodas",
       "descuento": null,
-      "precio_desde": null,
+      "precio_desde": "PEN 580",
       "vigencia": null
     },
-    "hash": "9711b90ab4453af84caab32f39871e5d"
+    "hash": "ecb066c638d2725158e2a1b65363fc7f"
   },
   {
     "hotel": "Sonesta Arequipa",
@@ -2495,7 +2495,7 @@
       "descripcion": "Demuestra lo que sientes.\n\nIncluye:\n- Alojamiento en habitación Standard para dos personas.\n- Desayuno buffet para dos personas.\n- Botella de espumante de 200 ml.\n- Trufas y fresas cubiertas de chocolate.\n- Acceso a sauna y jacuzzi.\n- 10% de descuento en alimentos, bebidas y cócteles.\n- Late check-out sujeto a disponibilidad.\n- Estacionamiento de cortesía.",
       "categoria": "Romántico",
       "descuento": "10%",
-      "precio_desde": null,
+      "precio_desde": "PEN 390",
       "vigencia": null
     },
     "en": {
@@ -2511,10 +2511,10 @@
       "descripcion": "Show what you feel.\n\nIncludes:\n- Accommodation in a Standard Room for two guests.\n- Buffet breakfast for two guests.\n- One 200 ml bottle of sparkling wine.\n- Chocolate truffles and chocolate-covered strawberries.\n- Access to the sauna and jacuzzi.\n- 10% discount on food, beverages, and cocktails.\n- Late check-out subject to availability.\n- Complimentary parking.",
       "categoria": "Romántico",
       "descuento": "10%",
-      "precio_desde": null,
+      "precio_desde": "PEN 390",
       "vigencia": null
     },
-    "hash": "706626d563804207127afdd0e63b0546"
+    "hash": "8a8b04405f5bd0acb9a66e8cb42d3142"
   },
   {
     "hotel": "Sonesta Arequipa",
@@ -2534,7 +2534,7 @@
       "descripcion": "Todo lo que necesitan para una escapada perfecta para dos.\n\nIncluye:\n- Alojamiento en habitación Standard para dos personas.\n- Desayuno buffet incluido en el restaurante.\n- Almuerzo o cena para dos personas (selección de carta especial).\n- Acceso a sauna y jacuzzi.\n- Late check-out sujeto a disponibilidad.\n- Estacionamiento de cortesía.",
       "categoria": "Fin de semana",
       "descuento": null,
-      "precio_desde": null,
+      "precio_desde": "PEN 440",
       "vigencia": null
     },
     "en": {
@@ -2550,10 +2550,10 @@
       "descripcion": "Everything you need for the perfect getaway for two.\n\nIncludes:\n- Accommodation in a Standard Room for two guests.\n- Buffet breakfast included at the restaurant.\n- Lunch or dinner for two guests (selection from a special menu).\n- Access to the sauna and jacuzzi.\n- Late check-out subject to availability.\n- Complimentary parking.",
       "categoria": "Fin de semana",
       "descuento": null,
-      "precio_desde": null,
+      "precio_desde": "PEN 440",
       "vigencia": null
     },
-    "hash": "b9b118fcb23b8c4ddca78712c1e1b3d9"
+    "hash": "9c532413cca712feb05a0001026f308a"
   },
   {
     "hotel": "Sonesta Bogota",

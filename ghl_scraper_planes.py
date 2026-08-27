@@ -128,15 +128,33 @@ def detect_category(title, desc):
     return "Plan General"
 
 # ---------- Precio / descuento ----------
-PRICE_RE = re.compile(r'(?:COP|USD)\s*\$?\s*[\d][\d.,]*|\$\s*[\d][\d.,]*', re.IGNORECASE)
+# Monedas del portafolio: COP (Colombia), USD (Ecuador/algunos), PEN / S/ (Peru),
+# $ pelado (Colombia/Chile). Q (Guatemala) no aplica (sin planes).
+PRICE_RE = re.compile(r'(?:COP|USD|PEN)\s*\$?\s*[\d][\d.,]*|S/\.?\s*[\d][\d.,]*|\$\s*[\d][\d.,]*', re.IGNORECASE)
+
+def _price_currency(p):
+    pl = p.lower()
+    if "usd" in pl:
+        return "usd"
+    if "pen" in pl or "s/" in pl:
+        return "pen"
+    if "cop" in pl:
+        return "cop"
+    return "bare"   # $ pelado (asumimos COP/CLP)
 
 def extract_price(text):
     out = []
     for p in PRICE_RE.findall(text or ""):
         p = re.sub(r'\s+', ' ', p).strip()
         digits = re.sub(r'\D', '', p)
-        is_usd = "usd" in p.lower()
-        if not is_usd and len(digits) < 5:   # COP/$ de <5 digitos = ruido (ej. $4.200)
+        if not digits:
+            continue
+        cur = _price_currency(p)
+        # filtro de ruido segun moneda: COP y $ pelado son de cientos de miles (>=5 digitos,
+        # ej. "$4.200" es ruido); USD/PEN/soles son montos chicos (basta >=2 digitos).
+        if cur in ("cop", "bare") and len(digits) < 5:
+            continue
+        if cur in ("usd", "pen") and len(digits) < 2:
             continue
         if p not in out:
             out.append(p)
@@ -183,7 +201,9 @@ def norm_price(p):
     Devuelve (moneda, digitos) o None."""
     if not p:
         return None
-    cur = "usd" if "usd" in p.lower() else "cop"
+    cur = _price_currency(p)
+    if cur == "bare":
+        cur = "cop"
     digits = re.sub(r'\D', '', p)
     return (cur, digits) if digits else None
 
