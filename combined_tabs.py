@@ -25,14 +25,13 @@ _ANCHOR = '<div class="wrap">'
 
 _STYLE = """
 <style>
-.poc-tabs{display:flex;gap:12px;margin:0 0 22px}
-.poc-tabs a{flex:1;text-align:center;text-decoration:none;font-size:15px;font-weight:700;
-  letter-spacing:.3px;padding:15px 0;border-radius:12px;line-height:1;transition:.15s;
-  background:#fff;color:var(--navy);border:1.5px solid var(--line);
-  box-shadow:0 1px 3px rgba(2,56,89,.06)}
+.poc-tabs{display:flex;gap:8px;margin:2px 0 18px}
+.poc-tabs a{flex:1;text-align:center;text-decoration:none;font-size:13px;font-weight:600;
+  letter-spacing:.2px;padding:9px 0;border-radius:8px;line-height:1;transition:.15s;
+  background:#fff;color:var(--navy);border:1px solid var(--line)}
 .poc-tabs a:hover{border-color:var(--blue);color:var(--mid)}
-.poc-tabs a.active{background:var(--navy);color:#fff;border-color:var(--navy);
-  box-shadow:0 4px 14px rgba(2,56,89,.22);cursor:default}
+.poc-tabs a.active{background:var(--navy);color:#fff;border-color:var(--navy);cursor:default}
+.foot-note{margin-top:46px;padding-top:22px;border-top:1px solid var(--line)}
 </style>"""
 
 # Quita cualquier barra .poc-tabs inyectada previamente (hace la funcion idempotente y
