@@ -27,6 +27,7 @@ from playwright.async_api import async_playwright
 from ghl_scraper_v2 import HOTELS
 from ghl_scraper_individual_v3 import JS_EXTRACT_BASTION, slugify, extract_vigencia
 import dashboard_planes as dp
+from combined_tabs import inject_combined_tabs
 import dashboard_v3 as dv3
 
 # Extractor de PLANES: como el .titular-title de ofertas, pero devuelve tambien el texto
@@ -502,6 +503,7 @@ async def run(test=False):
     finally:
         dp.TOTAL_PROPIEDADES = prev_total
     html_out = html_out.replace(CONS_NORESULTS, CONS_NORESULTS + render_sin_planes(sin_planes))
+    html_out = inject_combined_tabs(html_out, "planes")
 
     out_latest = OUT_DIR / f"planes_dashboard_latest{suffix}.html"
     out_latest.write_text(html_out, encoding="utf-8")

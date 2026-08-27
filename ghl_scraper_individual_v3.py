@@ -20,6 +20,7 @@ from playwright.async_api import async_playwright
 
 from ghl_scraper_v2 import HOTELS, JS_EXTRACT as JS_EXTRACT_FALLBACK
 from scraper_full import classify, extract_param
+from combined_tabs import inject_combined_tabs
 import dashboard_v3 as dv3
 
 OUT_DIR = Path("reportes_ghl")
@@ -355,6 +356,7 @@ async def run(test=False):
         dv3.TOTAL_PROPIEDADES = prev_total
     html_out = html_out.replace(FOOTER_OLD, FOOTER_NEW)
     html_out = html_out.replace(CONS_NORESULTS, CONS_NORESULTS + render_sin_ofertas(sin_ofertas))
+    html_out = inject_combined_tabs(html_out, "ofertas")
 
     out_latest = OUT_DIR / f"ghl_dashboard_individual_latest{suffix}.html"
     out_latest.write_text(html_out, encoding="utf-8")
