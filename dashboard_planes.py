@@ -42,6 +42,18 @@ def cat_pill(cat):
     bg, fg = CAT_COLORS.get(cat, CAT_COLORS["Plan General"])
     return f'<span class="cat-pill" style="background:{bg};color:{fg}">{esc(cat)}</span>'
 
+# Estilos propios de planes (columna T&Cs + bloque T&C en la tarjeta)
+EXTRA_CSS = """<style>
+.tbl-scroll{overflow-x:auto}
+.master th:nth-child(7){min-width:200px}
+.tyc-cell{display:block;max-width:280px;font-size:11px;color:#4a5a6a;line-height:1.45;
+  max-height:66px;overflow:hidden;cursor:help}
+.dtyc{margin-top:14px;background:#f8fafc;border:1px solid var(--line);border-left:3px solid var(--mid);
+  border-radius:0 8px 8px 0;padding:12px 15px}
+.dtyc-lbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--mid);margin-bottom:6px}
+.dtyc-txt{font-size:12.5px;color:#33414f;line-height:1.6}
+</style>"""
+
 def precio_val(o):
     if o.get("precio_desde"):
         return f'<span class="disc-pill">{esc(o["precio_desde"])}</span>'
@@ -51,6 +63,14 @@ def desc_val(o):
     if o.get("descuento"):
         return f'<span class="ben-pill">{esc(o["descuento"])}</span>'
     return '<span class="muted">&mdash;</span>'
+
+def tyc_val(o):
+    """Celda de T&Cs para la tabla: texto compactado (con tooltip al texto completo)."""
+    t = o.get("tyc")
+    if not t:
+        return '<span class="muted">&mdash;</span>'
+    short = esc(t[:140]) + ("…" if len(t) > 140 else "")
+    return f'<span class="tyc-cell" title="{esc(t)}">{short}</span>'
 
 # ---------- Auditoria de buenas practicas (adaptada a planes) ----------
 def bp_audit(u):
@@ -125,7 +145,7 @@ def render_master_table(plans, lang):
             if not o:
                 body += (f'<tr {rowattr}>{hcell}<td><div class="m-offer">{esc(ot)}</div></td>'
                          f'<td>{cat_pill(u["categoria"])}</td>'
-                         f'<td colspan="4" class="muted" style="text-align:center">No disponible en {LANG_OTHER[lang]} (página 404)</td>'
+                         f'<td colspan="5" class="muted" style="text-align:center">No disponible en {LANG_OTHER[lang]} (página 404)</td>'
                          f'<td><span class="muted">&mdash;</span></td></tr>')
                 continue
             vig = fmt_vig(o.get("vigencia")) or '<span class="muted">No publicada</span>'
@@ -134,11 +154,12 @@ def render_master_table(plans, lang):
                      f'<td><div class="date-main">{precio_val(o)}</div><div class="date-sub">Tarifa desde</div></td>'
                      f'<td>{desc_val(o)}</td>'
                      f'<td><div class="date-main">{vig}</div><div class="date-sub">Plan válido entre</div></td>'
+                     f'<td>{tyc_val(o)}</td>'
                      f'<td>{estado_badge(u.get("_estado","nueva"))}</td>'
                      f'<td><a class="ver-link" href="{esc(o["url"])}" target="_blank">Ver plan &rarr;</a></td></tr>')
-    return (f'<div class="tbl-card"><table class="master"><thead><tr>'
+    return (f'<div class="tbl-card tbl-scroll"><table class="master"><thead><tr>'
             f'<th>Hotel</th><th>Plan</th><th>Categoría</th><th>Precio desde</th><th>Descuento</th>'
-            f'<th>Vigencia</th><th>Estado</th><th>Detalle</th>'
+            f'<th>Vigencia</th><th>T&amp;Cs</th><th>Estado</th><th>Detalle</th>'
             f'</tr></thead><tbody>{body}</tbody></table></div>')
 
 def render_removed(removed):
@@ -212,8 +233,11 @@ def render_card(u, lang):
                 f'<p>El plan <b>{esc(offer_title(u, other))}</b> no está publicado en <b>{LANG_OTHER[lang]}</b> en la web oficial '
                 f'(la página devuelve error 404).</p>{render_bp(u)}</div>')
     precio = o.get("precio_desde") or "No publicado"
-    disc = o.get("descuento") or "Sin descuento"
+    disc = o.get("descuento") or "Sin descuento adicional"
     vig = fmt_vig(o.get("vigencia")) or "No publicada"
+    tyc = o.get("tyc")
+    tyc_html = (f'<div class="dtyc"><div class="dtyc-lbl">Términos y condiciones</div>'
+                f'<div class="dtyc-txt">{esc(tyc)}</div></div>') if tyc else ""
     return f"""<div class="dcard">
   <div class="dcard-top">
     <div><h3>{esc(offer_title(u, o))}</h3>
@@ -227,9 +251,10 @@ def render_card(u, lang):
     <div class="dgrid">
       <div class="dfield"><div class="fl">Precio desde</div><div class="fv">{esc(precio)}</div></div>
       <div class="dfield"><div class="fl">Categoría del plan</div><div class="fv">{esc(u['categoria'])}</div></div>
-      <div class="dfield"><div class="fl">Descuento adicional</div><div class="fv">{esc(disc)}</div></div>
+      <div class="dfield"><div class="fl">Descuento en servicios (no es el precio del plan)</div><div class="fv">{esc(disc)}</div></div>
       <div class="dfield"><div class="fl">Vigencia · Plan válido entre</div><div class="fv">{vig}</div></div>
     </div>
+    {tyc_html}
     {render_bp(u)}
     <div class="dfoot">
       <div class="muted" style="font-style:normal;color:var(--gray)">ID plan: <b>{esc(u['id'])}</b> · Fuente: web oficial GHL</div>
@@ -301,7 +326,7 @@ def build_html(plans, kpis, run_date, prev_date, removed=None):
 
     return f"""<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Dashboard Planes GHL — {esc(run_date)}</title>{CSS}</head><body>
+<title>Dashboard Planes GHL — {esc(run_date)}</title>{CSS}{EXTRA_CSS}</head><body>
 <div class="hdr"><div class="hdr-in">
   <h1>Dashboard de Planes <b>· {esc(subtitle)}</b></h1>
   <div class="meta">Último escaneo: <b>{esc(run_date)}</b><br>Análisis anterior: {esc(prev_date)}<br>Frecuencia: <b>Semanal</b></div>

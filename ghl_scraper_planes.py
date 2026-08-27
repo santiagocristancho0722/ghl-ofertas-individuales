@@ -83,27 +83,32 @@ IROTAMA_PLAN_SLUG = {
 # forma fiable en modo headless). Se mantiene como OVERRIDE MANUAL con los precios vigentes.
 # >>> Actualizar precios aqui cuando cambien (verificar en el link). <<<
 MAKANI_LINK = "https://pasadias.makaniluxury.com/tickets-hotelesdelaantiguasas/es/comprarEvento?idEvento=3"
+MAKANI_TYC = ("No aplica para grupos o eventos de mas de 12 personas. Las ubicaciones en la "
+              "piscina no estan incluidas en el valor del pasadia y tienen un costo adicional; "
+              "escribenos para adicionar un upgrade de ubicacion a tu reserva.")
+# (titulo, precio, descripcion, descuento_con_contexto)
 MAKANI_OVERRIDE = [
     ("DAYPASS Club Edition A (para dos)", "COP $ 630,000",
-     "Plan para dos. Transporte maritimo ida y regreso, uso de asoleadora, picada para compartir, 2 cocteles y actividades acuaticas."),
+     "Plan para dos. Transporte maritimo ida y regreso, uso de asoleadora, picada para compartir, 2 cocteles y actividades acuaticas.", None),
     ("DAYPASS Mana", "COP $ 440,000",
-     "Transporte maritimo ida y regreso, bebida de bienvenida, uso de asoleadora, almuerzo a la carta (plato fuerte, bebida y postre) y 20% de descuento en Spa."),
+     "Transporte maritimo ida y regreso, bebida de bienvenida, uso de asoleadora y almuerzo a la carta (plato fuerte, bebida y postre).",
+     "20% en servicios de Spa"),
     ("DAYPASS Elua (para dos)", "COP $ 1,160,000",
-     "Plan para dos personas. Transporte maritimo ida y regreso, bebida de bienvenida, uso de asoleadora, almuerzo a la carta, 4 cocteles o 1 botella de vino y masaje holistico de 45 minutos."),
+     "Plan para dos personas. Transporte maritimo ida y regreso, bebida de bienvenida, uso de asoleadora, almuerzo a la carta, 4 cocteles o 1 botella de vino y masaje holistico de 45 minutos.", None),
     ("DAYPASS Live Makani (adulto)", "COP $ 280,000",
-     "Transporte maritimo ida y regreso, ubicacion en Zona Kai, coctel de bienvenida sin licor y uso de areas comunes."),
+     "Transporte maritimo ida y regreso, ubicacion en Zona Kai, coctel de bienvenida sin licor y uso de areas comunes.", None),
     ("DAYPASS Live Makani (nino)", "COP $ 184,000",
-     "Transporte maritimo ida y regreso, ubicacion en Zona Kai, coctel de bienvenida sin licor y uso de areas comunes."),
+     "Transporte maritimo ida y regreso, ubicacion en Zona Kai, coctel de bienvenida sin licor y uso de areas comunes.", None),
 ]
 
 def makani_override(hotel_code):
     unified = []
-    for titulo, precio, desc in MAKANI_OVERRIDE:
+    for titulo, precio, desc, descuento in MAKANI_OVERRIDE:
         es = {"lang": "es", "url": MAKANI_LINK, "page_url": MAKANI_LINK, "slug": "",
               "hotel": "Makani Luxury Wanderlust", "hotel_code": hotel_code,
               "titulo": titulo, "nombre_corto": titulo, "titular": "",
-              "descripcion": desc, "categoria": "Pasadía", "descuento": None,
-              "precio_desde": precio, "vigencia": None}
+              "descripcion": desc, "categoria": "Pasadía", "descuento": descuento,
+              "precio_desde": precio, "vigencia": None, "tyc": MAKANI_TYC}
         oid = hashlib.md5(titulo.encode()).hexdigest()[:6]
         unified.append({"hotel": "Makani Luxury Wanderlust", "hotel_code": hotel_code,
                         "categoria": "Pasadía", "id": f"plan_{hotel_code}_{oid}",
@@ -194,10 +199,49 @@ def extract_price(text):
     return out[0] if out else None   # precio principal (el primero valido)
 
 def extract_descuento(text):
-    for d in re.findall(r'(\d+)\s*%', text or ""):
-        if 0 < int(d) < 100:
-            return f"{d}%"
+    """Devuelve el descuento CON su referencia (a que aplica), p. ej. "20% en carta de Spa",
+    porque el % suele ser para comida/spa/otros servicios y NO para el precio del plan.
+
+    Solo cuenta como descuento si hay lenguaje de descuento ("descuento/dcto/off/discount")
+    cerca del %. Asi se descartan porcentajes que NO son descuento: IGV/IVA/impuestos,
+    cargos por servicio ("10% de Servicios"), "cobrado al 100%", "no incluye ... %"."""
+    t = re.sub(r'\s+', ' ', text or "")
+    for m in re.finditer(r'(\d{1,3})\s*%', t):
+        pct = int(m.group(1))
+        if not (0 < pct < 100):
+            continue
+        pre = t[max(0, m.start() - 30):m.start()].lower()
+        post = t[m.end():m.end() + 75]
+        window = (pre + " " + post).lower()
+        if not re.search(r'descuento|dcto|discount|\boff\b|rebaja', window):
+            continue  # no es un descuento (p. ej. IGV, servicios, cobro al 100%)
+        if re.search(r'no\s+incluye|not\s+included|sin\s+incluir|excluding', pre):
+            continue
+        # objeto del descuento: "en/sobre/para <X>" hasta un separador
+        mo = re.search(r'(?:en|sobre|para|off|on)\s+([^.•;()]+?)(?:\s+-\s+|[.•;()]|$)', post, re.I)
+        if mo:
+            ctx = re.sub(r'^(?:the|our|nuestra?s?|en|on|in|de)\s+', '', mo.group(1).strip(' .,-'), flags=re.I)
+            ctx = re.sub(r'\s+', ' ', ctx)[:45].strip(' .,-')
+            if ctx:
+                return f"{pct}% en {ctx}"
+        return f"{pct}% de descuento"
     return None
+
+def extract_tyc(text):
+    """Extrae el bloque 'TERMINOS Y CONDICIONES' (o 'Terms & Conditions') de la pagina de
+    detalle del plan. Devuelve el texto compactado o None."""
+    t = text or ""
+    m = re.search(r't[eé]rminos\s+y\s+condiciones|terms?\s*(?:and|&)\s*conditions', t, re.I)
+    if not m:
+        return None
+    seg = t[m.end():]
+    # corta marcadores de pie de pagina (aunque no haya salto de linea)
+    seg = re.split(r'(?:pol[ií]tica\s+de\s+(?:privacidad|cookies)|newsletter|s[ií]guenos|follow us|copyright|©)', seg, flags=re.I)[0]
+    # corta secciones de "otras tarjetas" solo si vienen tras salto de linea
+    seg = re.split(r'\n\s*(?:conoce|otros planes|related|tambi[eé]n te)', seg, flags=re.I)[0]
+    seg = re.sub(r'\s*\n\s*', ' ', seg)
+    seg = re.sub(r'\s+', ' ', seg).strip(' :·|')
+    return seg[:650] or None
 
 def url_slug(href):
     m = re.search(r'/(?:planes|plans)/([^/?#]+)', href or "")
@@ -226,8 +270,29 @@ def build_lang_plan(hotel_display, page_url, lang, raw, hotel_code):
         "titulo": titulo, "nombre_corto": titulo, "titular": "",
         "descripcion": descripcion, "categoria": detect_category(titulo, descripcion),
         "descuento": extract_descuento(full), "precio_desde": extract_price(full),
-        "vigencia": extract_vigencia(descripcion),
+        "vigencia": extract_vigencia(descripcion), "tyc": None,
     }
+
+async def enrich_from_detail(page, lp):
+    """Visita la pagina de detalle del plan (el href) para extraer el bloque TERMINOS Y
+    CONDICIONES y completar precio/descuento/vigencia si faltaban. Solo aplica a paginas de
+    detalle del propio sitio (/planes/... o /plans/...), no a motores de reserva externos."""
+    href = lp.get("url") or ""
+    if not re.search(r'/(?:planes|plans)/[^/?#]+', href):
+        return
+    try:
+        await page.goto(href, wait_until="domcontentloaded", timeout=25000)
+        await page.wait_for_timeout(2000)
+        body = await page.evaluate("() => document.body.innerText")
+    except Exception:
+        return
+    lp["tyc"] = extract_tyc(body)
+    if not lp.get("precio_desde"):
+        lp["precio_desde"] = extract_price(body)
+    if not lp.get("descuento"):
+        lp["descuento"] = extract_descuento(body)
+    if not lp.get("vigencia"):
+        lp["vigencia"] = extract_vigencia(body)
 
 def norm_price(p):
     """Normaliza precio para comparar ES/EN (formato difiere: 'COP $ 688,700' vs 'COP 688,700').
@@ -327,6 +392,9 @@ async def scrape_hotel(page, hotel_entry, code_map):
         slug_kw = IROTAMA_PLAN_SLUG.get(hotel_entry.get("hotel_code_filter"))
         if slug_kw:
             built = [b for b in built if slug_kw in (b.get("slug") or "")]
+        # enriquece cada plan con T&C (y precio/descuento/vigencia faltantes) desde su detalle
+        for lp in built:
+            await enrich_from_detail(page, lp)
         per_lang[lang] = built
         lang_ok[lang] = True
         print(f"OK {len(built)} plan(es)")
