@@ -17,7 +17,7 @@ _ANCHOR = "Frecuencia: <b>Semanal</b></div>"
 
 _STYLE = """
 <style>
-.poc-tabs{display:flex;gap:9px;margin-top:16px;flex-wrap:wrap}
+.poc-tabs{display:flex;gap:9px;margin-top:18px;flex-wrap:wrap;flex-basis:100%;width:100%}
 .poc-tabs a{display:inline-block;text-decoration:none;font-size:13.5px;font-weight:600;
   padding:8px 24px;border-radius:999px;line-height:1;transition:.15s;
   background:rgba(255,255,255,.13);color:#eaf1f7;border:1px solid rgba(255,255,255,.32)}
