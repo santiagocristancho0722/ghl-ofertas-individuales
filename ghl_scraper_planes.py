@@ -78,6 +78,38 @@ IROTAMA_PLAN_SLUG = {
     "irolago": "full-lago", "irorvd": "reservado", "iroxxl": "xxi",
 }
 
+# Makani: los daypass reales con precio viven en la ticketera pasadias.makaniluxury.com
+# (flujo de compra que exige elegir fecha -> hora -> tipo de boleto; no es scrapeable de
+# forma fiable en modo headless). Se mantiene como OVERRIDE MANUAL con los precios vigentes.
+# >>> Actualizar precios aqui cuando cambien (verificar en el link). <<<
+MAKANI_LINK = "https://pasadias.makaniluxury.com/tickets-hotelesdelaantiguasas/es/comprarEvento?idEvento=3"
+MAKANI_OVERRIDE = [
+    ("DAYPASS Club Edition A (para dos)", "COP $ 630,000",
+     "Plan para dos. Transporte maritimo ida y regreso, uso de asoleadora, picada para compartir, 2 cocteles y actividades acuaticas."),
+    ("DAYPASS Mana", "COP $ 440,000",
+     "Transporte maritimo ida y regreso, bebida de bienvenida, uso de asoleadora, almuerzo a la carta (plato fuerte, bebida y postre) y 20% de descuento en Spa."),
+    ("DAYPASS Elua (para dos)", "COP $ 1,160,000",
+     "Plan para dos personas. Transporte maritimo ida y regreso, bebida de bienvenida, uso de asoleadora, almuerzo a la carta, 4 cocteles o 1 botella de vino y masaje holistico de 45 minutos."),
+    ("DAYPASS Live Makani (adulto)", "COP $ 280,000",
+     "Transporte maritimo ida y regreso, ubicacion en Zona Kai, coctel de bienvenida sin licor y uso de areas comunes."),
+    ("DAYPASS Live Makani (nino)", "COP $ 184,000",
+     "Transporte maritimo ida y regreso, ubicacion en Zona Kai, coctel de bienvenida sin licor y uso de areas comunes."),
+]
+
+def makani_override(hotel_code):
+    unified = []
+    for titulo, precio, desc in MAKANI_OVERRIDE:
+        es = {"lang": "es", "url": MAKANI_LINK, "page_url": MAKANI_LINK, "slug": "",
+              "hotel": "Makani Luxury Wanderlust", "hotel_code": hotel_code,
+              "titulo": titulo, "nombre_corto": titulo, "titular": "",
+              "descripcion": desc, "categoria": "Pasadía", "descuento": None,
+              "precio_desde": precio, "vigencia": None}
+        oid = hashlib.md5(titulo.encode()).hexdigest()[:6]
+        unified.append({"hotel": "Makani Luxury Wanderlust", "hotel_code": hotel_code,
+                        "categoria": "Pasadía", "id": f"plan_{hotel_code}_{oid}",
+                        "es": es, "en": None, "hash": plan_hash(es)})
+    return unified
+
 def build_code_map():
     m = {}
     p = OUT_DIR / "_individual_bil.json"
@@ -106,6 +138,7 @@ def _norm(s):
     return s.lower()
 
 PLAN_CATEGORIES = {
+    "Pasadía": ["pasadia", "daypass", "day pass", "club de playa", "beach club"],
     "Noche de bodas": ["noche de boda", "wedding night", "luna de miel", "honeymoon", "boda"],
     "Aniversario": ["aniversario", "anniversary"],
     "Cumpleaños": ["cumplea", "birthday"],
@@ -272,6 +305,10 @@ async def scrape_hotel(page, hotel_entry, code_map):
     name = hotel_entry["hotel"]
     extractor = hotel_entry.get("extractor")
     hotel_code = code_map.get(name) or slugify(name)
+    if name == "Makani Luxury Wanderlust":
+        # Precios en ticketera externa (no scrapeable headless): override manual.
+        print(f"  [OVERRIDE] Makani: {len(MAKANI_OVERRIDE)} daypass (precios manuales)")
+        return makani_override(hotel_code), True
     if extractor == "bastion":
         print("  [SKIP] Bastion: plataforma sin ruta de planes mapeada")
         return [], True

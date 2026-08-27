@@ -34,6 +34,7 @@ CAT_COLORS = {
     "Familiar":         ("#e8f5ee", "#0f6e56"),
     "Gastronómico":     ("#e3f4f4", "#0d6b6b"),
     "Bienestar/Spa":    ("#e7f5ec", "#1a7a4a"),
+    "Pasadía":          ("#e3f4f4", "#0d6b6b"),
     "Plan General":     ("#eef1f5", "#2A5E95"),
 }
 
