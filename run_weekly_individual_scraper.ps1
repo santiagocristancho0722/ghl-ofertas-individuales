@@ -10,6 +10,13 @@ Set-Location $proj
 $fecha = Get-Date -Format "yyyy-MM-dd HH:mm"
 Add-Content $log "`n=== $fecha ==="
 
+# Auto-repara el navegador de Playwright: se ha visto desaparecer entre corridas (Playwright
+# se auto-actualiza o algo lo remueve), lo que hacia fallar el escaneo con "Executable doesn't
+# exist ... chrome-headless-shell.exe". Reinstalar es idempotente: no-op rapido si ya esta,
+# lo descarga si falta. Se corre en el MISMO entorno de la tarea, justo antes de escanear.
+& $py -m playwright install chromium 1>$null 2>$null
+Add-Content $log "playwright install chromium -> exit $LASTEXITCODE"
+
 # Nota: no se combina stdout/stderr con 2>&1 (eso envuelve cada linea de stderr como
 # NativeCommandError en PowerShell 5.1 aunque el proceso termine bien). En su lugar,
 # stderr se redirige a un archivo aparte (redireccion nativa, no merge de streams) para

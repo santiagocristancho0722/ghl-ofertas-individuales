@@ -12,6 +12,12 @@ Set-Location $proj
 $fecha = Get-Date -Format "yyyy-MM-dd HH:mm"
 Add-Content $log "`n=== $fecha ==="
 
+# Auto-repara el navegador de Playwright (ver nota en run_weekly_individual_scraper.ps1):
+# se ha visto desaparecer entre corridas; reinstalar es idempotente y evita el fallo
+# "Executable doesn't exist ... chrome-headless-shell.exe".
+& $py -m playwright install chromium 1>$null 2>$null
+Add-Content $log "playwright install chromium -> exit $LASTEXITCODE"
+
 # stderr a archivo aparte (no 2>&1: en PS 5.1 eso envuelve stderr como NativeCommandError)
 if (Test-Path $stderrFile) { Remove-Item $stderrFile -Force }
 & $py "ghl_scraper_planes.py" 2> $stderrFile | Tee-Object -Append -FilePath $log
