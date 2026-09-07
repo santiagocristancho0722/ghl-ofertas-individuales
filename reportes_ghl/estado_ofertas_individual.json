@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 13,
-  "last_run": "2026-09-04 09:20",
-  "prev_run": "2026-08-31 12:42",
+  "escaneos": 14,
+  "last_run": "2026-09-07 09:09",
+  "prev_run": "2026-09-04 09:20",
   "last_kpis": {
     "activas": 102,
-    "nuevas": 3,
-    "eliminadas": 1,
-    "cambios": 2,
-    "escaneos": 13
+    "nuevas": 0,
+    "eliminadas": 0,
+    "cambios": 0,
+    "escaneos": 14
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -96,7 +96,7 @@
       "c_sub": "",
       "c_desc": "¡Haz una pausa y disfruta de una experiencia diferente! Obtén 15% de descuento en tu estadía y escápate al norte de Bogotá durante septiembre. Reserva: hasta el 30 de septiembre de 2026 Estadías: hasta el 30 de septiembre de 2026 ¡Reserva ahora y vive tu escapada de septiembre!",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:20",
       "cambios": [],
       "fecha_cambio": ""
@@ -564,7 +564,7 @@
       "c_sub": "",
       "c_desc": "Incluye alojamiento en acomodación doble, desayuno buffet, parqueadero . Todas nuestras habitaciones con vista frente al mar. El lugar perfecto para relajarte, divertirte y disfrutar de Cartagena.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:20",
       "cambios": [],
       "fecha_cambio": ""
@@ -942,12 +942,10 @@
       "c_sub": "",
       "c_desc": "En Makani creemos que lo mejor de la isla sucede cuando el tiempo se detiene. Por eso, cuando reservas una noche, nosotros nos encargamos de la segunda y tienes un masaje para dos incluido. Un día extra para seguir disfrutando del mar, el sol y esos momentos inesperados que solo se viven aquí.",
       "c_disc": null,
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-09-04 09:20"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "makani_unmesesdeantelacion": {
       "hash": "c1ea362c0da915f88a55666d0bbc09cd",
@@ -980,7 +978,7 @@
       "c_sub": "",
       "c_desc": "Descubre una estadía diseñada para dos, donde el confort, la privacidad y la esencia de Makani se encuentran en perfecta armonía. Despierta rodeado de serenidad tropical y comienza el día con un desayuno a la carta inspirado en la selección de nuestro chef. Disfruta de 56 m² de confort y sofisticación, con vista a la piscina o a exuberantes jardines, acceso directo a la piscina principal y un baño inspirado en un spa con ducha abierta. Completa tu experiencia con un recorrido gastronómico durante tu estadía, que incluye desayuno, almuerzo y cena de la carta de nuestro chef, pensado para disfru",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:20",
       "cambios": [],
       "fecha_cambio": ""
@@ -1250,14 +1248,10 @@
       "c_sub": "",
       "c_desc": "Asegura tu estadía con 30 días de anticipación y disfruta del confort exclusivo de Sonesta Hotel El Olivar. Ubicado frente al histórico Bosque El Olivar en San Isidro, te ofrecemos la combinación perfecta entre la serenidad de la naturaleza y la cercanía al centro financiero de Lima. Tu reserva incluye desayuno buffet, acceso a piscina exterior, gimnasio, Wi-Fi de alta velocidad y estacionamiento gratuito.",
       "c_disc": "12%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-31 12:42",
-      "cambios": [
-        "Descuento/beneficio: — → 12%",
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-09-04 09:20"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsonolivar_lasmtdof": {
       "hash": "f3a80be9e2ec73257411df74435e924a",
