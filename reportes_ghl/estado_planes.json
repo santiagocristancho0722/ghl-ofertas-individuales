@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 3,
-  "last_run": "2026-09-04 09:36",
-  "prev_run": "2026-08-31 12:58",
+  "escaneos": 4,
+  "last_run": "2026-09-07 09:25",
+  "prev_run": "2026-09-04 09:36",
   "last_kpis": {
-    "activas": 95,
-    "nuevas": 5,
+    "activas": 99,
+    "nuevas": 4,
     "eliminadas": 0,
-    "cambios": 1,
-    "escaneos": 3
+    "cambios": 0,
+    "escaneos": 4
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -96,7 +96,7 @@
       "c_sub": "",
       "c_desc": "Incluye:\n• Noche de alojamiento habitación Deluxe.\n• Decoración especial en la habitación.\n• Botella de Vino (blanco o tinto).\n• Late check out 2 pm.\n• Parqueadero Incluido",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:36",
       "cambios": [],
       "fecha_cambio": ""
@@ -114,7 +114,7 @@
       "c_sub": "",
       "c_desc": "Incluye:\n• Noche habitación Superior.\n• Kit Concierto.\n• Transporte Recogida.\n• Desayuno en la Habitación.\n• Late check out 2 pm.\n• Parqueadero.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:36",
       "cambios": [],
       "fecha_cambio": ""
@@ -528,7 +528,7 @@
       "c_sub": "",
       "c_desc": "Una Noche a tu manera · Alojamiento Habitación Estándar para dos.\n· Cena Menú definido para dos (Plato Fuerte con Bebida)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:36",
       "cambios": [],
       "fecha_cambio": ""
@@ -546,7 +546,7 @@
       "c_sub": "",
       "c_desc": "Incluye: · Alojamiento Habitación Estándar\n· Masaje para dos personas (30 minutos) Aplica condiciones y restricciones. Sujeto a disponibilidad",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:36",
       "cambios": [],
       "fecha_cambio": ""
@@ -564,12 +564,10 @@
       "c_sub": "",
       "c_desc": "Incluye: - Habitación para dos , desayuno\n- Decoración Básica y Lencería",
       "c_disc": null,
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-09-04 09:36"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "plan_ghlmonteria_cena-romantica-monteria": {
       "hash": "1dd735c10cfd9f132c8f62c3c27a705e",
@@ -643,6 +641,60 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "plan_ghlcoralesindias_cena-romantica": {
+      "hash": "08d09c5578d766d34251c7162c06bcda",
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "Cena Romántica",
+      "categoria": "Gastronómico",
+      "url": "https://www.coralesdeindias.com/planes/cena-romantica",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Cena Romántica",
+      "c_sub": "",
+      "c_desc": "Celebra con una cena para dos personas en el Restaurante Manglares con un menú completo.\nSábado 19 de septiembre Incluye:\n. Entrada, plato fuerte, postre y copa de vino.\n. Y continúa la celebración en el Bar Alcatraz con 2 cócteles de cortesía. Impuestos incluidos.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-09-07 09:25",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "plan_ghlcoralesindias_brunch-amor-y-amistad": {
+      "hash": "7a2511aa4cab80d96b883a8d81f8139b",
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "Brunch Amor y Amistad",
+      "categoria": "Romántico",
+      "url": "https://www.coralesdeindias.com/planes/brunch-amor-y-amistad",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Brunch Amor y Amistad",
+      "c_sub": "",
+      "c_desc": "Celébralo con todo lo que puedas comer! Ven con quienes amas: amigos, familiares o en pareja. Si vienes en grupo, pagan 4 y disfrutan. 15% OFF Si haces parte de Cafam o Comfenalco. Qué incluye?\n- 1 mimosa de bienvenida.\n- Bebidas saborizadas ilimitadas.\n- Parking. $155.000 Adultos\n$77.500 Niños (hasta los 11 años)",
+      "c_disc": "15% en Si haces parte de Cafam o Comfenalco",
+      "estado": "nueva",
+      "fecha_alta": "2026-09-07 09:25",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "plan_ghlcoralesindias_aca-la-familia-se-hospeda-completa": {
+      "hash": "6fe3dd98b3d977a3945e247e0483580a",
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "¡Acá la Familia Se Hospeda Completa!",
+      "categoria": "Bienestar/Spa",
+      "url": "https://www.coralesdeindias.com/planes/aca-la-familia-se-hospeda-completa",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "¡Acá la familia SE HOSPEDA completa!",
+      "c_sub": "",
+      "c_desc": "En Corales de Indias creamos espacios pensados para que tus mascotas disfruten contigo de una estadía segura, cómoda y feliz. Requisitos de ingreso\nSe aceptan perros y gatos como animales de compañía. Peso máximo: 12 Kg. Máximo 2 mascotas por habitación. Carnet de vacunas vigente al momento del check-in.\nNo se admiten especies silvestres, en peligro de extinción, ni razas consideradas potencialmente peligrosas según el código de policía nacional.\nTarifa $100.000 COP + IVA (19%) por noche, por mascota. Incluye préstamo de cama para tu mascota. (Si es gato, el dueño debe traer su propia arenera)",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-09-07 09:25",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "plan_ghlcostazul_pasadia": {
       "hash": "84cda27368f477568917804b0c816735",
       "hotel": "GHL Relax Costa Azul",
@@ -676,6 +728,24 @@
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-08-27 11:30",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "plan_ghlstylebarrancabermeja_tu-pausa-en-el-camino": {
+      "hash": "3210f8419e268397d9a0c4a63fc1f9de",
+      "hotel": "GHL Style Barrancabermeja",
+      "hotel_code": "ghlstylebarrancabermeja",
+      "titulo": "Tu Pausa en el Camino",
+      "categoria": "Familiar",
+      "url": "https://www.ghlstylebarrancabermeja.com/planes/tu-pausa-en-el-camino",
+      "country": "Colombia",
+      "city": "Barrancabermeja",
+      "c_tit": "TU PAUSA EN EL CAMINO",
+      "c_sub": "",
+      "c_desc": "La mitad del camino es para descansar y si por la ruta del sol a la costa vas, el lugar para recargar es GHL Style Barrancabermeja. Incluye:\n- Alojamiento acomodacion Doble y hasta dos niños de 0 a 5 años gratis en la Habitacion de los Padres\n- Coctel de Bienvenida.\n- Helado para el niño.\n- Desayuno Tipo Buffet.\n- Acceso al Jacuzzi piso 12 y vista a la Ciénaga.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-09-07 09:25",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1646,7 +1716,7 @@
       "c_sub": "",
       "c_desc": "El plan incluye: • Traslados aeropuerto – hotel – aeropuerto, en servicio colectivo.\n• Bebida de bienvenida a la llegada.\n• ️ Alojamiento en el tipo de habitación seleccionado, de acuerdo con el número de noches escogidas.\n• Desayunos, incluidos por cada noche de alojamiento.\n• Masaje relajante de 50 minutos por persona, una vez durante la estadía.\n• Wi-Fi durante la estadía.\n• Actividades recreativas dirigidas de acuerdo con la programación del hotel.\n• Aplica para habitaciones: Standard lago y Bungalow standard.\n\nMuy importante: el huésped debe comunicarse días previos a su llegada y reserva",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-04 09:36",
       "cambios": [],
       "fecha_cambio": ""
