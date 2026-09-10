@@ -1466,6 +1466,31 @@
   {
     "hotel": "GHL Style Barrancabermeja",
     "hotel_code": "ghlstylebarrancabermeja",
+    "categoria": "Noche de bodas",
+    "id": "plan_ghlstylebarrancabermeja_plan-noche-de-bodas-barranca",
+    "es": {
+      "lang": "es",
+      "url": "https://www.ghlstylebarrancabermeja.com/planes/plan-noche-de-bodas-barranca",
+      "page_url": "https://www.ghlstylebarrancabermeja.com/planes",
+      "slug": "plan-noche-de-bodas-barranca",
+      "hotel": "GHL Style Barrancabermeja",
+      "hotel_code": "ghlstylebarrancabermeja",
+      "titulo": "PLAN NOCHE DE BODAS",
+      "nombre_corto": "PLAN NOCHE DE BODAS",
+      "titular": "",
+      "descripcion": "Incluye:\n· Alojamiento en nuestra SUITES y decoracion especial.\n· Desayuno Buffet en nuestro Restauranteo o en la Habitacion.\n· Fresas achocolatadas.\n· CENA para el primer mes de casados, servida en Roftoop CUMBRE piso 12 con entrada + plato fuerte + postre + Botella de vino y Decoracion especial para la Mesa (previa reserva)",
+      "categoria": "Noche de bodas",
+      "descuento": null,
+      "precio_desde": "COP $ 695,000",
+      "vigencia": null,
+      "tyc": "• Este plan lo debes reservar con 48 horas de anticipación. • Tu plan será cobrado al 100% una vez realices la reserva. • Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Tu plan incluye Desayuno. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
+    },
+    "en": null,
+    "hash": "1a121d4f552a01d2a4df541225adfad1"
+  },
+  {
+    "hotel": "GHL Style Barrancabermeja",
+    "hotel_code": "ghlstylebarrancabermeja",
     "categoria": "Familiar",
     "id": "plan_ghlstylebarrancabermeja_tu-pausa-en-el-camino",
     "es": {
@@ -3010,43 +3035,43 @@
   {
     "hotel": "Sonesta Bogota",
     "hotel_code": "ghlsonbogota",
-    "categoria": "Fin de semana",
-    "id": "plan_ghlsonbogota_plan-encanto-fin-de-semana",
+    "categoria": "Romántico",
+    "id": "plan_ghlsonbogota_the-couple-edit",
     "es": {
       "lang": "es",
-      "url": "https://www.sonestabogota.com/planes/plan-encanto-fin-de-semana",
+      "url": "https://www.sonestabogota.com/planes/the-couple-edit",
       "page_url": "https://www.sonestabogota.com/planes",
-      "slug": "plan-encanto-fin-de-semana",
+      "slug": "the-couple-edit",
       "hotel": "Sonesta Bogota",
       "hotel_code": "ghlsonbogota",
-      "titulo": "PLAN ENCANTO FIN DE SEMANA",
-      "nombre_corto": "PLAN ENCANTO FIN DE SEMANA",
+      "titulo": "THE COUPLE EDIT",
+      "nombre_corto": "THE COUPLE EDIT",
       "titular": "",
-      "descripcion": "Incluye:\n- Habitación Superior\n- Amenities de Lujo\n- Masaje Relajante en pareja\n- 2 cocteles de la casa en el restaurante Cook's PorterHouse\n- Desayuno en la habitación\n- Late Check out 3 pm\n- Parqueadero Gratis Condiciones y restricciones:\n- IVA Incluido al finalizar la transacción.\n- La reserva debe estar prepagada al 100% antes del registro\n- Sujeto a disponibilidad\n- Modificaciones mínimo 24 horas antes\n- No incluye Seguro Hotelero opcional COP $4.200 por persona por noche",
-      "categoria": "Fin de semana",
+      "descripcion": "Incluye:\n- Habitación Superior\n- Amenities de Lujo\n- Masaje de aromaterapia en pareja\n- 2 cocteles de la casa en el restaurante Cook's PorterHouse\n- Desayuno en la habitación\n- Late Check out 3 pm\n- Parqueadero Gratis Condiciones y restricciones:\n- IVA Incluido al finalizar la transacción.\n- La reserva debe estar prepagada al 100% antes del registro\n- Sujeto a disponibilidad\n- Modificaciones mínimo 24 horas antes\n- No incluye Seguro Hotelero opcional COP $4.200 por persona por noche",
+      "categoria": "Romántico",
       "descuento": null,
-      "precio_desde": "COP $ 654,600",
+      "precio_desde": "COP $ 730,000",
       "vigencia": null,
       "tyc": "• Este plan lo debes reservar con 2 días de anticipación. • Puedes disfrutar este plan los días Viernes, Sábado, Domingo. • Con este plan tienes alojamiento en habitación Superior. • La decoración de este plan incluye velas y albornoz. • Las zonas que puedes disfrutar del hotel con el plan son: Spa, Gimnasio. • Tu plan incluye Desayuno. • Tu plan lo puedes pagar con: Prepago. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
     "en": {
       "lang": "en",
-      "url": "https://en.sonestabogota.com/plans/weekend-charm-plan",
+      "url": "https://en.sonestabogota.com/plans/the-couple-edit",
       "page_url": "https://en.sonestabogota.com/plans",
-      "slug": "weekend-charm-plan",
+      "slug": "the-couple-edit",
       "hotel": "Sonesta Bogota",
       "hotel_code": "ghlsonbogota",
-      "titulo": "WEEKEND CHARM PLAN",
-      "nombre_corto": "WEEKEND CHARM PLAN",
+      "titulo": "THE COUPLE EDIT",
+      "nombre_corto": "THE COUPLE EDIT",
       "titular": "",
       "descripcion": "Includes:\n- Superior Room\n- Luxury Amenities\n- Relaxing Couples Massage\n- 2 House Cocktails at the Cook's PorterHouse Restaurant\n- Breakfast in the Room\n- Late Check-Out at 3 PM\n- Free Parking Conditions and Restrictions:\n- VAT included at the end of the transaction.\n- The reservation must be prepaid 100% before check-in.\n- Subject to availability.\n- Modifications must be made at least 24 hours in advance.\n- Does not include optional Hotel Insurance at COP $4.200 per person per night.",
-      "categoria": "Fin de semana",
+      "categoria": "Romántico",
       "descuento": null,
-      "precio_desde": "COP 654,600",
+      "precio_desde": "COP 730,000",
       "vigencia": null,
       "tyc": "• This plan must be booked with 2 days in advance. • You can enjoy this plan on the following days Friday, Saturday, Sunday. • With this plan you have accommodation in a Superior twin room. • The decoration for this plan includes candles and bathrobe. • The areas of the hotel that you can enjoy with this plan are: Spa, Gym. • Your plan includes Breakfast. • Your plan can be paid with: Prepaid. BOOK Frequently Asked Questions Do you have parking? We have parking at no additional cost. Privacy Policy Data Protection Cookies policy Accommodation Contract GHL Hotels Superintendency of Industry and Commerce 2026"
     },
-    "hash": "3229d64e0accc89cb3f0654688e4ef34"
+    "hash": "30c14b948128cb1664e0aaf67ca75451"
   },
   {
     "hotel": "Sonesta Bogota",
@@ -3145,7 +3170,7 @@
       "titulo": "PLAN FIN DE SEMANA",
       "nombre_corto": "PLAN FIN DE SEMANA",
       "titular": "",
-      "descripcion": "ESCÁPATE A UN FIN DE SEMANA DE BIENESTAR EN SONESTA IBAGUÉ\nDisfruta de una experiencia diseñada para el descanso, la relajación y la desconexión total. Tu plan incluye:\n️**•** Alojamiento para dos personas – 3 días y 2 noches.\n• Desayuno buffet.\n**•**Masaje relajante para dos en Áurea Experience Spa.\n**•**Uso de zonas húmedas: piscina, jacuzzi y zonas de relajación.\n**•**10% de descuento en Senda Restaurante. Vive un fin de semana único de bienestar y confort en Sonesta Hotel Ibagué.",
+      "descripcion": "ESCÁPATE A UN FIN DE SEMANA DE BIENESTAR EN SONESTA IBAGUÉ\nDisfruta de una experiencia diseñada para el descanso, la relajación y la desconexión total. Tu plan incluye:\n️Alojamiento para dos personas – 3 días y 2 noches.\nDesayuno buffet.\nMasaje relajante para dos en Áurea Experience Spa.\nUso de zonas húmedas: piscina, jacuzzi y zonas de relajación.\n10% de descuento en Senda Restaurante. Vive un fin de semana único de bienestar y confort en Sonesta Hotel Ibagué.",
       "categoria": "Fin de semana",
       "descuento": "10% en Senda Restaurante",
       "precio_desde": "COP $ 860,000",
@@ -3169,7 +3194,7 @@
       "vigencia": null,
       "tyc": "• Your plan will be charged at 100% once the reservation is made. • You can enjoy this plan on the following days Friday, Saturday, Sunday. • With this plan you have accommodation in a Standard Room. • The areas of the hotel that you can enjoy with this plan are: Wet Areas, Gym, Pool. • Your plan includes Breakfast. • Your plan can be paid with: Prepaid. BOOK Frequently Asked Questions Do you have parking? We have parking at no additional cost. Privacy Policy Data Protection Cookies policy Accommodation Contract GHL Hotels Superintendency of Industry and Commerce 2026"
     },
-    "hash": "51f992221eeab56311b01ac002dd4d52"
+    "hash": "7e94d3be7a64af8e5a1f560504c53935"
   },
   {
     "hotel": "Sonesta Ibague",

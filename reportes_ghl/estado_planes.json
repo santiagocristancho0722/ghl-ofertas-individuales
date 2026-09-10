@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 4,
-  "last_run": "2026-09-07 09:25",
-  "prev_run": "2026-09-04 09:36",
+  "escaneos": 5,
+  "last_run": "2026-09-10 09:28",
+  "prev_run": "2026-09-07 09:25",
   "last_kpis": {
-    "activas": 99,
-    "nuevas": 4,
-    "eliminadas": 0,
-    "cambios": 0,
-    "escaneos": 4
+    "activas": 100,
+    "nuevas": 2,
+    "eliminadas": 1,
+    "cambios": 1,
+    "escaneos": 5
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -654,7 +654,7 @@
       "c_sub": "",
       "c_desc": "Celebra con una cena para dos personas en el Restaurante Manglares con un menú completo.\nSábado 19 de septiembre Incluye:\n. Entrada, plato fuerte, postre y copa de vino.\n. Y continúa la celebración en el Bar Alcatraz con 2 cócteles de cortesía. Impuestos incluidos.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-07 09:25",
       "cambios": [],
       "fecha_cambio": ""
@@ -672,7 +672,7 @@
       "c_sub": "",
       "c_desc": "Celébralo con todo lo que puedas comer! Ven con quienes amas: amigos, familiares o en pareja. Si vienes en grupo, pagan 4 y disfrutan. 15% OFF Si haces parte de Cafam o Comfenalco. Qué incluye?\n- 1 mimosa de bienvenida.\n- Bebidas saborizadas ilimitadas.\n- Parking. $155.000 Adultos\n$77.500 Niños (hasta los 11 años)",
       "c_disc": "15% en Si haces parte de Cafam o Comfenalco",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-07 09:25",
       "cambios": [],
       "fecha_cambio": ""
@@ -690,7 +690,7 @@
       "c_sub": "",
       "c_desc": "En Corales de Indias creamos espacios pensados para que tus mascotas disfruten contigo de una estadía segura, cómoda y feliz. Requisitos de ingreso\nSe aceptan perros y gatos como animales de compañía. Peso máximo: 12 Kg. Máximo 2 mascotas por habitación. Carnet de vacunas vigente al momento del check-in.\nNo se admiten especies silvestres, en peligro de extinción, ni razas consideradas potencialmente peligrosas según el código de policía nacional.\nTarifa $100.000 COP + IVA (19%) por noche, por mascota. Incluye préstamo de cama para tu mascota. (Si es gato, el dueño debe traer su propia arenera)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-07 09:25",
       "cambios": [],
       "fecha_cambio": ""
@@ -731,6 +731,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "plan_ghlstylebarrancabermeja_plan-noche-de-bodas-barranca": {
+      "hash": "e6ee5e1ad12d0797460c7154367b7ab6",
+      "hotel": "GHL Style Barrancabermeja",
+      "hotel_code": "ghlstylebarrancabermeja",
+      "titulo": "Plan Noche de Bodas",
+      "categoria": "Noche de bodas",
+      "url": "https://www.ghlstylebarrancabermeja.com/planes/plan-noche-de-bodas-barranca",
+      "country": "Colombia",
+      "city": "Barrancabermeja",
+      "c_tit": "PLAN NOCHE DE BODAS",
+      "c_sub": "",
+      "c_desc": "Incluye:\n· Alojamiento en nuestra SUITES y decoracion especial.\n· Desayuno Buffet en nuestro Restauranteo o en la Habitacion.\n· Fresas achocolatadas.\n· CENA para el primer mes de casados, servida en Roftoop CUMBRE piso 12 con entrada + plato fuerte + postre + Botella de vino y Decoracion especial para la Mesa (previa reserva)",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-09-10 09:28",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "plan_ghlstylebarrancabermeja_tu-pausa-en-el-camino": {
       "hash": "3210f8419e268397d9a0c4a63fc1f9de",
       "hotel": "GHL Style Barrancabermeja",
@@ -744,7 +762,7 @@
       "c_sub": "",
       "c_desc": "La mitad del camino es para descansar y si por la ruta del sol a la costa vas, el lugar para recargar es GHL Style Barrancabermeja. Incluye:\n- Alojamiento acomodacion Doble y hasta dos niños de 0 a 5 años gratis en la Habitacion de los Padres\n- Coctel de Bienvenida.\n- Helado para el niño.\n- Desayuno Tipo Buffet.\n- Acceso al Jacuzzi piso 12 y vista a la Ciénaga.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-07 09:25",
       "cambios": [],
       "fecha_cambio": ""
@@ -1451,21 +1469,21 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "plan_ghlsonbogota_plan-encanto-fin-de-semana": {
-      "hash": "da7ca8a541f73828605846e27aef9959",
+    "plan_ghlsonbogota_the-couple-edit": {
+      "hash": "51d685e2ea3a3876605e46aa7d0e19dd",
       "hotel": "Sonesta Bogota",
       "hotel_code": "ghlsonbogota",
-      "titulo": "Plan Encanto Fin de Semana",
-      "categoria": "Fin de semana",
-      "url": "https://www.sonestabogota.com/planes/plan-encanto-fin-de-semana",
+      "titulo": "The Couple Edit",
+      "categoria": "Romántico",
+      "url": "https://www.sonestabogota.com/planes/the-couple-edit",
       "country": "Colombia",
       "city": "Bogotá",
-      "c_tit": "PLAN ENCANTO FIN DE SEMANA",
+      "c_tit": "THE COUPLE EDIT",
       "c_sub": "",
-      "c_desc": "Incluye:\n- Habitación Superior\n- Amenities de Lujo\n- Masaje Relajante en pareja\n- 2 cocteles de la casa en el restaurante Cook's PorterHouse\n- Desayuno en la habitación\n- Late Check out 3 pm\n- Parqueadero Gratis Condiciones y restricciones:\n- IVA Incluido al finalizar la transacción.\n- La reserva debe estar prepagada al 100% antes del registro\n- Sujeto a disponibilidad\n- Modificaciones mínimo 24 horas antes\n- No incluye Seguro Hotelero opcional COP $4.200 por persona por noche",
+      "c_desc": "Incluye:\n- Habitación Superior\n- Amenities de Lujo\n- Masaje de aromaterapia en pareja\n- 2 cocteles de la casa en el restaurante Cook's PorterHouse\n- Desayuno en la habitación\n- Late Check out 3 pm\n- Parqueadero Gratis Condiciones y restricciones:\n- IVA Incluido al finalizar la transacción.\n- La reserva debe estar prepagada al 100% antes del registro\n- Sujeto a disponibilidad\n- Modificaciones mínimo 24 horas antes\n- No incluye Seguro Hotelero opcional COP $4.200 por persona por noche",
       "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-08-27 11:30",
+      "estado": "nueva",
+      "fecha_alta": "2026-09-10 09:28",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1506,7 +1524,7 @@
       "fecha_cambio": ""
     },
     "plan_sonestaibague_plan-fin-de-semana": {
-      "hash": "62ef9a7047137f70daa86da9da690f5a",
+      "hash": "32db8a5491fb2c32c6c5cb605b3d91ad",
       "hotel": "Sonesta Ibague",
       "hotel_code": "sonestaibague",
       "titulo": "Plan Fin de Semana",
@@ -1516,12 +1534,14 @@
       "city": "Ibagué",
       "c_tit": "PLAN FIN DE SEMANA",
       "c_sub": "",
-      "c_desc": "ESCÁPATE A UN FIN DE SEMANA DE BIENESTAR EN SONESTA IBAGUÉ\nDisfruta de una experiencia diseñada para el descanso, la relajación y la desconexión total. Tu plan incluye:\n️**•** Alojamiento para dos personas – 3 días y 2 noches.\n• Desayuno buffet.\n**•**Masaje relajante para dos en Áurea Experience Spa.\n**•**Uso de zonas húmedas: piscina, jacuzzi y zonas de relajación.\n**•**10% de descuento en Senda Restaurante. Vive un fin de semana único de bienestar y confort en Sonesta Hotel Ibagué.",
+      "c_desc": "ESCÁPATE A UN FIN DE SEMANA DE BIENESTAR EN SONESTA IBAGUÉ\nDisfruta de una experiencia diseñada para el descanso, la relajación y la desconexión total. Tu plan incluye:\n️Alojamiento para dos personas – 3 días y 2 noches.\nDesayuno buffet.\nMasaje relajante para dos en Áurea Experience Spa.\nUso de zonas húmedas: piscina, jacuzzi y zonas de relajación.\n10% de descuento en Senda Restaurante. Vive un fin de semana único de bienestar y confort en Sonesta Hotel Ibagué.",
       "c_disc": "10% en Senda Restaurante",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-09-10 09:28"
     },
     "plan_sonestaibague_plan-noche-romantica-king": {
       "hash": "6c819fab3f347b2d2a848adae25bff25",
@@ -1794,5 +1814,26 @@
       "fecha_cambio": ""
     }
   },
-  "removed": []
+  "removed": [
+    {
+      "hash": "da7ca8a541f73828605846e27aef9959",
+      "hotel": "Sonesta Bogota",
+      "hotel_code": "ghlsonbogota",
+      "titulo": "Plan Encanto Fin de Semana",
+      "categoria": "Fin de semana",
+      "url": "https://www.sonestabogota.com/planes/plan-encanto-fin-de-semana",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "PLAN ENCANTO FIN DE SEMANA",
+      "c_sub": "",
+      "c_desc": "Incluye:\n- Habitación Superior\n- Amenities de Lujo\n- Masaje Relajante en pareja\n- 2 cocteles de la casa en el restaurante Cook's PorterHouse\n- Desayuno en la habitación\n- Late Check out 3 pm\n- Parqueadero Gratis Condiciones y restricciones:\n- IVA Incluido al finalizar la transacción.\n- La reserva debe estar prepagada al 100% antes del registro\n- Sujeto a disponibilidad\n- Modificaciones mínimo 24 horas antes\n- No incluye Seguro Hotelero opcional COP $4.200 por persona por noche",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-08-27 11:30",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "plan_ghlsonbogota_plan-encanto-fin-de-semana",
+      "fecha_baja": "2026-09-10 09:28"
+    }
+  ]
 }
