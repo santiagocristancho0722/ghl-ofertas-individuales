@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 5,
-  "last_run": "2026-09-10 09:28",
-  "prev_run": "2026-09-07 09:25",
+  "escaneos": 6,
+  "last_run": "2026-09-14 09:25",
+  "prev_run": "2026-09-10 09:28",
   "last_kpis": {
     "activas": 100,
-    "nuevas": 2,
-    "eliminadas": 1,
-    "cambios": 1,
-    "escaneos": 5
+    "nuevas": 0,
+    "eliminadas": 0,
+    "cambios": 0,
+    "escaneos": 6
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -744,7 +744,7 @@
       "c_sub": "",
       "c_desc": "Incluye:\n· Alojamiento en nuestra SUITES y decoracion especial.\n· Desayuno Buffet en nuestro Restauranteo o en la Habitacion.\n· Fresas achocolatadas.\n· CENA para el primer mes de casados, servida en Roftoop CUMBRE piso 12 con entrada + plato fuerte + postre + Botella de vino y Decoracion especial para la Mesa (previa reserva)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-10 09:28",
       "cambios": [],
       "fecha_cambio": ""
@@ -1482,7 +1482,7 @@
       "c_sub": "",
       "c_desc": "Incluye:\n- Habitación Superior\n- Amenities de Lujo\n- Masaje de aromaterapia en pareja\n- 2 cocteles de la casa en el restaurante Cook's PorterHouse\n- Desayuno en la habitación\n- Late Check out 3 pm\n- Parqueadero Gratis Condiciones y restricciones:\n- IVA Incluido al finalizar la transacción.\n- La reserva debe estar prepagada al 100% antes del registro\n- Sujeto a disponibilidad\n- Modificaciones mínimo 24 horas antes\n- No incluye Seguro Hotelero opcional COP $4.200 por persona por noche",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-10 09:28",
       "cambios": [],
       "fecha_cambio": ""
@@ -1536,12 +1536,10 @@
       "c_sub": "",
       "c_desc": "ESCÁPATE A UN FIN DE SEMANA DE BIENESTAR EN SONESTA IBAGUÉ\nDisfruta de una experiencia diseñada para el descanso, la relajación y la desconexión total. Tu plan incluye:\n️Alojamiento para dos personas – 3 días y 2 noches.\nDesayuno buffet.\nMasaje relajante para dos en Áurea Experience Spa.\nUso de zonas húmedas: piscina, jacuzzi y zonas de relajación.\n10% de descuento en Senda Restaurante. Vive un fin de semana único de bienestar y confort en Sonesta Hotel Ibagué.",
       "c_disc": "10% en Senda Restaurante",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-09-10 09:28"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "plan_sonestaibague_plan-noche-romantica-king": {
       "hash": "6c819fab3f347b2d2a848adae25bff25",
