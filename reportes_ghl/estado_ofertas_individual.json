@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 16,
-  "last_run": "2026-09-14 09:07",
-  "prev_run": "2026-09-10 09:08",
+  "escaneos": 17,
+  "last_run": "2026-09-17 09:11",
+  "prev_run": "2026-09-14 09:07",
   "last_kpis": {
-    "activas": 100,
+    "activas": 102,
     "nuevas": 3,
-    "eliminadas": 4,
+    "eliminadas": 1,
     "cambios": 0,
-    "escaneos": 16
+    "escaneos": 17
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -186,7 +186,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-14 09:07",
       "cambios": [],
       "fecha_cambio": ""
@@ -420,7 +420,7 @@
       "c_sub": "",
       "c_desc": "Planea tus vacaciones con tiempo y asegura una estancia inolvidable a orillas del lago navegable más alto del mundo. Reserva con al menos 30 días de anticipación y obtén un 18% de descuento exclusivo en tu hospedaje. Disfruta de paisajes únicos, tranquilidad absoluta y el confort característico de GHL Hotels.",
       "c_disc": "18%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-14 09:07",
       "cambios": [],
       "fecha_cambio": ""
@@ -965,24 +965,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "makani_unmesesdeantelacion": {
-      "hash": "c1ea362c0da915f88a55666d0bbc09cd",
-      "hotel": "Makani Luxury Wanderlust",
-      "hotel_code": "makani",
-      "titulo": "Anticipate y Ahorra en Tu Estadía!!",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.makaniluxury.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Anticipate y ahorra en tu estadía!!",
-      "c_sub": "",
-      "c_desc": "Reserva con 30 días o más de anticipación y recibe un increible descuento.",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "makani_planespecialpordos": {
       "hash": "7db6d52f8dd6a2c00e8b38ebd457cb59",
       "hotel": "Makani Luxury Wanderlust",
@@ -998,6 +980,24 @@
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-09-04 09:20",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "makani_unmesesdeantelacion": {
+      "hash": "c1ea362c0da915f88a55666d0bbc09cd",
+      "hotel": "Makani Luxury Wanderlust",
+      "hotel_code": "makani",
+      "titulo": "Anticipate y Ahorra en Tu Estadía!!",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.makaniluxury.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Anticipate y ahorra en tu estadía!!",
+      "c_sub": "",
+      "c_desc": "Reserva con 30 días o más de anticipación y recibe un increible descuento.",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1091,21 +1091,21 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_lasmudof": {
-      "hash": "b1e1c7b0eeea9e6cb9251333c5a06ead",
+    "sanlazaro_lastminute": {
+      "hash": "52e3468903958524e72b7a095e9c1f42",
       "hotel": "San Lazaro Art",
       "hotel_code": "sanlazaro",
-      "titulo": "Ultimo Minuto 1 Día",
+      "titulo": "Last Minute",
       "categoria": "Ultimo Minuto",
       "url": "https://www.sanlazaroarthotel.com/ofertas",
       "country": "Colombia",
       "city": "Cartagena",
-      "c_tit": "Ultimo minuto 1 día",
+      "c_tit": "Last Minute",
       "c_sub": "",
-      "c_desc": "¡Escápate hoy y vive Cartagena al mejor precio! Aprovecha nuestra exclusiva oferta de último minuto y disfruta de una estadía inolvidable en el Hotel San Lázaro. Ideal para viajeros espontáneos que buscan confort, ubicación privilegiada y una experiencia auténtica en la ciudad. Ubicado frente al histórico Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel te invita a descubrir lo mejor de Cartagena con una tarifa especial disponible por tiempo limitado. La oferta incluye: Alojamiento en habitaciones confortables Acceso a nuestras instalaciones y rooftop con vista pano",
+      "c_desc": "",
       "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
+      "estado": "nueva",
+      "fecha_alta": "2026-09-17 09:11",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1320,7 +1320,7 @@
       "c_sub": "",
       "c_desc": "Anticípate y disfruta Arequipa por más, pagando menos. Reserva tu estadía en Sonesta Hotel Arequipa con al menos 30 días de anticipación y disfruta de un 15% de descuento. Planifica tu viaje con tiempo y vive Arequipa con el confort, la hospitalidad y la experiencia Sonesta.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-14 09:07",
       "cambios": [],
       "fecha_cambio": ""
@@ -1736,6 +1736,42 @@
       "c_disc": "25%",
       "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bastionlux_19f4d7": {
+      "hash": "80d13639be336e3c09a3066c41bcbcf6",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Beneficios de Reservar con Nosotros",
+      "categoria": "Oferta General",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "BENEFICIOS DE RESERVAR CON NOSOTROS",
+      "c_sub": "",
+      "c_desc": "Reserva directamente con Bastión y añade detalles memorables a tu estancia: un masaje de cortesía de 30 minutos para manos y pies, 15% de descuento en gastronomía y spa, desayuno incluido cada mañana y atención personalizada desde antes de tu llegada.",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-09-17 09:11",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bastionlux_04a973": {
+      "hash": "2b930c7efbc4a82e5980596bff957bcf",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Quédate Más, Disfruta Más",
+      "categoria": "Oferta General",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "QUÉDATE MÁS, DISFRUTA MÁS",
+      "c_sub": "",
+      "c_desc": "Extiende tu estadía en Bastión y disfruta más de Cartagena. Reserva dos noches y recibe la tercera noche por nuestra cuenta, para descubrir el encanto del Centro Histórico con más tiempo y tranquilidad.\nAplica para reservas realizadas hasta el 30 de noviembre de 2026.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-09-17 09:11",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -2692,6 +2728,26 @@
       "fecha_cambio": "",
       "id": "ghlhjloja_weekndof",
       "fecha_baja": "2026-09-14 09:07"
+    },
+    {
+      "hash": "b1e1c7b0eeea9e6cb9251333c5a06ead",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Ultimo Minuto 1 Día",
+      "categoria": "Ultimo Minuto",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Ultimo minuto 1 día",
+      "c_sub": "",
+      "c_desc": "¡Escápate hoy y vive Cartagena al mejor precio! Aprovecha nuestra exclusiva oferta de último minuto y disfruta de una estadía inolvidable en el Hotel San Lázaro. Ideal para viajeros espontáneos que buscan confort, ubicación privilegiada y una experiencia auténtica en la ciudad. Ubicado frente al histórico Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel te invita a descubrir lo mejor de Cartagena con una tarifa especial disponible por tiempo limitado. La oferta incluye: Alojamiento en habitaciones confortables Acceso a nuestras instalaciones y rooftop con vista pano",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "sanlazaro_lasmudof",
+      "fecha_baja": "2026-09-17 09:11"
     }
   ]
 }
