@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 17,
-  "last_run": "2026-09-17 09:11",
-  "prev_run": "2026-09-14 09:07",
+  "escaneos": 18,
+  "last_run": "2026-09-21 09:08",
+  "prev_run": "2026-09-17 09:11",
   "last_kpis": {
-    "activas": 102,
-    "nuevas": 3,
-    "eliminadas": 1,
-    "cambios": 0,
-    "escaneos": 17
+    "activas": 103,
+    "nuevas": 1,
+    "eliminadas": 0,
+    "cambios": 1,
+    "escaneos": 18
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -1038,7 +1038,7 @@
       "fecha_cambio": ""
     },
     "sanlazaro_lonstnof": {
-      "hash": "cbce41692a288727a02aba83d84b66f4",
+      "hash": "9635bf0cb135e97ff8cbe010f4792afb",
       "hotel": "San Lazaro Art",
       "hotel_code": "sanlazaro",
       "titulo": "Precios Especiales Vacaciones",
@@ -1048,7 +1048,27 @@
       "city": "Cartagena",
       "c_tit": "Precios Especiales Vacaciones",
       "c_sub": "",
-      "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico y de las playas más hermosas. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
+      "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
+      "c_disc": null,
+      "estado": "cambio",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-09-21 09:08"
+    },
+    "sanlazaro_ebktrdof": {
+      "hash": "d2ed4f748af785a303736d685886a788",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Ahorra Reservando con 30 Días de Antelación",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Ahorra reservando con 30 días de antelación",
+      "c_sub": "",
+      "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
@@ -1073,24 +1093,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_ebktrdof": {
-      "hash": "d2ed4f748af785a303736d685886a788",
-      "hotel": "San Lazaro Art",
-      "hotel_code": "sanlazaro",
-      "titulo": "Ahorra Reservando con 30 Días de Antelación",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sanlazaroarthotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Ahorra reservando con 30 días de antelación",
-      "c_sub": "",
-      "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "sanlazaro_lastminute": {
       "hash": "52e3468903958524e72b7a095e9c1f42",
       "hotel": "San Lazaro Art",
@@ -1104,7 +1106,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-17 09:11",
       "cambios": [],
       "fecha_cambio": ""
@@ -1451,6 +1453,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "ghlsonincapuno_ebktrdof": {
+      "hash": "7a0bd4dda6905f9cd840cc25d57cb44a",
+      "hotel": "Sonesta Puno",
+      "hotel_code": "ghlsonincapuno",
+      "titulo": "Compra Anticipada 30 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestapipuno.com/ofertas",
+      "country": "Perú",
+      "city": "Puno",
+      "c_tit": "Compra Anticipada 30 días",
+      "c_sub": "",
+      "c_desc": "",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-09-21 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "ghlsonincapuno_latam": {
       "hash": "2cb6024e50d8e8a0a6183563a81f0242",
       "hotel": "Sonesta Puno",
@@ -1752,7 +1772,7 @@
       "c_sub": "",
       "c_desc": "Reserva directamente con Bastión y añade detalles memorables a tu estancia: un masaje de cortesía de 30 minutos para manos y pies, 15% de descuento en gastronomía y spa, desayuno incluido cada mañana y atención personalizada desde antes de tu llegada.",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-17 09:11",
       "cambios": [],
       "fecha_cambio": ""
@@ -1770,7 +1790,7 @@
       "c_sub": "",
       "c_desc": "Extiende tu estadía en Bastión y disfruta más de Cartagena. Reserva dos noches y recibe la tercera noche por nuestra cuenta, para descubrir el encanto del Centro Histórico con más tiempo y tranquilidad.\nAplica para reservas realizadas hasta el 30 de noviembre de 2026.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-17 09:11",
       "cambios": [],
       "fecha_cambio": ""
