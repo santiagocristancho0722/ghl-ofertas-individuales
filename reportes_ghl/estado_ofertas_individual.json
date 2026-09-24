@@ -1,16 +1,34 @@
 {
   "hash_version": 2,
-  "escaneos": 18,
-  "last_run": "2026-09-21 09:08",
-  "prev_run": "2026-09-17 09:11",
+  "escaneos": 19,
+  "last_run": "2026-09-24 09:08",
+  "prev_run": "2026-09-21 09:08",
   "last_kpis": {
-    "activas": 103,
+    "activas": 104,
     "nuevas": 1,
     "eliminadas": 0,
-    "cambios": 1,
-    "escaneos": 18
+    "cambios": 0,
+    "escaneos": 19
   },
   "offers": {
+    "arsenal_barrateof": {
+      "hash": "e73e890781e897d77d223369c545a79a",
+      "hotel": "Arsenal",
+      "hotel_code": "arsenal",
+      "titulo": "Oferta Escapada 15% Off",
+      "categoria": "Descuento Directo",
+      "url": "https://www.arsenalhotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Oferta escapada 15% off",
+      "c_sub": "",
+      "c_desc": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPATE",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-09-24 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "arsenal_lonscnof": {
       "hash": "dbf2ca574367df23d23ef90de9a1819e",
       "hotel": "Arsenal",
@@ -1050,12 +1068,10 @@
       "c_sub": "",
       "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
       "c_disc": null,
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-09-21 09:08"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "sanlazaro_ebktrdof": {
       "hash": "d2ed4f748af785a303736d685886a788",
@@ -1466,7 +1482,7 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-09-21 09:08",
       "cambios": [],
       "fecha_cambio": ""
@@ -2368,26 +2384,6 @@
       "fecha_cambio": "",
       "id": "antofagasta_lonstnof",
       "fecha_baja": "2026-08-21 10:06"
-    },
-    {
-      "hash": "faab83564202160c5f4f651445be0932",
-      "hotel": "Arsenal",
-      "hotel_code": "arsenal",
-      "titulo": "Oferta Escapada 15% Off",
-      "categoria": "Descuento Directo",
-      "url": "https://www.arsenalhotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Oferta escapada 15% off",
-      "c_sub": "",
-      "c_desc": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena.",
-      "c_disc": "15%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-21 15:01",
-      "cambios": [],
-      "fecha_cambio": "",
-      "id": "arsenal_barrateof",
-      "fecha_baja": "2026-08-31 12:42"
     },
     {
       "hash": "46c4f71cdffa4e4050cb0ebbbd070702",
