@@ -251,12 +251,20 @@ def url_slug(href):
 GENERIC_TITLES = {"planes", "plans", "plan", "ofertas", "offers", "promociones", "promotions"}
 
 async def extract_plans_from_page(page, url, extractor=None):
+    js = JS_EXTRACT_BASTION if extractor == "bastion" else JS_EXTRACT_PLANES
     await page.goto(url, wait_until="domcontentloaded", timeout=30000)
     await page.wait_for_timeout(3500)
-    if extractor == "bastion":
-        raw = json.loads(await page.evaluate(JS_EXTRACT_BASTION))
-    else:
-        raw = json.loads(await page.evaluate(JS_EXTRACT_PLANES))
+    raw = json.loads(await page.evaluate(js))
+    if not raw:
+        # Reintento anti-transitorio: 0 resultados suele ser carga lenta o reto anti-bot que
+        # no termino de renderizar, NO una pagina genuinamente vacia. Se recarga y espera mas
+        # antes de darla por vacia. (Bug real: Bioxury 28/09 quedo sin ES por esto.)
+        try:
+            await page.reload(wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(5000)
+            raw = json.loads(await page.evaluate(js))
+        except Exception:
+            pass
     return [o for o in raw if o["titulo"].strip().lower() not in GENERIC_TITLES]
 
 def build_lang_plan(hotel_display, page_url, lang, raw, hotel_code):

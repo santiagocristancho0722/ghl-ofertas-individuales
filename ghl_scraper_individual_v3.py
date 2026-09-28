@@ -84,18 +84,29 @@ JS_EXTRACT_BASTION = """
 
 GENERIC_TITLES = {"ofertas", "offers", "promociones", "promotions"}
 
+async def _extract_offers_dom(page, extractor):
+    if extractor == "bastion":
+        return json.loads(await page.evaluate(JS_EXTRACT_BASTION))
+    offers = json.loads(await page.evaluate(JS_EXTRACT_PRIMARY))
+    if not offers:
+        parsed = json.loads(await page.evaluate(JS_EXTRACT_FALLBACK))
+        offers = [{"titulo": o["titulo"], "descripcion": o.get("descripcion", ""), "href": ""} for o in parsed]
+    return offers
+
 async def extract_offers_from_page(page, url, extractor=None):
     await page.goto(url, wait_until="domcontentloaded", timeout=30000)
     await page.wait_for_timeout(3500)
-    if extractor == "bastion":
-        offers = json.loads(await page.evaluate(JS_EXTRACT_BASTION))
-        return [o for o in offers if o["titulo"].strip().lower() not in GENERIC_TITLES]
-    raw = await page.evaluate(JS_EXTRACT_PRIMARY)
-    offers = json.loads(raw)
+    offers = await _extract_offers_dom(page, extractor)
     if not offers:
-        raw2 = await page.evaluate(JS_EXTRACT_FALLBACK)
-        parsed = json.loads(raw2)
-        offers = [{"titulo": o["titulo"], "descripcion": o.get("descripcion", ""), "href": ""} for o in parsed]
+        # Reintento anti-transitorio: 0 resultados suele ser carga lenta o reto anti-bot que no
+        # termino de renderizar, NO una pagina realmente sin ofertas. Se recarga y espera mas
+        # antes de darla por vacia (mismo blindaje que ghl_scraper_planes).
+        try:
+            await page.reload(wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(5000)
+            offers = await _extract_offers_dom(page, extractor)
+        except Exception:
+            pass
     return [o for o in offers if o["titulo"].strip().lower() not in GENERIC_TITLES]
 
 def parse_booking_link(href):
