@@ -15,7 +15,7 @@
       "titulo": "Oferta escapada 15% off",
       "nombre_corto": "Oferta escapada 15% off",
       "titular": "",
-      "descripcion": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPATE",
+      "descripcion": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPADA",
       "categoria": "Descuento Directo",
       "canonical": "bar_rate",
       "param": null,
@@ -34,7 +34,7 @@
       "titulo": "Oferta escapada 15% off",
       "nombre_corto": "Oferta escapada 15% off",
       "titular": "",
-      "descripcion": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPATE",
+      "descripcion": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPADA",
       "categoria": "Descuento Directo",
       "canonical": "bar_rate",
       "param": null,
@@ -43,7 +43,7 @@
       "vigencia": null,
       "match_key": "barrateof"
     },
-    "hash": "26348ae83269cf89b38385abcc1c1343"
+    "hash": "19d862d9998cd67209a36ad77610b3c1"
   },
   {
     "hotel": "Arsenal",
@@ -1168,6 +1168,52 @@
     },
     "en": null,
     "hash": "25c57d0a49f05d30dce834551bdf6e73"
+  },
+  {
+    "hotel": "GHL Porton Medellin",
+    "hotel_code": "ghlportonmedellin",
+    "match_key": "barrateof",
+    "categoria": "Descuento Directo",
+    "id": "ghlportonmedellin_barrateof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.hotelportonmedellin.com/ofertas",
+      "slug": "barrateof",
+      "es_id": null,
+      "hotel": "GHL Porton Medellin",
+      "hotel_code": "ghlportonmedellin",
+      "titulo": "VIVE LA SEMANA DE RECESO",
+      "nombre_corto": "VIVE LA SEMANA DE RECESO",
+      "titular": "",
+      "descripcion": "Disfruta una pausa especial en Medellín. Durante la Semana de Receso Estudiantil, vive unos días de descanso, comodidad y buena gastronomía en el Hotel Portón Medellín. Alojamiento Habitación King Desayuno Buffet Bono por valor de $80.000 pesos para consumos Alimentos y Bebidas no Alcohólicas en el hotel, por la estadía. ¡Haz de tu semana de receso una oportunidad para descansar, disfrutar y descubrir Medellín! $430.000 + IVA Aplica Términos y Condiciones, No acumulables con otros descuentos. No incluye consumos en Minibar.",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
+      "param": null,
+      "descuento": null,
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "barrateof"
+    },
+    "en": {
+      "lang": "en",
+      "url": "https://en.hotelportonmedellin.com/offers",
+      "slug": "barrateof",
+      "es_id": null,
+      "hotel": "GHL Porton Medellin",
+      "hotel_code": "ghlportonmedellin",
+      "titulo": "LIVE THE BREAK WEEK",
+      "nombre_corto": "LIVE THE BREAK WEEK",
+      "titular": "",
+      "descripcion": "Enjoy a special break in Medellín. During Student Recess Week, enjoy a few days of relaxation, comfort, and great cuisine at Hotel Portón Medellín. King Room Accommodation Buffet Breakfast $80,000 COP voucher for food and non-alcoholic beverages at the hotel during your stay. Make your break week an opportunity to relax, enjoy, and discover Medellín! $430,000 COP + VAT Terms and conditions apply. Can",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
+      "param": null,
+      "descuento": null,
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "barrateof"
+    },
+    "hash": "d3c490f599ca6f785a5350a2840a12dc"
   },
   {
     "hotel": "GHL Porton Medellin",
