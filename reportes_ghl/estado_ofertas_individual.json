@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 21,
-  "last_run": "2026-10-01 09:10",
-  "prev_run": "2026-09-28 09:08",
+  "escaneos": 22,
+  "last_run": "2026-10-05 09:09",
+  "prev_run": "2026-10-01 09:10",
   "last_kpis": {
     "activas": 96,
-    "nuevas": 3,
-    "eliminadas": 12,
-    "cambios": 8,
-    "escaneos": 21
+    "nuevas": 0,
+    "eliminadas": 0,
+    "cambios": 2,
+    "escaneos": 22
   },
   "offers": {
     "arsenal_barrateof": {
@@ -30,22 +30,25 @@
       "fecha_cambio": ""
     },
     "arsenal_lonscnof": {
-      "hash": "dbf2ca574367df23d23ef90de9a1819e",
+      "hash": "180ba98c488b39d764ff4757350d4108",
       "hotel": "Arsenal",
       "hotel_code": "arsenal",
-      "titulo": "Minima Estadía 4 Noches",
+      "titulo": "Minima Estadía 3 Noches",
       "categoria": "Minima Estadia",
       "url": "https://www.arsenalhotel.com/ofertas",
       "country": "Colombia",
       "city": "Cartagena",
-      "c_tit": "Minima estadía 4 Noches",
+      "c_tit": "Minima estadía 3 Noches",
       "c_sub": "",
-      "c_desc": "Aprovecha tu estadia por minimo Cuatro noches. Una experiencia exclusiva. Un 15% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
+      "c_desc": "Aprovecha tu estadia por minimo tres noches. Una experiencia exclusiva. Un 15% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
       "c_disc": "15%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Título modificado",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-05 09:09"
     },
     "arsenal_ebkssdof": {
       "hash": "244be3195a9ffb4a4dec3ac034dac013",
@@ -294,7 +297,7 @@
       "c_sub": "",
       "c_desc": "Este festivo, Cartagena te espera. Días para perderte entre calles llenas de historia, disfrutar el encanto del Caribe y regalarte una pausa en un lugar especial. Quédate en Armería Real y vive Cartagena a tu propio ritmo, con el encanto de una experiencia boutique en el corazón de la ciudad.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:10",
       "cambios": [],
       "fecha_cambio": ""
@@ -947,24 +950,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "makani_unmesesdeantelacion": {
-      "hash": "c1ea362c0da915f88a55666d0bbc09cd",
-      "hotel": "Makani Luxury Wanderlust",
-      "hotel_code": "makani",
-      "titulo": "Anticipate y Ahorra en Tu Estadía!!",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.makaniluxury.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Anticipate y ahorra en tu estadía!!",
-      "c_sub": "",
-      "c_desc": "Reserva con 30 días o más de anticipación y recibe un increible descuento.",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "makani_planespecialpordos": {
       "hash": "7db6d52f8dd6a2c00e8b38ebd457cb59",
       "hotel": "Makani Luxury Wanderlust",
@@ -980,6 +965,24 @@
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-09-04 09:20",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "makani_unmesesdeantelacion": {
+      "hash": "c1ea362c0da915f88a55666d0bbc09cd",
+      "hotel": "Makani Luxury Wanderlust",
+      "hotel_code": "makani",
+      "titulo": "Anticipate y Ahorra en Tu Estadía!!",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.makaniluxury.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Anticipate y ahorra en tu estadía!!",
+      "c_sub": "",
+      "c_desc": "Reserva con 30 días o más de anticipación y recibe un increible descuento.",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1019,24 +1022,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_ebktrdof": {
-      "hash": "d2ed4f748af785a303736d685886a788",
-      "hotel": "San Lazaro Art",
-      "hotel_code": "sanlazaro",
-      "titulo": "Ahorra Reservando con 30 Días de Antelación",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sanlazaroarthotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Ahorra reservando con 30 días de antelación",
-      "c_sub": "",
-      "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "sanlazaro_ebkssdof": {
       "hash": "6b0a0eebd8f38ed9a2c6a54a31852ccf",
       "hotel": "San Lazaro Art",
@@ -1050,6 +1035,24 @@
       "c_sub": "",
       "c_desc": "Vive el encanto histórico de Cartagena desde el Hotel San Lázaro y aprovecha nuestra oferta exclusiva con 23% de descuento por tiempo limitado. Ubicado frente al imponente Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel es el punto de partida perfecto para descubrir la ciudad mientras disfrutas de confort, gastronomía y vistas únicas. Incluye: Alojamiento en habitaciones confortables Desayuno incluido para empezar el día con energía Acceso a nuestras instalaciones y rooftop con vista panorámica Ubicación privilegiada cerca de los principales atractivos",
       "c_disc": "23%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "sanlazaro_ebktrdof": {
+      "hash": "d2ed4f748af785a303736d685886a788",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Ahorra Reservando con 30 Días de Antelación",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Ahorra reservando con 30 días de antelación",
+      "c_sub": "",
+      "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
+      "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
@@ -1176,12 +1179,10 @@
       "c_sub": "",
       "c_desc": "Vive una experiencia única en Sonesta Cartagena con acceso directo a una playa tranquila y segura ✓ Desayuno buffet incluido ✓ WiFi de cortesía ✓ Cancha de tenis",
       "c_disc": "10%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsoncartagena_ebkssdof": {
       "hash": "0cfcac5656c0a0fdef5c3696f7d4b548",
@@ -1196,12 +1197,10 @@
       "c_sub": "",
       "c_desc": "Tu descanso incluye: ✓ Acceso directo a la playa ✓ Piscina semiolímpica ✓ Cancha de tenis ✓ Espacios ideales para relajarte frente al mar ✓ Habitaciones con el confort que mereces",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsoncusco_lonstnof": {
       "hash": "7c1815edcfbf0c19b9de6e16080cdb24",
@@ -1221,24 +1220,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsonolivar_ebkssdof": {
-      "hash": "e8f9cfe3afad827513452df67c4cebcf",
-      "hotel": "Sonesta El Olivar",
-      "hotel_code": "ghlsonolivar",
-      "titulo": "El Olivar 60: Estrategia y Descanso - Compra Anticipada 60 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sonestaelolivar.com/ofertas",
-      "country": "Perú",
-      "city": "Lima",
-      "c_tit": "El Olivar 60: Estrategia y Descanso - Compra Anticipada 60 días",
-      "c_sub": "",
-      "c_desc": "Fusiona productividad y desconexión en el corazón corporativo y residencial de San Isidro. Reservando con 60 días de anticipación en Sonesta El Olivar, obtienes un 17% de descuento exclusivo. Disfruta de la conectividad que exige tu agenda y el entorno relajante de nuestro bosque ancestral para tus momentos de ocio. Asegura eficiencia y confort al mejor precio reservando antes del 30 de septiembre.",
-      "c_disc": "17%",
-      "estado": "vigente",
-      "fecha_alta": "2026-08-31 12:42",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlsonolivar_ebktrdof": {
       "hash": "b51144e0f318936d2d1023c330da0a9b",
       "hotel": "Sonesta El Olivar",
@@ -1252,6 +1233,24 @@
       "c_sub": "",
       "c_desc": "Asegura tu estadía con 30 días de anticipación y disfruta del confort exclusivo de Sonesta Hotel El Olivar. Ubicado frente al histórico Bosque El Olivar en San Isidro, te ofrecemos la combinación perfecta entre la serenidad de la naturaleza y la cercanía al centro financiero de Lima. Tu reserva incluye desayuno buffet, acceso a piscina exterior, gimnasio, Wi-Fi de alta velocidad y estacionamiento gratuito.",
       "c_disc": "12%",
+      "estado": "vigente",
+      "fecha_alta": "2026-08-31 12:42",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlsonolivar_ebkssdof": {
+      "hash": "e8f9cfe3afad827513452df67c4cebcf",
+      "hotel": "Sonesta El Olivar",
+      "hotel_code": "ghlsonolivar",
+      "titulo": "El Olivar 60: Estrategia y Descanso - Compra Anticipada 60 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestaelolivar.com/ofertas",
+      "country": "Perú",
+      "city": "Lima",
+      "c_tit": "El Olivar 60: Estrategia y Descanso - Compra Anticipada 60 días",
+      "c_sub": "",
+      "c_desc": "Fusiona productividad y desconexión en el corazón corporativo y residencial de San Isidro. Reservando con 60 días de anticipación en Sonesta El Olivar, obtienes un 17% de descuento exclusivo. Disfruta de la conectividad que exige tu agenda y el entorno relajante de nuestro bosque ancestral para tus momentos de ocio. Asegura eficiencia y confort al mejor precio reservando antes del 30 de septiembre.",
+      "c_disc": "17%",
       "estado": "vigente",
       "fecha_alta": "2026-08-31 12:42",
       "cambios": [],
@@ -1312,7 +1311,7 @@
       "fecha_cambio": ""
     },
     "ghlsonbogota_ebkqudof": {
-      "hash": "7b2c4149edbecf510e9f62f6b6a42c4e",
+      "hash": "03b4e6c63bc9cf778e667ee9d19828e7",
       "hotel": "Sonesta Bogota",
       "hotel_code": "ghlsonbogota",
       "titulo": "Compra Anticipada 20 Días",
@@ -1322,12 +1321,15 @@
       "city": "Bogotá",
       "c_tit": "Compra Anticipada 20 días",
       "c_sub": "",
-      "c_desc": "Reserva con mínimo 20 días de anticipación y recibe hasta un 12% de descuento en tu estadía. Aprovecha tarifas preferenciales y organiza tu viaje con mayor tranquilidad. Válido para reservas realizadas con anticipación y estadías en fechas seleccionadas. Aplican T&C.",
-      "c_disc": "12%",
-      "estado": "vigente",
+      "c_desc": "Reserva con mínimo 20 días de anticipación y recibe hasta un 10% de descuento en tu estadía. Aprovecha tarifas preferenciales y organiza tu viaje con mayor tranquilidad. Válido para reservas realizadas con anticipación y estadías en fechas seleccionadas. Aplican T&C.",
+      "c_disc": "10%",
+      "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descuento/beneficio: 12% → 10%",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-05 09:09"
     },
     "ghlsonosorno_earlytwenty": {
       "hash": "aca570028a4186ddb7e6d9cd2302b4d0",
@@ -1450,7 +1452,7 @@
       "c_sub": "",
       "c_desc": "Reserva con 30 días de anticipación y obtén un 20% de descuento exclusivo para descubrir la magia del Valle Sagrado. Además, disfruta de cancelación flexible hasta 15 días antes de tu estadía.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:10",
       "cambios": [],
       "fecha_cambio": ""
@@ -1468,7 +1470,7 @@
       "c_sub": "",
       "c_desc": "Disfruta de un 20% de descuento exclusivo en tu estadía. Vive una experiencia única rodeado de naturaleza, cultura y confort en uno de los destinos más emblemáticos del Perú. 📅 Válido del 1 al 31 de octubre de 2026",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:10",
       "cambios": [],
       "fecha_cambio": ""
@@ -1540,13 +1542,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irodsl_ebventiuno": {
       "hash": "beb84d3ffc6689805e227e098bb2ea87",
@@ -1561,13 +1560,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irohbb_ebventiuno": {
       "hash": "2b0d35c1d24e0b51649d810257cfd047",
@@ -1582,13 +1578,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irolago_ebventiuno": {
       "hash": "6fe3113fb7b80170c6c8aa2925c9ac2c",
@@ -1603,13 +1596,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irorvd_ebventiuno": {
       "hash": "b752ec34accf414d433d92fc12de8afe",
@@ -1624,13 +1614,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "iroxxl_ebventiuno": {
       "hash": "6f58378409e8c26152923585294ddeba",
@@ -1645,13 +1632,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:10"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "bastionlux_19f4d7": {
       "hash": "80d13639be336e3c09a3066c41bcbcf6",
