@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 12,
-  "last_run": "2026-10-01 09:38",
-  "prev_run": "2026-09-28 12:26",
+  "escaneos": 13,
+  "last_run": "2026-10-05 09:28",
+  "prev_run": "2026-10-01 09:38",
   "last_kpis": {
     "activas": 102,
-    "nuevas": 4,
-    "eliminadas": 1,
-    "cambios": 1,
-    "escaneos": 12
+    "nuevas": 0,
+    "eliminadas": 0,
+    "cambios": 0,
+    "escaneos": 13
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -582,12 +582,10 @@
       "c_sub": "",
       "c_desc": "Incluye:\n- Bebida de bienvenida\n- Consumos en alimentos y bebidas en Restaurante Biijao hasta $ 105.000 para adultos y $ 59.000 para niños\n- Piscina\n- Toallas\n- Parqueadero\nSujeto a disponibilidad Valor del plan $ 165.000 para adultos; $99.000 para niños de 4 a 11 años, niños a partir de 12 años pagan como adulto. Aplican T&C.",
       "c_disc": null,
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-01 09:38"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "plan_ghlmonteria_plan-cumpleanos-monteria": {
       "hash": "c84cf7cd0e8f9712670bc0c62611c967",
@@ -836,7 +834,7 @@
       "c_sub": "",
       "c_desc": "- Habitación cama King Californiana\n- ½ botella de Vino tinto o blanco de la Casa\n- Un ponqué para dos (2) personas\n- Decoración de Cumpleaños\n- Desayuno en la Habitación\nPregunta por el servicio de parqueadero* (con costo adicional)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -854,7 +852,7 @@
       "c_sub": "",
       "c_desc": "Incluye: - Habitación cama King Californiana\n- ½ Botella de Vino tinto o blanco de la casa en la Habitación\n- Frutos secos\n- Regalo para los novios\n- Desayuno en la Habitación\n- Cena para los novios al cumplir el 1er. mes de casados\nPregunta por el servicio de parqueadero* (con costo adicional)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -872,7 +870,7 @@
       "c_sub": "",
       "c_desc": "Incluye:\n- Habitación cama King Californiana\n- Decoración especial.\n- Almuerzo o Cena en el restaurante Cook´s con platos de la carta especial\n- Media botella de Vino tinto o blanco de la casa\n- Desayuno en la Habitación Pregunta por el servicio de parqueadero* (con costo adicional)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:38",
       "cambios": [],
       "fecha_cambio": ""
@@ -890,7 +888,7 @@
       "c_sub": "",
       "c_desc": "¡Vive la música con nuestro Plan Concierto!\nDisfruta una experiencia única pensada para dos personas: ¡Relájate, vibra y déjalo todo en el escenario… nosotros nos encargamos del resto!",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-01 09:38",
       "cambios": [],
       "fecha_cambio": ""
