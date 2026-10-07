@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 13,
-  "last_run": "2026-10-05 09:28",
-  "prev_run": "2026-10-01 09:38",
+  "escaneos": 14,
+  "last_run": "2026-10-07 10:51",
+  "prev_run": "2026-10-05 09:28",
   "last_kpis": {
     "activas": 102,
     "nuevas": 0,
     "eliminadas": 0,
     "cambios": 0,
-    "escaneos": 13
+    "escaneos": 14
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
