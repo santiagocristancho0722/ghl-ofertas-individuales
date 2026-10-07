@@ -1,34 +1,16 @@
 {
   "hash_version": 2,
-  "escaneos": 22,
-  "last_run": "2026-10-05 09:09",
-  "prev_run": "2026-10-01 09:10",
+  "escaneos": 23,
+  "last_run": "2026-10-07 10:32",
+  "prev_run": "2026-10-05 09:09",
   "last_kpis": {
     "activas": 96,
-    "nuevas": 0,
-    "eliminadas": 0,
-    "cambios": 2,
-    "escaneos": 22
+    "nuevas": 1,
+    "eliminadas": 1,
+    "cambios": 6,
+    "escaneos": 23
   },
   "offers": {
-    "arsenal_barrateof": {
-      "hash": "d3482bf8240002164fc8688ed4591700",
-      "hotel": "Arsenal",
-      "hotel_code": "arsenal",
-      "titulo": "Oferta Escapada 15% Off",
-      "categoria": "Descuento Directo",
-      "url": "https://www.arsenalhotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Oferta escapada 15% off",
-      "c_sub": "",
-      "c_desc": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPADA",
-      "c_disc": "15%",
-      "estado": "vigente",
-      "fecha_alta": "2026-09-24 09:08",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "arsenal_lonscnof": {
       "hash": "180ba98c488b39d764ff4757350d4108",
       "hotel": "Arsenal",
@@ -42,13 +24,10 @@
       "c_sub": "",
       "c_desc": "Aprovecha tu estadia por minimo tres noches. Una experiencia exclusiva. Un 15% de descuento. Vive Cartagena con elegancia en cada detalle y prolonga tu descanso con beneficios que marcan la diferencia, y si te registras en ghlpluss obtienes un descuento adicional",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-05 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "arsenal_ebkssdof": {
       "hash": "244be3195a9ffb4a4dec3ac034dac013",
@@ -569,6 +548,24 @@
       "c_disc": "17%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlcoralesindias_barrateof": {
+      "hash": "40d5a9b5f137a8adea23e6f153172b2b",
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "Oferta de Escapada Vacacional",
+      "categoria": "Descuento Directo",
+      "url": "https://www.coralesdeindias.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Oferta de escapada vacacional",
+      "c_sub": "",
+      "c_desc": "Reserva en nuestra web y disfruta de beneficios exclusivos: 20% OFF en alojamiento 15% OFF en brunch dominical 10% OFF en terapias y masajes en nuestro spa Bono de $50.000 por habitación por noche, consumible diariamente en alimentos y bebidas. El bono aplica en Restaurante Manglares, Room Service, Cafetería y Bar Alcázar. No aplica para consumos de minibar. Además, disfruta de: Piscinas para adultos y parque acuático para niños. Recreación dirigida y actividades para niños. Acceso a sala de juegos. Parqueadero cubierto. Hasta 2 niños menores de 11 años gratis en la habitación.",
+      "c_disc": "20%",
+      "estado": "nueva",
+      "fecha_alta": "2026-10-07 10:32",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1323,13 +1320,10 @@
       "c_sub": "",
       "c_desc": "Reserva con mínimo 20 días de anticipación y recibe hasta un 10% de descuento en tu estadía. Aprovecha tarifas preferenciales y organiza tu viaje con mayor tranquilidad. Válido para reservas realizadas con anticipación y estadías en fechas seleccionadas. Aplican T&C.",
       "c_disc": "10%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 12% → 10%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-05 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsonosorno_earlytwenty": {
       "hash": "aca570028a4186ddb7e6d9cd2302b4d0",
@@ -1530,7 +1524,7 @@
       "fecha_cambio": ""
     },
     "irodmr_ebventiuno": {
-      "hash": "1172d63f28911e00e040386c04f37876",
+      "hash": "cc00f4f30cd055fcf7f050bedc1f1317",
       "hotel": "Irotama del Mar",
       "hotel_code": "irodmr",
       "titulo": "Disfruta un 25% de Descuento en Tu Estadía Para Irotama Del Mar Reservando con Más de 21 Días de Anticipación",
@@ -1540,15 +1534,17 @@
       "city": "Santa Marta",
       "c_tit": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación",
       "c_sub": "",
-      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-07 10:32"
     },
     "irodsl_ebventiuno": {
-      "hash": "beb84d3ffc6689805e227e098bb2ea87",
+      "hash": "2634493180f7ebebb409ffb7508edb35",
       "hotel": "Irotama del Sol",
       "hotel_code": "irodsl",
       "titulo": "Disfruta un 25% de Descuento en Tu Estadía Para Irotama Del Sol Reservando con Más de 21 Días de Anticipación.",
@@ -1558,15 +1554,17 @@
       "city": "Santa Marta",
       "c_tit": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación.",
       "c_sub": "",
-      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-07 10:32"
     },
     "irohbb_ebventiuno": {
-      "hash": "2b0d35c1d24e0b51649d810257cfd047",
+      "hash": "68342f919ddb1eaba0ba49cf0e3c4a34",
       "hotel": "Irotama Bungalows y Bohios",
       "hotel_code": "irohbb",
       "titulo": "Disfruta un 25% de Descuento en Tu Estadía Para Irotama Bungalows y Bohios Reservando con Más de 21 Días de Anticipación.",
@@ -1576,15 +1574,17 @@
       "city": "Santa Marta",
       "c_tit": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.",
       "c_sub": "",
-      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-07 10:32"
     },
     "irolago_ebventiuno": {
-      "hash": "6fe3113fb7b80170c6c8aa2925c9ac2c",
+      "hash": "407422620d452c8f60d2ce53609935fc",
       "hotel": "Irotama Lago",
       "hotel_code": "irolago",
       "titulo": "Disfruta un 25% de Descuento en Tu Estadía Para Irotama Lago Reservando con Más de 21 Días de Anticipación.",
@@ -1594,15 +1594,17 @@
       "city": "Santa Marta",
       "c_tit": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación.",
       "c_sub": "",
-      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026 . Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-07 10:32"
     },
     "irorvd_ebventiuno": {
-      "hash": "b752ec34accf414d433d92fc12de8afe",
+      "hash": "609209b9079ef2f93fc581d59d6a090d",
       "hotel": "Irotama Reservado",
       "hotel_code": "irorvd",
       "titulo": "Disfruta un 25% de Descuento en Tu Estadía Para Irotama Reservado Reservando con Más de 21 Días de Anticipación.",
@@ -1612,15 +1614,17 @@
       "city": "Santa Marta",
       "c_tit": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación.",
       "c_sub": "",
-      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-07 10:32"
     },
     "iroxxl_ebventiuno": {
-      "hash": "6f58378409e8c26152923585294ddeba",
+      "hash": "bad33e76ac85702620f834fa70739aa5",
       "hotel": "Irotama XXI",
       "hotel_code": "iroxxl",
       "titulo": "Disfruta un 25% de Descuento en Tu Estadía Para Irotama Xxi Reservando con Más de 21 Días de Anticipación.",
@@ -1630,12 +1634,14 @@
       "city": "Santa Marta",
       "c_tit": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación.",
       "c_sub": "",
-      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-07 10:32"
     },
     "bastionlux_19f4d7": {
       "hash": "80d13639be336e3c09a3066c41bcbcf6",
@@ -2628,26 +2634,6 @@
       "fecha_baja": "2026-10-01 09:10"
     },
     {
-      "hash": "3044c97754f3327bf1c0e57251dc1cf9",
-      "hotel": "GHL Relax Corales de Indias",
-      "hotel_code": "ghlcoralesindias",
-      "titulo": "Oferta de Escapada Vacacional",
-      "categoria": "Descuento Directo",
-      "url": "https://www.coralesdeindias.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Oferta de escapada vacacional",
-      "c_sub": "",
-      "c_desc": "Incluye alojamiento en acomodación doble, desayuno buffet, parqueadero . Todas nuestras habitaciones con vista frente al mar. El lugar perfecto para relajarte, divertirte y disfrutar de Cartagena.",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-09-04 09:20",
-      "cambios": [],
-      "fecha_cambio": "",
-      "id": "ghlcoralesindias_barrateof",
-      "fecha_baja": "2026-10-01 09:10"
-    },
-    {
       "hash": "70a1a608607a32ad07e4b39a3784175c",
       "hotel": "GHL Style Yopal",
       "hotel_code": "ghlstyleyopal",
@@ -2846,6 +2832,26 @@
       "fecha_cambio": "",
       "id": "iroxxl_verano",
       "fecha_baja": "2026-10-01 09:10"
+    },
+    {
+      "hash": "d3482bf8240002164fc8688ed4591700",
+      "hotel": "Arsenal",
+      "hotel_code": "arsenal",
+      "titulo": "Oferta Escapada 15% Off",
+      "categoria": "Descuento Directo",
+      "url": "https://www.arsenalhotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Oferta escapada 15% off",
+      "c_sub": "",
+      "c_desc": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPADA",
+      "c_disc": "15%",
+      "estado": "vigente",
+      "fecha_alta": "2026-09-24 09:08",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "arsenal_barrateof",
+      "fecha_baja": "2026-10-07 10:32"
     }
   ]
 }

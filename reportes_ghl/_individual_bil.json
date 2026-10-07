@@ -2,52 +2,6 @@
   {
     "hotel": "Arsenal",
     "hotel_code": "arsenal",
-    "match_key": "barrateof",
-    "categoria": "Descuento Directo",
-    "id": "arsenal_barrateof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.arsenalhotel.com/ofertas",
-      "slug": "barrateof",
-      "es_id": null,
-      "hotel": "Arsenal",
-      "hotel_code": "arsenal",
-      "titulo": "Oferta escapada 15% off",
-      "nombre_corto": "Oferta escapada 15% off",
-      "titular": "",
-      "descripcion": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPADA",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "barrateof"
-    },
-    "en": {
-      "lang": "en",
-      "url": "https://en.arsenalhotel.com/offers",
-      "slug": "barrateof",
-      "es_id": null,
-      "hotel": "Arsenal",
-      "hotel_code": "arsenal",
-      "titulo": "Oferta escapada 15% off",
-      "nombre_corto": "Oferta escapada 15% off",
-      "titular": "",
-      "descripcion": "Haz de tu próxima escapada el plan perfecto para relajarte, y vivir la esencia de Getsemani, Cartagena. usando el codigo: ESCAPADA",
-      "categoria": "Descuento Directo",
-      "canonical": "bar_rate",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "barrateof"
-    },
-    "hash": "19d862d9998cd67209a36ad77610b3c1"
-  },
-  {
-    "hotel": "Arsenal",
-    "hotel_code": "arsenal",
     "match_key": "lonscnof",
     "categoria": "Minima Estadia",
     "id": "arsenal_lonscnof",
@@ -1356,6 +1310,52 @@
   {
     "hotel": "GHL Relax Corales de Indias",
     "hotel_code": "ghlcoralesindias",
+    "match_key": "barrateof",
+    "categoria": "Descuento Directo",
+    "id": "ghlcoralesindias_barrateof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.coralesdeindias.com/ofertas",
+      "slug": "barrateof",
+      "es_id": null,
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "Oferta de escapada vacacional",
+      "nombre_corto": "Oferta de escapada vacacional",
+      "titular": "",
+      "descripcion": "Reserva en nuestra web y disfruta de beneficios exclusivos: 20% OFF en alojamiento 15% OFF en brunch dominical 10% OFF en terapias y masajes en nuestro spa Bono de $50.000 por habitación por noche, consumible diariamente en alimentos y bebidas. El bono aplica en Restaurante Manglares, Room Service, Cafetería y Bar Alcázar. No aplica para consumos de minibar. Además, disfruta de: Piscinas para adultos y parque acuático para niños. Recreación dirigida y actividades para niños. Acceso a sala de juegos. Parqueadero cubierto. Hasta 2 niños menores de 11 años gratis en la habitación.",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
+      "param": null,
+      "descuento": "20%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "barrateof"
+    },
+    "en": {
+      "lang": "en",
+      "url": "https://en.coralesdeindias.com/offers",
+      "slug": "barrateof",
+      "es_id": null,
+      "hotel": "GHL Relax Corales de Indias",
+      "hotel_code": "ghlcoralesindias",
+      "titulo": "Vacation Getaway Offer",
+      "nombre_corto": "Vacation Getaway Offer",
+      "titular": "",
+      "descripcion": "Book on our website and enjoy exclusive benefits: 20% OFF accommodations 15% OFF Sunday brunch 10% OFF treatments and massages at our spa A $50,000 credit per room per night, redeemable daily for food and beverages. The credit applies at Manglares Restaurant, Room Service, the Café, and Alcázar Bar. It does not apply to minibar purchases. Plus, enjoy: Swimming pools for adults and a water park for children. Supervised recreation and activities for children. Access to the game room. Covered parking. Up to 2 children under 11 stay free in the room.",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
+      "param": null,
+      "descuento": "20%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "barrateof"
+    },
+    "hash": "7aab264908282abbdfcfc1eab3d6b008"
+  },
+  {
+    "hotel": "GHL Relax Corales de Indias",
+    "hotel_code": "ghlcoralesindias",
     "match_key": "ebktrdof",
     "categoria": "Compra Anticipada",
     "id": "ghlcoralesindias_ebktrdof",
@@ -1385,14 +1385,14 @@
       "es_id": null,
       "hotel": "GHL Relax Corales de Indias",
       "hotel_code": "ghlcoralesindias",
-      "titulo": "Book 30 days in advance and save 20%",
-      "nombre_corto": "Book 30 days in advance and save 20%",
+      "titulo": "Book 30 days in advance and save 10%",
+      "nombre_corto": "Book 30 days in advance and save 10%",
       "titular": "",
       "descripcion": "Enjoy an unforgettable stay at Corales de Indias with buffet breakfast included, complimentary WiFi, ocean-view rooms, and access to our swimming pools for adults and children.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 30,
-      "descuento": "20%",
+      "descuento": "10%",
       "precio_desde": null,
       "vigencia": null,
       "match_key": "ebktrdof"
@@ -3789,7 +3789,7 @@
       "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación",
       "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 21,
@@ -3799,7 +3799,7 @@
       "match_key": "ebventiuno"
     },
     "en": null,
-    "hash": "99bf6d580493256043a9ad4b99ef35a6"
+    "hash": "0a93776453dbe4e77c3ea27e7ec4c530"
   },
   {
     "hotel": "Irotama del Sol",
@@ -3817,7 +3817,7 @@
       "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación.",
       "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación.",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 21,
@@ -3827,7 +3827,7 @@
       "match_key": "ebventiuno"
     },
     "en": null,
-    "hash": "5b3aa8a885aad6933ef885ab4183fffc"
+    "hash": "9afd9470952513152524dccefe3431e6"
   },
   {
     "hotel": "Irotama Bungalows y Bohios",
@@ -3845,7 +3845,7 @@
       "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.",
       "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 21,
@@ -3855,7 +3855,7 @@
       "match_key": "ebventiuno"
     },
     "en": null,
-    "hash": "d72bae88d23c6d4b13d8a64d4e043543"
+    "hash": "c9ee473e6ac6bd6cd27035140a5368d0"
   },
   {
     "hotel": "Irotama Lago",
@@ -3873,7 +3873,7 @@
       "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación.",
       "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación.",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026 . Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 21,
@@ -3883,7 +3883,7 @@
       "match_key": "ebventiuno"
     },
     "en": null,
-    "hash": "32cd04231fdd9040fa38046aa99ccdd8"
+    "hash": "c17119432824a0d8d08de1e0f7eb3d84"
   },
   {
     "hotel": "Irotama Reservado",
@@ -3901,7 +3901,7 @@
       "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación.",
       "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación.",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 21,
@@ -3911,7 +3911,7 @@
       "match_key": "ebventiuno"
     },
     "en": null,
-    "hash": "9fb9536d4118c6db2435bd31634ff0df"
+    "hash": "c7264defcae455003ae044e65bcbcbf0"
   },
   {
     "hotel": "Irotama XXI",
@@ -3929,7 +3929,7 @@
       "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación.",
       "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación.",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
+      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 21,
@@ -3939,7 +3939,7 @@
       "match_key": "ebventiuno"
     },
     "en": null,
-    "hash": "c017030c3ce6fce730833486859e080b"
+    "hash": "9de5a1924ac6ab4b105dd0eb17d00a6f"
   },
   {
     "hotel": "Bastión Luxury Hotel",
