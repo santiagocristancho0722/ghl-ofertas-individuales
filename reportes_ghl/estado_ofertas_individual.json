@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 23,
-  "last_run": "2026-10-07 10:32",
-  "prev_run": "2026-10-05 09:09",
+  "escaneos": 24,
+  "last_run": "2026-10-09 09:08",
+  "prev_run": "2026-10-07 10:32",
   "last_kpis": {
-    "activas": 96,
-    "nuevas": 1,
+    "activas": 99,
+    "nuevas": 4,
     "eliminadas": 1,
-    "cambios": 6,
-    "escaneos": 23
+    "cambios": 1,
+    "escaneos": 24
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -83,24 +83,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "bioxury_ebktrdof": {
-      "hash": "68235eac2a5c35a9e32c01ce76ceb2a2",
-      "hotel": "Bioxury",
-      "hotel_code": "bioxury",
-      "titulo": "Compra Anticipada 30 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.bioxury.com/ofertas",
-      "country": "Colombia",
-      "city": "Bogotá",
-      "c_tit": "Compra Anticipada 30 días",
-      "c_sub": "",
-      "c_desc": "Planifica tu viaje con anticipación y disfruta de un10% de descuento al reservar con mínimo 30 días de anticipación.",
-      "c_disc": "10%",
-      "estado": "vigente",
-      "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "bioxury_barrateof": {
       "hash": "416b76edf30051eab5097a10ca7c6031",
       "hotel": "Bioxury",
@@ -116,6 +98,24 @@
       "c_disc": "10%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bioxury_ebktrdof": {
+      "hash": "68235eac2a5c35a9e32c01ce76ceb2a2",
+      "hotel": "Bioxury",
+      "hotel_code": "bioxury",
+      "titulo": "Compra Anticipada 30 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.bioxury.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Compra Anticipada 30 días",
+      "c_sub": "",
+      "c_desc": "Planifica tu viaje con anticipación y disfruta de un10% de descuento al reservar con mínimo 30 días de anticipación.",
+      "c_disc": "10%",
+      "estado": "vigente",
+      "fecha_alta": "2026-08-12 08:38",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -282,20 +282,77 @@
       "fecha_cambio": ""
     },
     "ghlstylehamilton_lonstnof": {
-      "hash": "add13ddd58c9fbfb6aad2c4ec1c4106a",
+      "hash": "ec2ba6e60a5c5795dd1344590ff5d8e2",
       "hotel": "GHL Collection Hamilton",
       "hotel_code": "ghlstylehamilton",
-      "titulo": "“Plan 2 Noches, Más Beneficios”",
+      "titulo": "“Plan 4 Noches, Más Beneficios”",
       "categoria": "Minima Estadia",
       "url": "https://www.ghlcollectionhamilton.com/ofertas",
       "country": "Colombia",
       "city": "Bogotá",
-      "c_tit": "“Plan 2 Noches, Más Beneficios”",
+      "c_tit": "“Plan 4 Noches, Más Beneficios”",
       "c_sub": "",
-      "c_desc": "Reserva una estadía mínima de 2 noches en el Hotel GHL Collection Hamilton y obtén un 7% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
+      "c_desc": "Reserva una estadía mínima de 4 noches en el Hotel GHL Collection Hamilton y obtén un 7% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
       "c_disc": "7%",
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
+      "cambios": [
+        "Título modificado",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-09 09:08"
+    },
+    "ghlstylehamilton_ebktrdof": {
+      "hash": "5ad93fde6c3fb52cb8a49d2e3a025198",
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Compra Anticipada 25 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Compra Anticipada 25 días",
+      "c_sub": "",
+      "c_desc": "",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-10-09 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlstylehamilton_barrateof": {
+      "hash": "71e7af774102dedf28f52f4fd92201f8",
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Promo Octubre",
+      "categoria": "Descuento Directo",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "PROMO OCTUBRE",
+      "c_sub": "",
+      "c_desc": "Tarifa con Descuento",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-10-09 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlstylehamilton_ebkssdof": {
+      "hash": "168bcc9d11ebc0da44e40e005bb34007",
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Compra Anticipada 60 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Compra Anticipada 60 días",
+      "c_sub": "",
+      "c_desc": "",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-10-09 09:08",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -425,24 +482,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghllagotiticaca_barrateof": {
-      "hash": "2eaf943aabca6da05b4913e549c0fcca",
-      "hotel": "GHL Lago Titicaca",
-      "hotel_code": "ghllagotiticaca",
-      "titulo": "Desconexión Titicaca - Tarifa con Descuento",
-      "categoria": "Descuento Directo",
-      "url": "https://www.ghllagotiticaca.com/ofertas",
-      "country": "Perú",
-      "city": "Puno",
-      "c_tit": "Desconexión Titicaca - Tarifa con Descuento",
-      "c_sub": "",
-      "c_desc": "Rompe la rutina y conéctate con la magia del Lago Titicaca. Disfruta de un descanso único en la Isla Esteves con un 20% de descuento exclusivo reservando desde hoy hasta el 30 de septiembre. Paisajes inolvidables y amaneceres únicos te esperan en tus próximas vacaciones. ¡Reserva tu lugar en el paraíso hoy!",
-      "c_disc": "20%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlmonteria_ebktrdof": {
       "hash": "9cb5a3edcac46e9e7445a412af4a97a1",
       "hotel": "GHL Monteria",
@@ -564,7 +603,7 @@
       "c_sub": "",
       "c_desc": "Reserva en nuestra web y disfruta de beneficios exclusivos: 20% OFF en alojamiento 15% OFF en brunch dominical 10% OFF en terapias y masajes en nuestro spa Bono de $50.000 por habitación por noche, consumible diariamente en alimentos y bebidas. El bono aplica en Restaurante Manglares, Room Service, Cafetería y Bar Alcázar. No aplica para consumos de minibar. Además, disfruta de: Piscinas para adultos y parque acuático para niños. Recreación dirigida y actividades para niños. Acceso a sala de juegos. Parqueadero cubierto. Hasta 2 niños menores de 11 años gratis en la habitación.",
       "c_disc": "20%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-07 10:32",
       "cambios": [],
       "fecha_cambio": ""
@@ -1019,24 +1058,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_ebkssdof": {
-      "hash": "6b0a0eebd8f38ed9a2c6a54a31852ccf",
-      "hotel": "San Lazaro Art",
-      "hotel_code": "sanlazaro",
-      "titulo": "Compra Anticipada 60 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sanlazaroarthotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Compra Anticipada 60 días",
-      "c_sub": "",
-      "c_desc": "Vive el encanto histórico de Cartagena desde el Hotel San Lázaro y aprovecha nuestra oferta exclusiva con 23% de descuento por tiempo limitado. Ubicado frente al imponente Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel es el punto de partida perfecto para descubrir la ciudad mientras disfrutas de confort, gastronomía y vistas únicas. Incluye: Alojamiento en habitaciones confortables Desayuno incluido para empezar el día con energía Acceso a nuestras instalaciones y rooftop con vista panorámica Ubicación privilegiada cerca de los principales atractivos",
-      "c_disc": "23%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "sanlazaro_ebktrdof": {
       "hash": "d2ed4f748af785a303736d685886a788",
       "hotel": "San Lazaro Art",
@@ -1068,6 +1089,24 @@
       "c_sub": "",
       "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
       "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "sanlazaro_ebkssdof": {
+      "hash": "6b0a0eebd8f38ed9a2c6a54a31852ccf",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Compra Anticipada 60 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Compra Anticipada 60 días",
+      "c_sub": "",
+      "c_desc": "Vive el encanto histórico de Cartagena desde el Hotel San Lázaro y aprovecha nuestra oferta exclusiva con 23% de descuento por tiempo limitado. Ubicado frente al imponente Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel es el punto de partida perfecto para descubrir la ciudad mientras disfrutas de confort, gastronomía y vistas únicas. Incluye: Alojamiento en habitaciones confortables Desayuno incluido para empezar el día con energía Acceso a nuestras instalaciones y rooftop con vista panorámica Ubicación privilegiada cerca de los principales atractivos",
+      "c_disc": "23%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
@@ -1109,24 +1148,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "cali_ebkssdof": {
-      "hash": "57fe402645085f512d7484a7535c70ad",
-      "hotel": "Sonesta Cali",
-      "hotel_code": "cali",
-      "titulo": "Compra Anticipada 60 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sonestacali.com/ofertas",
-      "country": "Colombia",
-      "city": "Cali",
-      "c_tit": "Compra Anticipada 60 días",
-      "c_sub": "",
-      "c_desc": "Anticípate y ahorra. Reserva con 60 días de anticipación y obtén 12% de descuento sobre nuestra mejor tarifa disponible. No aplica para temporadas altas, Feria de Cali ni eventos de ciudad.",
-      "c_disc": "12%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "cali_ebktrdof": {
       "hash": "37a211cca339cad1544b0a05cbdcc545",
       "hotel": "Sonesta Cali",
@@ -1140,6 +1161,24 @@
       "c_sub": "",
       "c_desc": "Planea tu viaje con tiempo. Al reservar con 30 días de anticipación, recibe 8% de descuento en tu estadía. Promoción no válida durante temporadas altas, Feria de Cali y eventos de ciudad.",
       "c_disc": "8%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "cali_ebkssdof": {
+      "hash": "57fe402645085f512d7484a7535c70ad",
+      "hotel": "Sonesta Cali",
+      "hotel_code": "cali",
+      "titulo": "Compra Anticipada 60 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestacali.com/ofertas",
+      "country": "Colombia",
+      "city": "Cali",
+      "c_tit": "Compra Anticipada 60 días",
+      "c_sub": "",
+      "c_desc": "Anticípate y ahorra. Reserva con 60 días de anticipación y obtén 12% de descuento sobre nuestra mejor tarifa disponible. No aplica para temporadas altas, Feria de Cali ni eventos de ciudad.",
+      "c_disc": "12%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
@@ -1196,6 +1235,24 @@
       "c_disc": "15%",
       "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlsoncusco_barrateof": {
+      "hash": "08a6f76cf080121b0468bca68b3f6c76",
+      "hotel": "Sonesta Cusco",
+      "hotel_code": "ghlsoncusco",
+      "titulo": "Cusco con 15% Off",
+      "categoria": "Descuento Directo",
+      "url": "https://www.sonestacusco.com/ofertas",
+      "country": "Perú",
+      "city": "Cusco",
+      "c_tit": "Cusco con 15% OFF",
+      "c_sub": "",
+      "c_desc": "Reserva ahora y opten un 15% de descuento, valido para viajar todo el mes de noviembre.",
+      "c_disc": "15%",
+      "estado": "nueva",
+      "fecha_alta": "2026-10-09 09:08",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1343,24 +1400,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsonpereira_ebktrdof": {
-      "hash": "ce27731beec11fc132ff3a5e1c505706",
-      "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
-      "titulo": "Compra Anticipada 30 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sonestapereira.com/ofertas",
-      "country": "Colombia",
-      "city": "Pereira",
-      "c_tit": "Compra Anticipada 30 días",
-      "c_sub": "",
-      "c_desc": "Reservando con 30 días de anticipación, obtienes 7% de descuento y un descanso garantizado.",
-      "c_disc": "7%",
-      "estado": "vigente",
-      "fecha_alta": "2026-08-21 10:06",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlsonpereira_ebkssdof": {
       "hash": "cbaf7e7602a8e179d1b060eeed6610ae",
       "hotel": "Sonesta Pereira",
@@ -1376,6 +1415,24 @@
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlsonpereira_ebktrdof": {
+      "hash": "ce27731beec11fc132ff3a5e1c505706",
+      "hotel": "Sonesta Pereira",
+      "hotel_code": "ghlsonpereira",
+      "titulo": "Compra Anticipada 30 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestapereira.com/ofertas",
+      "country": "Colombia",
+      "city": "Pereira",
+      "c_tit": "Compra Anticipada 30 días",
+      "c_sub": "",
+      "c_desc": "Reservando con 30 días de anticipación, obtienes 7% de descuento y un descanso garantizado.",
+      "c_disc": "7%",
+      "estado": "vigente",
+      "fecha_alta": "2026-08-21 10:06",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1536,12 +1593,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Mar reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-07 10:32"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irodsl_ebventiuno": {
       "hash": "2634493180f7ebebb409ffb7508edb35",
@@ -1556,12 +1611,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Del Sol reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-07 10:32"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irohbb_ebventiuno": {
       "hash": "68342f919ddb1eaba0ba49cf0e3c4a34",
@@ -1576,12 +1629,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-07 10:32"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irolago_ebventiuno": {
       "hash": "407422620d452c8f60d2ce53609935fc",
@@ -1596,12 +1647,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Lago reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026 . Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-07 10:32"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "irorvd_ebventiuno": {
       "hash": "609209b9079ef2f93fc581d59d6a090d",
@@ -1616,12 +1665,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama Reservado reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-07 10:32"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "iroxxl_ebventiuno": {
       "hash": "bad33e76ac85702620f834fa70739aa5",
@@ -1636,12 +1683,10 @@
       "c_sub": "",
       "c_desc": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
       "c_disc": "25%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-22 09:55",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-07 10:32"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "bastionlux_19f4d7": {
       "hash": "80d13639be336e3c09a3066c41bcbcf6",
@@ -2852,6 +2897,26 @@
       "fecha_cambio": "",
       "id": "arsenal_barrateof",
       "fecha_baja": "2026-10-07 10:32"
+    },
+    {
+      "hash": "2eaf943aabca6da05b4913e549c0fcca",
+      "hotel": "GHL Lago Titicaca",
+      "hotel_code": "ghllagotiticaca",
+      "titulo": "Desconexión Titicaca - Tarifa con Descuento",
+      "categoria": "Descuento Directo",
+      "url": "https://www.ghllagotiticaca.com/ofertas",
+      "country": "Perú",
+      "city": "Puno",
+      "c_tit": "Desconexión Titicaca - Tarifa con Descuento",
+      "c_sub": "",
+      "c_desc": "Rompe la rutina y conéctate con la magia del Lago Titicaca. Disfruta de un descanso único en la Isla Esteves con un 20% de descuento exclusivo reservando desde hoy hasta el 30 de septiembre. Paisajes inolvidables y amaneceres únicos te esperan en tus próximas vacaciones. ¡Reserva tu lugar en el paraíso hoy!",
+      "c_disc": "20%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghllagotiticaca_barrateof",
+      "fecha_baja": "2026-10-09 09:08"
     }
   ]
 }
