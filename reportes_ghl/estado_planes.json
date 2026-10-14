@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 15,
-  "last_run": "2026-10-09 09:28",
-  "prev_run": "2026-10-07 10:51",
+  "escaneos": 16,
+  "last_run": "2026-10-13 22:23",
+  "prev_run": "2026-10-09 09:28",
   "last_kpis": {
     "activas": 102,
-    "nuevas": 0,
-    "eliminadas": 0,
-    "cambios": 0,
-    "escaneos": 15
+    "nuevas": 2,
+    "eliminadas": 2,
+    "cambios": 5,
+    "escaneos": 16
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -714,7 +714,7 @@
       "fecha_cambio": ""
     },
     "plan_ghlstylebarrancabermeja_plan-pasadia-style": {
-      "hash": "1ba88c9ceb909aeca5cbdc1b7e95990a",
+      "hash": "38e3fa269365da34a3788a5a4f9a1e37",
       "hotel": "GHL Style Barrancabermeja",
       "hotel_code": "ghlstylebarrancabermeja",
       "titulo": "Plan Pasadia Style",
@@ -724,12 +724,14 @@
       "city": "Barrancabermeja",
       "c_tit": "PLAN PASADIA STYLE",
       "c_sub": "",
-      "c_desc": "Disfruta una experiencia diferente en las alturas de Barrancabermeja. Relájate, comparte momentos especiales y deleita tu paladar con una propuesta gastronómica diseñada para disfrutar en pareja, con amigos o en familia. El plan incluye: Reserva previa requerida. Sujeto a disponibilidad. Aplican términos y condiciones.",
+      "c_desc": "Disfruta una experiencia diferente en las alturas de Barrancabermeja. Relájate, comparte momentos especiales y deleita tu paladar con una propuesta gastronómica diseñada para disfrutar en pareja, con amigos o en familia. El plan incluye:\n· Acceso al jacuzzi panorámico ubicado en el piso 12.\n· Dos crepes de lomo fino.\n· Dos gaseosas artesanales.\n· Postre especial a sugerencia del chef.\n· Acceso gratuito para hasta 2 niños entre 0 y 5 años. Reserva previa requerida. Sujeto a disponibilidad. Aplican términos y condiciones.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-09-17 09:32",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-13 22:23"
     },
     "plan_ghlstylebarrancabermeja_plan-noche-de-bodas-barranca": {
       "hash": "a93988607c049d42d1a9b2edc8c1a0b3",
@@ -750,25 +752,27 @@
       "fecha_cambio": ""
     },
     "plan_ghlstylebarrancabermeja_tu-pausa-en-el-camino": {
-      "hash": "9ff9509120492e8a48aeacab2f094d66",
+      "hash": "d444f021759e03a66c3a07ec8aa3ae64",
       "hotel": "GHL Style Barrancabermeja",
       "hotel_code": "ghlstylebarrancabermeja",
       "titulo": "Tu Pausa en el Camino",
-      "categoria": "Plan General",
+      "categoria": "Familiar",
       "url": "https://www.ghlstylebarrancabermeja.com/planes/tu-pausa-en-el-camino",
       "country": "Colombia",
       "city": "Barrancabermeja",
       "c_tit": "TU PAUSA EN EL CAMINO",
       "c_sub": "",
-      "c_desc": "Pon la rutina en pausa para vivir una experiencia diferente. Incluye:",
+      "c_desc": "Pon la rutina en pausa para vivir una experiencia diferente. Incluye:\n· Alojamiento en habitación doble.\n· Ingreso hasta para 2 niños de 0 a 5 años sin costo adicional en la habitación de los padres.\n· Cóctel de la casa como bienvenida y helado para el niño.\n· Desayuno tipo buffet en el restaurante.\n· Acceso a jacuzzi en el piso 12 con vista a la ciénaga.\n· Servicio de parqueadero.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-09-07 09:25",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-13 22:23"
     },
     "plan_ghlstylebarrancabermeja_cena-romantica": {
-      "hash": "099dda88d0dfd28c109630f2444b6088",
+      "hash": "b2285dcd048d1dc3724fbd1e308a40b7",
       "hotel": "GHL Style Barrancabermeja",
       "hotel_code": "ghlstylebarrancabermeja",
       "titulo": "Cena Romántica",
@@ -778,15 +782,17 @@
       "city": "Barrancabermeja",
       "c_tit": "CENA ROMÁNTICA",
       "c_sub": "",
-      "c_desc": "Celebra el amor con una experiencia especial en GHL Style Barrancabermeja. El plan incluye una experiencia gastronómica cuidadosamente preparada para compartir y crear momentos inolvidables: Incluye: Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
+      "c_desc": "Celebra el amor con una experiencia especial en GHL Style Barrancabermeja. El plan incluye una experiencia gastronómica cuidadosamente preparada para compartir y crear momentos inolvidables: Incluye: · Entrada\n· Plato fuerte\n· Postre\n· Botella de vino\n· Decoración especial para la ocasión Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-09-17 09:32",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-13 22:23"
     },
     "plan_ghlstylebarrancabermeja_una-escapada-magica": {
-      "hash": "227d4fea6ace2126270101ad653fbcec",
+      "hash": "7f63c8ad685a69031c1b78cc76a7c7ca",
       "hotel": "GHL Style Barrancabermeja",
       "hotel_code": "ghlstylebarrancabermeja",
       "titulo": "Una Escapada Magica",
@@ -796,15 +802,17 @@
       "city": "Barrancabermeja",
       "c_tit": "UNA ESCAPADA MAGICA",
       "c_sub": "",
-      "c_desc": "Vive una experiencia especial en pareja y déjate sorprender por una noche llena de detalles en GHL Style Barrancabermeja. El plan incluye: Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
+      "c_desc": "Vive una experiencia especial en pareja y déjate sorprender por una noche llena de detalles en GHL Style Barrancabermeja. El plan incluye: · Alojamiento en habitación estándar con decoración especial.\n· Desayuno tipo buffet y servicio a la habitación.\n· Fresas bañadas en chocolate.\n· Jacuzzi en el piso 12.\n· Cena para dos en el Rooftop Cumbre, que incluye entrada, plato fuerte, postre y botella de vino. Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-09-17 09:32",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-13 22:23"
     },
     "plan_ghlstylebarrancabermeja_plan-aniversario": {
-      "hash": "f03c674ce00400645b34ab91df504d06",
+      "hash": "0a76a534daf70b1d2ff3a1d55fb98fd8",
       "hotel": "GHL Style Barrancabermeja",
       "hotel_code": "ghlstylebarrancabermeja",
       "titulo": "Plan Aniversario",
@@ -814,12 +822,14 @@
       "city": "Barrancabermeja",
       "c_tit": "PLAN ANIVERSARIO",
       "c_sub": "",
-      "c_desc": "Revivan la magia de ese momento especial y celebren su historia de amor con una experiencia inolvidable. Disfruten una noche romántica diseñada para sorprender, compartir y crear nuevos recuerdos en un ambiente exclusivo y lleno de detalles. El plan incluye: Reserva previa requerida. Sujeto a disponibilidad. Aplican términos y condiciones.",
+      "c_desc": "Revivan la magia de ese momento especial y celebren su historia de amor con una experiencia inolvidable. Disfruten una noche romántica diseñada para sorprender, compartir y crear nuevos recuerdos en un ambiente exclusivo y lleno de detalles. El plan incluye: · Alojamiento en una de nuestras suites con decoración especial romántica.\n· Desayuno buffet en el restaurante o servicio a la habitación para disfrutar de una mañana sin prisas.\n· Fresas bañadas en chocolate.\n· Experiencia de jacuzzi privado en el piso 12.\n· Cena romántica para dos en la habitación o en el rooftop Cumbre, que incluye: Ent",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-09-17 09:32",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-13 22:23"
     },
     "plan_ghlstyleoccidente_plan-cumplea%c3%b1os": {
       "hash": "f944efc85905120ce219b497467cbb47",
@@ -1685,39 +1695,39 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "plan_ghlsonpereira_plan-cumpleanos-sonesta": {
+    "plan_sonestapereira_plan-cumpleanos-sonesta": {
       "hash": "d05a650b57aeabc666eb87da9d8d73e2",
       "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
+      "hotel_code": "sonestapereira",
       "titulo": "Plan Cumpleaños Sonesta",
       "categoria": "Cumpleaños",
       "url": "https://www.sonestapereira.com/planes/plan-cumpleanos-sonesta",
-      "country": "Colombia",
-      "city": "Pereira",
+      "country": "Otro",
+      "city": "—",
       "c_tit": "PLAN CUMPLEAÑOS SONESTA",
       "c_sub": "",
       "c_desc": "INCLUYE:\n. Alojamiento habitación Estándar\n. Decoración cumpleaños\n. Botella de Vino espumoso\n. Postre personal cumpleaños\n. Detalle personal\n. Cena Restaurante Cook´s\n. Desayuno a la habitación (opcional)",
       "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-08-27 11:30",
+      "estado": "nueva",
+      "fecha_alta": "2026-10-13 22:23",
       "cambios": [],
       "fecha_cambio": ""
     },
-    "plan_ghlsonpereira_plan-relax-sonesta": {
+    "plan_sonestapereira_plan-relax-sonesta": {
       "hash": "af50af03230872cdc8135703648ee260",
       "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
+      "hotel_code": "sonestapereira",
       "titulo": "Plan Relax Sonesta",
       "categoria": "Bienestar/Spa",
       "url": "https://www.sonestapereira.com/planes/plan-relax-sonesta",
-      "country": "Colombia",
-      "city": "Pereira",
+      "country": "Otro",
+      "city": "—",
       "c_tit": "PLAN RELAX SONESTA",
       "c_sub": "",
       "c_desc": "Plan Relax: En pareja!\nVive una experiencia única de descanso y renovación. INCLUYE:\n. Alojamiento habitación Estándar\n. Masaje plan ritual de café\n. Coctel del día\n. Tabla de quesos\n. Desayuno a la habitación",
       "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-08-27 11:30",
+      "estado": "nueva",
+      "fecha_alta": "2026-10-13 22:23",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -2028,6 +2038,46 @@
       "fecha_cambio": "",
       "id": "plan_irohbb_plan-escapada-romantica-bungalows-y-bohios",
       "fecha_baja": "2026-10-01 09:38"
+    },
+    {
+      "hash": "d05a650b57aeabc666eb87da9d8d73e2",
+      "hotel": "Sonesta Pereira",
+      "hotel_code": "ghlsonpereira",
+      "titulo": "Plan Cumpleaños Sonesta",
+      "categoria": "Cumpleaños",
+      "url": "https://www.sonestapereira.com/planes/plan-cumpleanos-sonesta",
+      "country": "Colombia",
+      "city": "Pereira",
+      "c_tit": "PLAN CUMPLEAÑOS SONESTA",
+      "c_sub": "",
+      "c_desc": "INCLUYE:\n. Alojamiento habitación Estándar\n. Decoración cumpleaños\n. Botella de Vino espumoso\n. Postre personal cumpleaños\n. Detalle personal\n. Cena Restaurante Cook´s\n. Desayuno a la habitación (opcional)",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-08-27 11:30",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "plan_ghlsonpereira_plan-cumpleanos-sonesta",
+      "fecha_baja": "2026-10-13 22:23"
+    },
+    {
+      "hash": "af50af03230872cdc8135703648ee260",
+      "hotel": "Sonesta Pereira",
+      "hotel_code": "ghlsonpereira",
+      "titulo": "Plan Relax Sonesta",
+      "categoria": "Bienestar/Spa",
+      "url": "https://www.sonestapereira.com/planes/plan-relax-sonesta",
+      "country": "Colombia",
+      "city": "Pereira",
+      "c_tit": "PLAN RELAX SONESTA",
+      "c_sub": "",
+      "c_desc": "Plan Relax: En pareja!\nVive una experiencia única de descanso y renovación. INCLUYE:\n. Alojamiento habitación Estándar\n. Masaje plan ritual de café\n. Coctel del día\n. Tabla de quesos\n. Desayuno a la habitación",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-08-27 11:30",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "plan_ghlsonpereira_plan-relax-sonesta",
+      "fecha_baja": "2026-10-13 22:23"
     }
   ]
 }

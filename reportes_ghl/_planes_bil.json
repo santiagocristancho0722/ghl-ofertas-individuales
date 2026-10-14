@@ -1437,7 +1437,7 @@
       "titulo": "PLAN PASADIA STYLE",
       "nombre_corto": "PLAN PASADIA STYLE",
       "titular": "",
-      "descripcion": "Disfruta una experiencia diferente en las alturas de Barrancabermeja. Relájate, comparte momentos especiales y deleita tu paladar con una propuesta gastronómica diseñada para disfrutar en pareja, con amigos o en familia. El plan incluye: Reserva previa requerida. Sujeto a disponibilidad. Aplican términos y condiciones.",
+      "descripcion": "Disfruta una experiencia diferente en las alturas de Barrancabermeja. Relájate, comparte momentos especiales y deleita tu paladar con una propuesta gastronómica diseñada para disfrutar en pareja, con amigos o en familia. El plan incluye:\n· Acceso al jacuzzi panorámico ubicado en el piso 12.\n· Dos crepes de lomo fino.\n· Dos gaseosas artesanales.\n· Postre especial a sugerencia del chef.\n· Acceso gratuito para hasta 2 niños entre 0 y 5 años. Reserva previa requerida. Sujeto a disponibilidad. Aplican términos y condiciones.",
       "categoria": "Pasadía",
       "descuento": null,
       "precio_desde": "COP $ 135,000",
@@ -1445,7 +1445,7 @@
       "tyc": ". TÉRMINOS Y CONDICIONES • Este plan lo debes reservar con 24 horas de anticipación. • Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Las zonas que puedes disfrutar del hotel con el plan son: Zonas Húmedas. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta, Pago en el hotel. RESERVAR Preguntas frecuentes ¿Tienen servicio de transfer? Contamos con servicios de transfer, lo debes reservar comunicándote al (607) 6972533 o en el correo reservas.barrancabermeja@ghlhoteles.com . ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
     "en": null,
-    "hash": "be16963ae1d6f05c2bcaf9489a347d9c"
+    "hash": "ce5270d9e476893be62e41a6639a1dc6"
   },
   {
     "hotel": "GHL Style Barrancabermeja",
@@ -1475,7 +1475,7 @@
   {
     "hotel": "GHL Style Barrancabermeja",
     "hotel_code": "ghlstylebarrancabermeja",
-    "categoria": "Plan General",
+    "categoria": "Familiar",
     "id": "plan_ghlstylebarrancabermeja_tu-pausa-en-el-camino",
     "es": {
       "lang": "es",
@@ -1487,15 +1487,15 @@
       "titulo": "TU PAUSA EN EL CAMINO",
       "nombre_corto": "TU PAUSA EN EL CAMINO",
       "titular": "",
-      "descripcion": "Pon la rutina en pausa para vivir una experiencia diferente. Incluye:",
-      "categoria": "Plan General",
+      "descripcion": "Pon la rutina en pausa para vivir una experiencia diferente. Incluye:\n· Alojamiento en habitación doble.\n· Ingreso hasta para 2 niños de 0 a 5 años sin costo adicional en la habitación de los padres.\n· Cóctel de la casa como bienvenida y helado para el niño.\n· Desayuno tipo buffet en el restaurante.\n· Acceso a jacuzzi en el piso 12 con vista a la ciénaga.\n· Servicio de parqueadero.",
+      "categoria": "Familiar",
       "descuento": null,
       "precio_desde": "COP $ 298,000",
       "vigencia": null,
       "tyc": "• Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Con este plan tienes alojamiento en habitación Doble. • Las zonas que puedes disfrutar del hotel con el plan son: Zonas Húmedas. • Tu plan incluye Desayuno. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta, Pago en el hotel. • Puedes modificar 1 tu reserva sin generar un valor adicional. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
     "en": null,
-    "hash": "3c62d119104a23458bafa364e3010858"
+    "hash": "c0b63c9ecf4e3096f14614d174dbdd24"
   },
   {
     "hotel": "GHL Style Barrancabermeja",
@@ -1512,7 +1512,7 @@
       "titulo": "CENA ROMÁNTICA",
       "nombre_corto": "CENA ROMÁNTICA",
       "titular": "",
-      "descripcion": "Celebra el amor con una experiencia especial en GHL Style Barrancabermeja. El plan incluye una experiencia gastronómica cuidadosamente preparada para compartir y crear momentos inolvidables: Incluye: Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
+      "descripcion": "Celebra el amor con una experiencia especial en GHL Style Barrancabermeja. El plan incluye una experiencia gastronómica cuidadosamente preparada para compartir y crear momentos inolvidables: Incluye: · Entrada\n· Plato fuerte\n· Postre\n· Botella de vino\n· Decoración especial para la ocasión Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
       "categoria": "Gastronómico",
       "descuento": null,
       "precio_desde": "COP $ 280,000",
@@ -1520,7 +1520,7 @@
       "tyc": "• Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Tu plan incluye Cena. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
     "en": null,
-    "hash": "19f3261f240a4a58d78a7996d85041fa"
+    "hash": "9956df4e3ff8a10f440c51f9025bb4b3"
   },
   {
     "hotel": "GHL Style Barrancabermeja",
@@ -1537,7 +1537,7 @@
       "titulo": "UNA ESCAPADA MAGICA",
       "nombre_corto": "UNA ESCAPADA MAGICA",
       "titular": "",
-      "descripcion": "Vive una experiencia especial en pareja y déjate sorprender por una noche llena de detalles en GHL Style Barrancabermeja. El plan incluye: Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
+      "descripcion": "Vive una experiencia especial en pareja y déjate sorprender por una noche llena de detalles en GHL Style Barrancabermeja. El plan incluye: · Alojamiento en habitación estándar con decoración especial.\n· Desayuno tipo buffet y servicio a la habitación.\n· Fresas bañadas en chocolate.\n· Jacuzzi en el piso 12.\n· Cena para dos en el Rooftop Cumbre, que incluye entrada, plato fuerte, postre y botella de vino. Condiciones: Previa reserva. Aplican términos, condiciones y restricciones. Sujeto a disponibilidad.",
       "categoria": "Fin de semana",
       "descuento": null,
       "precio_desde": "COP $ 620,000",
@@ -1545,7 +1545,7 @@
       "tyc": "• Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Con este plan tienes alojamiento en habitación Estándar. • Las zonas que puedes disfrutar del hotel con el plan son: Zonas Húmedas. • Tu plan incluye Desayuno. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
     "en": null,
-    "hash": "29d0da6c2a8a370fe48b992ce6aab4f5"
+    "hash": "e732e145e4b7c22e476ca6e88f1253f6"
   },
   {
     "hotel": "GHL Style Barrancabermeja",
@@ -1562,7 +1562,7 @@
       "titulo": "PLAN ANIVERSARIO",
       "nombre_corto": "PLAN ANIVERSARIO",
       "titular": "",
-      "descripcion": "Revivan la magia de ese momento especial y celebren su historia de amor con una experiencia inolvidable. Disfruten una noche romántica diseñada para sorprender, compartir y crear nuevos recuerdos en un ambiente exclusivo y lleno de detalles. El plan incluye: Reserva previa requerida. Sujeto a disponibilidad. Aplican términos y condiciones.",
+      "descripcion": "Revivan la magia de ese momento especial y celebren su historia de amor con una experiencia inolvidable. Disfruten una noche romántica diseñada para sorprender, compartir y crear nuevos recuerdos en un ambiente exclusivo y lleno de detalles. El plan incluye: · Alojamiento en una de nuestras suites con decoración especial romántica.\n· Desayuno buffet en el restaurante o servicio a la habitación para disfrutar de una mañana sin prisas.\n· Fresas bañadas en chocolate.\n· Experiencia de jacuzzi privado en el piso 12.\n· Cena romántica para dos en la habitación o en el rooftop Cumbre, que incluye: Ent",
       "categoria": "Aniversario",
       "descuento": null,
       "precio_desde": "COP $ 695,000",
@@ -1570,7 +1570,7 @@
       "tyc": ". TÉRMINOS Y CONDICIONES • Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Las zonas que puedes disfrutar del hotel con el plan son: Zonas Húmedas. • Tu plan incluye Cena. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
     "en": null,
-    "hash": "0d4971a2281d7af1ab13bfdf08886274"
+    "hash": "c8257c26369ec51e908f80ddb6f0c6cd"
   },
   {
     "hotel": "GHL Style Bogota Occidente",
@@ -3462,16 +3462,16 @@
   },
   {
     "hotel": "Sonesta Pereira",
-    "hotel_code": "ghlsonpereira",
+    "hotel_code": "sonestapereira",
     "categoria": "Cumpleaños",
-    "id": "plan_ghlsonpereira_plan-cumpleanos-sonesta",
+    "id": "plan_sonestapereira_plan-cumpleanos-sonesta",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapereira.com/planes/plan-cumpleanos-sonesta",
       "page_url": "https://www.sonestapereira.com/planes",
       "slug": "plan-cumpleanos-sonesta",
       "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
+      "hotel_code": "sonestapereira",
       "titulo": "PLAN CUMPLEAÑOS SONESTA",
       "nombre_corto": "PLAN CUMPLEAÑOS SONESTA",
       "titular": "",
@@ -3488,7 +3488,7 @@
       "page_url": "https://en.sonestapereira.com/plans",
       "slug": "sonesta-birthday-plan",
       "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
+      "hotel_code": "sonestapereira",
       "titulo": "SONESTA BIRTHDAY PLAN",
       "nombre_corto": "SONESTA BIRTHDAY PLAN",
       "titular": "",
@@ -3503,16 +3503,16 @@
   },
   {
     "hotel": "Sonesta Pereira",
-    "hotel_code": "ghlsonpereira",
+    "hotel_code": "sonestapereira",
     "categoria": "Bienestar/Spa",
-    "id": "plan_ghlsonpereira_plan-relax-sonesta",
+    "id": "plan_sonestapereira_plan-relax-sonesta",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapereira.com/planes/plan-relax-sonesta",
       "page_url": "https://www.sonestapereira.com/planes",
       "slug": "plan-relax-sonesta",
       "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
+      "hotel_code": "sonestapereira",
       "titulo": "PLAN RELAX SONESTA",
       "nombre_corto": "PLAN RELAX SONESTA",
       "titular": "",
@@ -3529,7 +3529,7 @@
       "page_url": "https://en.sonestapereira.com/plans",
       "slug": "plan-relax-sonesta",
       "hotel": "Sonesta Pereira",
-      "hotel_code": "ghlsonpereira",
+      "hotel_code": "sonestapereira",
       "titulo": "RELAX SONESTA PLAN",
       "nombre_corto": "RELAX SONESTA PLAN",
       "titular": "",
