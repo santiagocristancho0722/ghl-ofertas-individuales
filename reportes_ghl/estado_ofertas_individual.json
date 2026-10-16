@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 26,
-  "last_run": "2026-10-14 09:07",
-  "prev_run": "2026-10-13 22:05",
+  "escaneos": 27,
+  "last_run": "2026-10-16 09:09",
+  "prev_run": "2026-10-14 09:07",
   "last_kpis": {
-    "activas": 94,
-    "nuevas": 0,
-    "eliminadas": 0,
-    "cambios": 0,
-    "escaneos": 26
+    "activas": 95,
+    "nuevas": 2,
+    "eliminadas": 1,
+    "cambios": 3,
+    "escaneos": 27
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -83,24 +83,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "bioxury_barrateof": {
-      "hash": "416b76edf30051eab5097a10ca7c6031",
-      "hotel": "Bioxury",
-      "hotel_code": "bioxury",
-      "titulo": "Experiencia de Conciertos",
-      "categoria": "Descuento Directo",
-      "url": "https://www.bioxury.com/ofertas",
-      "country": "Colombia",
-      "city": "Bogotá",
-      "c_tit": "Experiencia de Conciertos",
-      "c_sub": "",
-      "c_desc": "¿Ya tienes tu concierto programado en Bogotá? En GHL Bioxury nos unimos a tu plan con 10% OFF en hospedaje para que disfrutes el concierto y vivas lo mejor de la Zona Rosa. Código promocional: BIOCONCERT",
-      "c_disc": "10%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "bioxury_ebktrdof": {
       "hash": "68235eac2a5c35a9e32c01ce76ceb2a2",
       "hotel": "Bioxury",
@@ -116,6 +98,24 @@
       "c_disc": "10%",
       "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "bioxury_barrateof": {
+      "hash": "416b76edf30051eab5097a10ca7c6031",
+      "hotel": "Bioxury",
+      "hotel_code": "bioxury",
+      "titulo": "Experiencia de Conciertos",
+      "categoria": "Descuento Directo",
+      "url": "https://www.bioxury.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Experiencia de Conciertos",
+      "c_sub": "",
+      "c_desc": "¿Ya tienes tu concierto programado en Bogotá? En GHL Bioxury nos unimos a tu plan con 10% OFF en hospedaje para que disfrutes el concierto y vivas lo mejor de la Zona Rosa. Código promocional: BIOCONCERT",
+      "c_disc": "10%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -281,8 +281,30 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "ghlstylehamilton_barrateof": {
+      "hash": "f9d2c85c4df9eac2a9cbcd80a24ed9c4",
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Promo Octubre y Noviembre",
+      "categoria": "Descuento Directo",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "PROMO OCTUBRE Y NOVIEMBRE",
+      "c_sub": "",
+      "c_desc": "Descubra una nueva forma de disfrutar y convierta octubre en una experiencia inolvidable. Reserve su estadía durante este mes y obtenga un 10 % de descuento para disfrutar de momentos de descanso, confort y experiencias únicas. ¡Aproveche esta oportunidad por tiempo limitado!",
+      "c_disc": "10%",
+      "estado": "cambio",
+      "fecha_alta": "2026-10-09 09:08",
+      "cambios": [
+        "Descuento/beneficio: — → 10%",
+        "Título modificado",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-16 09:09"
+    },
     "ghlstylehamilton_ebktrdof": {
-      "hash": "5ad93fde6c3fb52cb8a49d2e3a025198",
+      "hash": "51669b7a27fa3eefe05ec717473cdad7",
       "hotel": "GHL Collection Hamilton",
       "hotel_code": "ghlstylehamilton",
       "titulo": "Compra Anticipada 25 Días",
@@ -292,33 +314,18 @@
       "city": "Bogotá",
       "c_tit": "Compra Anticipada 25 días",
       "c_sub": "",
-      "c_desc": "",
-      "c_disc": null,
-      "estado": "vigente",
+      "c_desc": "Planifique su próxima estadía con anticipación y aproveche un beneficio exclusivo. Reserve con al menos 25 días de anticipación y obtenga un 10 % de descuento en su reserva. Anticípese, asegure su próxima experiencia y disfrute de una estadía inolvidable.",
+      "c_disc": "10%",
+      "estado": "cambio",
       "fecha_alta": "2026-10-09 09:08",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
-    "ghlstylehamilton_barrateof": {
-      "hash": "71e7af774102dedf28f52f4fd92201f8",
-      "hotel": "GHL Collection Hamilton",
-      "hotel_code": "ghlstylehamilton",
-      "titulo": "Promo Octubre",
-      "categoria": "Descuento Directo",
-      "url": "https://www.ghlcollectionhamilton.com/ofertas",
-      "country": "Colombia",
-      "city": "Bogotá",
-      "c_tit": "PROMO OCTUBRE",
-      "c_sub": "",
-      "c_desc": "Tarifa con Descuento",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-10-09 09:08",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descuento/beneficio: — → 10%",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-16 09:09"
     },
     "ghlstylehamilton_ebkssdof": {
-      "hash": "168bcc9d11ebc0da44e40e005bb34007",
+      "hash": "fb58b1d8dc86838ed56f47e88963187b",
       "hotel": "GHL Collection Hamilton",
       "hotel_code": "ghlstylehamilton",
       "titulo": "Compra Anticipada 60 Días",
@@ -328,12 +335,15 @@
       "city": "Bogotá",
       "c_tit": "Compra Anticipada 60 días",
       "c_sub": "",
-      "c_desc": "",
-      "c_disc": null,
-      "estado": "vigente",
+      "c_desc": "Planifique su próxima estadía con tiempo y aproveche una tarifa especial. Reserve con al menos 60 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con anticipación y prepárese para disfrutar de una experiencia inolvidable.",
+      "c_disc": "15%",
+      "estado": "cambio",
       "fecha_alta": "2026-10-09 09:08",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descuento/beneficio: — → 15%",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-16 09:09"
     },
     "ghlstylehamilton_lonstnof": {
       "hash": "ec2ba6e60a5c5795dd1344590ff5d8e2",
@@ -857,21 +867,21 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsonbarranq_ebktrdof": {
-      "hash": "7a0bd4dda6905f9cd840cc25d57cb44a",
+    "ghlgrandbarranquilla_6533a7": {
+      "hash": "c3054f0b7bd7e498ff7eeff28c641dfe",
       "hotel": "GHL Grand Barranquilla",
-      "hotel_code": "ghlsonbarranq",
+      "hotel_code": "ghlgrandbarranquilla",
       "titulo": "Compra Anticipada 30 Días",
       "categoria": "Compra Anticipada",
       "url": "https://www.ghlgrandbarranquilla.com/ofertas",
-      "country": "Colombia",
-      "city": "Barranquilla",
+      "country": "Otro",
+      "city": "—",
       "c_tit": "Compra Anticipada 30 días",
       "c_sub": "",
-      "c_desc": "",
+      "c_desc": "Compra Anticipada 30 días",
       "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
+      "estado": "nueva",
+      "fecha_alta": "2026-10-16 09:09",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -1001,24 +1011,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_ebkssdof": {
-      "hash": "6b0a0eebd8f38ed9a2c6a54a31852ccf",
-      "hotel": "San Lazaro Art",
-      "hotel_code": "sanlazaro",
-      "titulo": "Compra Anticipada 60 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sanlazaroarthotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Compra Anticipada 60 días",
-      "c_sub": "",
-      "c_desc": "Vive el encanto histórico de Cartagena desde el Hotel San Lázaro y aprovecha nuestra oferta exclusiva con 23% de descuento por tiempo limitado. Ubicado frente al imponente Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel es el punto de partida perfecto para descubrir la ciudad mientras disfrutas de confort, gastronomía y vistas únicas. Incluye: Alojamiento en habitaciones confortables Desayuno incluido para empezar el día con energía Acceso a nuestras instalaciones y rooftop con vista panorámica Ubicación privilegiada cerca de los principales atractivos",
-      "c_disc": "23%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "sanlazaro_lonstnof": {
       "hash": "9635bf0cb135e97ff8cbe010f4792afb",
       "hotel": "San Lazaro Art",
@@ -1032,6 +1024,24 @@
       "c_sub": "",
       "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
       "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "sanlazaro_ebkssdof": {
+      "hash": "6b0a0eebd8f38ed9a2c6a54a31852ccf",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Compra Anticipada 60 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Compra Anticipada 60 días",
+      "c_sub": "",
+      "c_desc": "Vive el encanto histórico de Cartagena desde el Hotel San Lázaro y aprovecha nuestra oferta exclusiva con 23% de descuento por tiempo limitado. Ubicado frente al imponente Castillo de San Felipe y a pocos minutos del centro histórico, nuestro hotel es el punto de partida perfecto para descubrir la ciudad mientras disfrutas de confort, gastronomía y vistas únicas. Incluye: Alojamiento en habitaciones confortables Desayuno incluido para empezar el día con energía Acceso a nuestras instalaciones y rooftop con vista panorámica Ubicación privilegiada cerca de los principales atractivos",
+      "c_disc": "23%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
@@ -1448,6 +1458,24 @@
       "c_disc": "30%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlsonmfl_trespordos": {
+      "hash": "c1768ea26d00c396e0a62bc98e2fd335",
+      "hotel": "Sonesta Miraflores",
+      "hotel_code": "ghlsonmfl",
+      "titulo": "Escapada 3x2: Lima Miraflores",
+      "categoria": "Fin de Semana",
+      "url": "https://www.sonestamiraflores.com/ofertas",
+      "country": "Perú",
+      "city": "Lima",
+      "c_tit": "Escapada 3x2: Lima Miraflores",
+      "c_sub": "",
+      "c_desc": "Extiende tu fin de semana en Miraflores con nuestra tarifa especial 3x2. Reserva tus noches de viernes y sábado a tarifa regular y disfruta la noche del domingo totalmente gratis con acceso completo a instalaciones.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-10-16 09:09",
       "cambios": [],
       "fecha_cambio": ""
     },
@@ -2924,6 +2952,26 @@
       "fecha_cambio": "",
       "id": "ghlsonpereira_ebktrdof",
       "fecha_baja": "2026-10-13 22:05"
+    },
+    {
+      "hash": "7a0bd4dda6905f9cd840cc25d57cb44a",
+      "hotel": "GHL Grand Barranquilla",
+      "hotel_code": "ghlsonbarranq",
+      "titulo": "Compra Anticipada 30 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.ghlgrandbarranquilla.com/ofertas",
+      "country": "Colombia",
+      "city": "Barranquilla",
+      "c_tit": "Compra Anticipada 30 días",
+      "c_sub": "",
+      "c_desc": "",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghlsonbarranq_ebktrdof",
+      "fecha_baja": "2026-10-16 09:09"
     }
   ]
 }
