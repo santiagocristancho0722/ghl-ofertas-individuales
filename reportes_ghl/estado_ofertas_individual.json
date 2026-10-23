@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 29,
-  "last_run": "2026-10-21 09:09",
-  "prev_run": "2026-10-19 09:11",
+  "escaneos": 30,
+  "last_run": "2026-10-23 09:08",
+  "prev_run": "2026-10-21 09:09",
   "last_kpis": {
-    "activas": 93,
-    "nuevas": 3,
-    "eliminadas": 5,
-    "cambios": 7,
-    "escaneos": 29
+    "activas": 92,
+    "nuevas": 1,
+    "eliminadas": 2,
+    "cambios": 1,
+    "escaneos": 30
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -281,6 +281,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "ghlstylehamilton_ebkssdof": {
+      "hash": "155b7d7e8906dffb59849d37ca7d7e83",
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Compra Anticipada 45 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Compra Anticipada 45 días",
+      "c_sub": "",
+      "c_desc": "Planifique su próxima estadía con tiempo y aproveche una tarifa especial. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con anticipación y prepárese para disfrutar de una experiencia inolvidable.",
+      "c_disc": "15%",
+      "estado": "vigente",
+      "fecha_alta": "2026-10-09 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "ghlstylehamilton_barrateof": {
       "hash": "f9d2c85c4df9eac2a9cbcd80a24ed9c4",
       "hotel": "GHL Collection Hamilton",
@@ -312,13 +330,10 @@
       "c_sub": "",
       "c_desc": "Planifique su próxima estadía con anticipación y aproveche un beneficio exclusivo. Reserve con al menos 15 días de anticipación y obtenga un 10 % de descuento en su reserva. Anticípese, asegure su próxima experiencia y disfrute de una estadía inolvidable.",
       "c_disc": "10%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-10-09 09:08",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlstylehamilton_lonstnof": {
       "hash": "ab215baadca1c8b80e89d1f42338222f",
@@ -333,33 +348,10 @@
       "c_sub": "",
       "c_desc": "Reserva una estadía mínima de 4 noches en el Hotel GHL Collection Hamilton y obtén un 7% de descuento sobre tu tarifa. La opción perfecta para quienes desean aprovechar cada momento, ya sea por descanso o negocios, con la comodidad y el servicio que nos caracteriza.",
       "c_disc": "7%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Título modificado"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
-    },
-    "ghlstylehamilton_ebkssdof": {
-      "hash": "155b7d7e8906dffb59849d37ca7d7e83",
-      "hotel": "GHL Collection Hamilton",
-      "hotel_code": "ghlstylehamilton",
-      "titulo": "Compra Anticipada 45 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.ghlcollectionhamilton.com/ofertas",
-      "country": "Colombia",
-      "city": "Bogotá",
-      "c_tit": "Compra Anticipada 45 días",
-      "c_sub": "",
-      "c_desc": "Planifique su próxima estadía con tiempo y aproveche una tarifa especial. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con anticipación y prepárese para disfrutar de una experiencia inolvidable.",
-      "c_disc": "15%",
-      "estado": "cambio",
-      "fecha_alta": "2026-10-09 09:08",
-      "cambios": [
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlvillavi_ebkqudof": {
       "hash": "c97e30a2a71bea6168be7b5a3dfe65b3",
@@ -487,24 +479,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlmonteria_barrateof": {
-      "hash": "f043d8b7e241b794aeb4538aac109985",
-      "hotel": "GHL Monteria",
-      "hotel_code": "ghlmonteria",
-      "titulo": "Late Escape Deal",
-      "categoria": "Descuento Directo",
-      "url": "https://www.ghlhotelmonteria.com/ofertas",
-      "country": "Colombia",
-      "city": "Montería",
-      "c_tit": "Late Escape Deal",
-      "c_sub": "",
-      "c_desc": "",
-      "c_disc": null,
-      "estado": "nueva",
-      "fecha_alta": "2026-10-21 09:09",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlmonteria_ebkssdof": {
       "hash": "b6969bb23838aaee25a00191cf4d2178",
       "hotel": "GHL Monteria",
@@ -518,7 +492,25 @@
       "c_sub": "",
       "c_desc": "",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
+      "fecha_alta": "2026-10-21 09:09",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "ghlmonteria_barrateof": {
+      "hash": "f043d8b7e241b794aeb4538aac109985",
+      "hotel": "GHL Monteria",
+      "hotel_code": "ghlmonteria",
+      "titulo": "Late Escape Deal",
+      "categoria": "Descuento Directo",
+      "url": "https://www.ghlhotelmonteria.com/ofertas",
+      "country": "Colombia",
+      "city": "Montería",
+      "c_tit": "Late Escape Deal",
+      "c_sub": "",
+      "c_desc": "",
+      "c_disc": null,
+      "estado": "vigente",
       "fecha_alta": "2026-10-21 09:09",
       "cambios": [],
       "fecha_cambio": ""
@@ -650,40 +642,26 @@
       "fecha_cambio": ""
     },
     "ghlcostazul_ebkssdof": {
-      "hash": "bd65ce1618f31ce439dee7094fadf752",
+      "hash": "0b21a01c0cbec5f3ec44379912546bad",
       "hotel": "GHL Relax Costa Azul",
       "hotel_code": "ghlcostazul",
-      "titulo": "Compra Anticipada 60 Días",
+      "titulo": "Anticípate 60 Días y Obtén 15% Off",
       "categoria": "Compra Anticipada",
       "url": "https://www.ghlhotelcostaazul.com/ofertas",
       "country": "Colombia",
       "city": "Santa Marta",
-      "c_tit": "Compra Anticipada 60 días",
+      "c_tit": "Anticípate 60 días y obtén 15% OFF",
       "c_sub": "",
-      "c_desc": "anticípate 60 días a tu fecha de estadía y adquiere un 12% de descuento, hasta 30% de descuento si te registras en ghlpluss",
-      "c_disc": "12%",
-      "estado": "vigente",
+      "c_desc": "Planifica tus próximas vacaciones en Santa Marta y ahorra un 15%. Reserva con 60 días de anticipación y asegura tiempo de descanso en familia, en pareja o con amigos. Condiciones -Reserva con 60 días de anticipación. -Disponibilidad sujeta a cupos y fechas. -No acumulable con otras promociones. -No aplica en temporada alta, sujeto a disponibilidad",
+      "c_disc": "15%",
+      "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
-    "ghlcostazul_ebktrdof": {
-      "hash": "92f7089d17745f8479210f7d0714b8d7",
-      "hotel": "GHL Relax Costa Azul",
-      "hotel_code": "ghlcostazul",
-      "titulo": "Compra Anticipada 30 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.ghlhotelcostaazul.com/ofertas",
-      "country": "Colombia",
-      "city": "Santa Marta",
-      "c_tit": "Compra Anticipada 30 días",
-      "c_sub": "",
-      "c_desc": "anticípate 30 días a tu fecha de estadía y adquiere un 5% de descuento adicional",
-      "c_disc": "5%",
-      "estado": "vigente",
-      "fecha_alta": "2026-08-21 10:06",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descuento/beneficio: 12% → 15%",
+        "Título modificado",
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-23 09:08"
     },
     "ghlrelaxsunrise_ebkssdof": {
       "hash": "7004866b14c9cb6132687aa8e7748ba8",
@@ -842,7 +820,7 @@
       "c_sub": "",
       "c_desc": "Descuento exclusivo del 15%. Reserva hoy y accede a la mejor tarifa disponible",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-21 09:09",
       "cambios": [],
       "fecha_cambio": ""
@@ -991,24 +969,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "sanlazaro_lonstnof": {
-      "hash": "9635bf0cb135e97ff8cbe010f4792afb",
-      "hotel": "San Lazaro Art",
-      "hotel_code": "sanlazaro",
-      "titulo": "Precios Especiales Vacaciones",
-      "categoria": "Minima Estadia",
-      "url": "https://www.sanlazaroarthotel.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Precios Especiales Vacaciones",
-      "c_sub": "",
-      "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "sanlazaro_ebktrdof": {
       "hash": "d2ed4f748af785a303736d685886a788",
       "hotel": "San Lazaro Art",
@@ -1021,6 +981,24 @@
       "c_tit": "Ahorra reservando con 30 días de antelación",
       "c_sub": "",
       "c_desc": "Planifica tu escapada a Cartagena y aprovecha nuestras tarifas exclusivas reservando con al menos 30 días de anticipación. Disfruta de una estadía única en el Hotel San Lázaro, donde la historia, el confort y el encanto del Caribe se encuentran. Relájate en nuestras cómodas habitaciones, descubre la ciudad amurallada y vive una experiencia inolvidable con un beneficio especial por reservar antes. Reserva anticipadamente y asegura el mejor precio para tu estancia en Cartagena. Sujeto a términos y condiciones.",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "sanlazaro_lonstnof": {
+      "hash": "9635bf0cb135e97ff8cbe010f4792afb",
+      "hotel": "San Lazaro Art",
+      "hotel_code": "sanlazaro",
+      "titulo": "Precios Especiales Vacaciones",
+      "categoria": "Minima Estadia",
+      "url": "https://www.sanlazaroarthotel.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Precios Especiales Vacaciones",
+      "c_sub": "",
+      "c_desc": "¡Haz de tus vacaciones una experiencia inolvidable! Quédate 3 noches o más y accede a beneficios exclusivos diseñados para tu descanso y placer. Descubre el encanto de Cartagena desde el Hotel San Lorenzo, ubicado en una zona privilegiada cerca del centro histórico. Disfruta unas vacaciones con estilo, confort y la mejor atención. La oferta incluye: Alojamiento en habitación estándar, superior o suite Desayuno diario tipo buffet Acceso libre a la piscina y solárium Wi-Fi de alta velocidad en todo el hotel",
       "c_disc": null,
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
@@ -1063,24 +1041,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "cali_ebkssdof": {
-      "hash": "57fe402645085f512d7484a7535c70ad",
-      "hotel": "Sonesta Cali",
-      "hotel_code": "cali",
-      "titulo": "Compra Anticipada 60 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sonestacali.com/ofertas",
-      "country": "Colombia",
-      "city": "Cali",
-      "c_tit": "Compra Anticipada 60 días",
-      "c_sub": "",
-      "c_desc": "Anticípate y ahorra. Reserva con 60 días de anticipación y obtén 12% de descuento sobre nuestra mejor tarifa disponible. No aplica para temporadas altas, Feria de Cali ni eventos de ciudad.",
-      "c_disc": "12%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "cali_ebktrdof": {
       "hash": "37a211cca339cad1544b0a05cbdcc545",
       "hotel": "Sonesta Cali",
@@ -1094,6 +1054,24 @@
       "c_sub": "",
       "c_desc": "Planea tu viaje con tiempo. Al reservar con 30 días de anticipación, recibe 8% de descuento en tu estadía. Promoción no válida durante temporadas altas, Feria de Cali y eventos de ciudad.",
       "c_disc": "8%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
+    "cali_ebkssdof": {
+      "hash": "57fe402645085f512d7484a7535c70ad",
+      "hotel": "Sonesta Cali",
+      "hotel_code": "cali",
+      "titulo": "Compra Anticipada 60 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestacali.com/ofertas",
+      "country": "Colombia",
+      "city": "Cali",
+      "c_tit": "Compra Anticipada 60 días",
+      "c_sub": "",
+      "c_desc": "Anticípate y ahorra. Reserva con 60 días de anticipación y obtén 12% de descuento sobre nuestra mejor tarifa disponible. No aplica para temporadas altas, Feria de Cali ni eventos de ciudad.",
+      "c_disc": "12%",
       "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [],
@@ -1585,6 +1563,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "bastionlux_faf077": {
+      "hash": "0a473df7b1f39fd9fa0889b39bcf2347",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Stay a Little Longer",
+      "categoria": "Promo Especial",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "STAY A LITTLE LONGER",
+      "c_sub": "",
+      "c_desc": "Extiende tu estadía en Bastión y disfruta más de Cartagena. Reserva dos noches y recibe la tercera noche por nuestra cuenta, para descubrir el encanto del Centro Histórico con más tiempo y tranquilidad. Porque las mejores experiencias merecen extenderse un poco más. Reserva esta oferta y disfruta de una tercera noche de cortesía en Bastión Luxury Hotel, un íntimo hotel de lujo en el corazón del Centro Histórico de Cartagena. Aplica para reservas realizadas hasta el 30 de noviembre de 2026.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-10-23 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "bastionlux_19f4d7": {
       "hash": "80d13639be336e3c09a3066c41bcbcf6",
       "hotel": "Bastión Luxury Hotel",
@@ -1603,26 +1599,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "bastionlux_04a973": {
-      "hash": "49be164440fc316a3114f1e456088125",
-      "hotel": "Bastión Luxury Hotel",
-      "hotel_code": "bastionlux",
-      "titulo": "Quédate Más, Disfruta Más",
-      "categoria": "Promo Especial",
-      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "QUÉDATE MÁS, DISFRUTA MÁS",
-      "c_sub": "",
-      "c_desc": "Extiende tu estadía en Bastión y disfruta más de Cartagena. Reserva dos noches y recibe la tercera noche por nuestra cuenta, para descubrir el encanto del Centro Histórico con más tiempo y tranquilidad. Porque las mejores experiencias merecen extenderse un poco más. Reserva esta oferta y disfruta de una tercera noche de cortesía en Bastión Luxury Hotel, un íntimo hotel de lujo en el corazón del Centro Histórico de Cartagena. Aplica para reservas realizadas hasta el 30 de noviembre de 2026.",
-      "c_disc": null,
-      "estado": "cambio",
-      "fecha_alta": "2026-09-17 09:11",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
-    },
     "bastionlux_d2d7c5": {
       "hash": "e601855a234757528778fe6d889fe8c5",
       "hotel": "Bastión Luxury Hotel",
@@ -1636,12 +1612,10 @@
       "c_sub": "",
       "c_desc": "Comienza tu viaje a Cartagena con mayor facilidad. Reserva tu hotel y vuelo juntos para acceder a tarifas preferenciales, beneficios exclusivos y una experiencia fluida de principio a fin. Aplican Términos & Condiciones",
       "c_disc": null,
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-21 10:24",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "bastionlux_efa3df": {
       "hash": "300890e303d2a42bbfeb685bf39664af",
@@ -1674,12 +1648,10 @@
       "c_sub": "",
       "c_desc": "Vive dos noches únicas: una entre los muros históricos de Bastión y otra en el exclusivo Makani Beach Club. Esta oferta incluye cóctel de bienvenida y traslados. Aplica para reservas y estancias hasta diciembre de 2026.",
       "c_disc": null,
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-21 10:24",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "bastionlux_39af65": {
       "hash": "b071b128653a9211b43cc938e53d5850",
@@ -1694,12 +1666,10 @@
       "c_sub": "",
       "c_desc": "Al reservar directamente en nuestra web, disfruta un 15% menos en experiencias culinarias en El Gobernador. Aplica para reservas y estancias hasta diciembre de 2026.",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-21 10:24",
-      "cambios": [
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-21 09:09"
+      "cambios": [],
+      "fecha_cambio": ""
     }
   },
   "removed": [
@@ -3042,6 +3012,48 @@
       "fecha_cambio": "",
       "id": "ghlsonbarranq_ebktrdof",
       "fecha_baja": "2026-10-21 09:09"
+    },
+    {
+      "hash": "92f7089d17745f8479210f7d0714b8d7",
+      "hotel": "GHL Relax Costa Azul",
+      "hotel_code": "ghlcostazul",
+      "titulo": "Compra Anticipada 30 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.ghlhotelcostaazul.com/ofertas",
+      "country": "Colombia",
+      "city": "Santa Marta",
+      "c_tit": "Compra Anticipada 30 días",
+      "c_sub": "",
+      "c_desc": "anticípate 30 días a tu fecha de estadía y adquiere un 5% de descuento adicional",
+      "c_disc": "5%",
+      "estado": "vigente",
+      "fecha_alta": "2026-08-21 10:06",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghlcostazul_ebktrdof",
+      "fecha_baja": "2026-10-23 09:08"
+    },
+    {
+      "hash": "49be164440fc316a3114f1e456088125",
+      "hotel": "Bastión Luxury Hotel",
+      "hotel_code": "bastionlux",
+      "titulo": "Quédate Más, Disfruta Más",
+      "categoria": "Promo Especial",
+      "url": "https://www.bastionluxuryhotel.com/ofertas-en-hoteles-cartagena",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "QUÉDATE MÁS, DISFRUTA MÁS",
+      "c_sub": "",
+      "c_desc": "Extiende tu estadía en Bastión y disfruta más de Cartagena. Reserva dos noches y recibe la tercera noche por nuestra cuenta, para descubrir el encanto del Centro Histórico con más tiempo y tranquilidad. Porque las mejores experiencias merecen extenderse un poco más. Reserva esta oferta y disfruta de una tercera noche de cortesía en Bastión Luxury Hotel, un íntimo hotel de lujo en el corazón del Centro Histórico de Cartagena. Aplica para reservas realizadas hasta el 30 de noviembre de 2026.",
+      "c_disc": null,
+      "estado": "cambio",
+      "fecha_alta": "2026-09-17 09:11",
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-21 09:09",
+      "id": "bastionlux_04a973",
+      "fecha_baja": "2026-10-23 09:08"
     }
   ]
 }
