@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 30,
-  "last_run": "2026-10-23 09:08",
-  "prev_run": "2026-10-21 09:09",
+  "escaneos": 31,
+  "last_run": "2026-10-26 09:08",
+  "prev_run": "2026-10-23 09:08",
   "last_kpis": {
-    "activas": 92,
-    "nuevas": 1,
-    "eliminadas": 2,
-    "cambios": 1,
-    "escaneos": 30
+    "activas": 91,
+    "nuevas": 0,
+    "eliminadas": 1,
+    "cambios": 0,
+    "escaneos": 31
   },
   "offers": {
     "arsenal_lonscnof": {
@@ -281,6 +281,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "ghlstylehamilton_ebktrdof": {
+      "hash": "9aadb39413a1b61e03e10dc04177cfc4",
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Compra Anticipada 15 Días",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "country": "Colombia",
+      "city": "Bogotá",
+      "c_tit": "Compra Anticipada 15 días",
+      "c_sub": "",
+      "c_desc": "Planifique su próxima estadía con anticipación y aproveche un beneficio exclusivo. Reserve con al menos 15 días de anticipación y obtenga un 10 % de descuento en su reserva. Anticípese, asegure su próxima experiencia y disfrute de una estadía inolvidable.",
+      "c_disc": "10%",
+      "estado": "vigente",
+      "fecha_alta": "2026-10-09 09:08",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "ghlstylehamilton_ebkssdof": {
       "hash": "155b7d7e8906dffb59849d37ca7d7e83",
       "hotel": "GHL Collection Hamilton",
@@ -311,24 +329,6 @@
       "c_tit": "PROMO OCTUBRE Y NOVIEMBRE",
       "c_sub": "",
       "c_desc": "Descubra una nueva forma de disfrutar y convierta octubre en una experiencia inolvidable. Reserve su estadía durante este mes y obtenga un 10 % de descuento para disfrutar de momentos de descanso, confort y experiencias únicas. ¡Aproveche esta oportunidad por tiempo limitado!",
-      "c_disc": "10%",
-      "estado": "vigente",
-      "fecha_alta": "2026-10-09 09:08",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
-    "ghlstylehamilton_ebktrdof": {
-      "hash": "9aadb39413a1b61e03e10dc04177cfc4",
-      "hotel": "GHL Collection Hamilton",
-      "hotel_code": "ghlstylehamilton",
-      "titulo": "Compra Anticipada 15 Días",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.ghlcollectionhamilton.com/ofertas",
-      "country": "Colombia",
-      "city": "Bogotá",
-      "c_tit": "Compra Anticipada 15 días",
-      "c_sub": "",
-      "c_desc": "Planifique su próxima estadía con anticipación y aproveche un beneficio exclusivo. Reserve con al menos 15 días de anticipación y obtenga un 10 % de descuento en su reserva. Anticípese, asegure su próxima experiencia y disfrute de una estadía inolvidable.",
       "c_disc": "10%",
       "estado": "vigente",
       "fecha_alta": "2026-10-09 09:08",
@@ -654,14 +654,10 @@
       "c_sub": "",
       "c_desc": "Planifica tus próximas vacaciones en Santa Marta y ahorra un 15%. Reserva con 60 días de anticipación y asegura tiempo de descanso en familia, en pareja o con amigos. Condiciones -Reserva con 60 días de anticipación. -Disponibilidad sujeta a cupos y fechas. -No acumulable con otras promociones. -No aplica en temporada alta, sujeto a disponibilidad",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 12% → 15%",
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-23 09:08"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlrelaxsunrise_ebkssdof": {
       "hash": "7004866b14c9cb6132687aa8e7748ba8",
@@ -1401,24 +1397,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsonmfl_trespordos": {
-      "hash": "c1768ea26d00c396e0a62bc98e2fd335",
-      "hotel": "Sonesta Miraflores",
-      "hotel_code": "ghlsonmfl",
-      "titulo": "Escapada 3x2: Lima Miraflores",
-      "categoria": "Fin de Semana",
-      "url": "https://www.sonestamiraflores.com/ofertas",
-      "country": "Perú",
-      "city": "Lima",
-      "c_tit": "Escapada 3x2: Lima Miraflores",
-      "c_sub": "",
-      "c_desc": "Extiende tu fin de semana en Miraflores con nuestra tarifa especial 3x2. Reserva tus noches de viernes y sábado a tarifa regular y disfruta la noche del domingo totalmente gratis con acceso completo a instalaciones.",
-      "c_disc": null,
-      "estado": "vigente",
-      "fecha_alta": "2026-10-16 09:09",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlsonmfl_barrateof": {
       "hash": "ccc25d2b62e3a1209d3a6a139b691a79",
       "hotel": "Sonesta Miraflores",
@@ -1576,7 +1554,7 @@
       "c_sub": "",
       "c_desc": "Extiende tu estadía en Bastión y disfruta más de Cartagena. Reserva dos noches y recibe la tercera noche por nuestra cuenta, para descubrir el encanto del Centro Histórico con más tiempo y tranquilidad. Porque las mejores experiencias merecen extenderse un poco más. Reserva esta oferta y disfruta de una tercera noche de cortesía en Bastión Luxury Hotel, un íntimo hotel de lujo en el corazón del Centro Histórico de Cartagena. Aplica para reservas realizadas hasta el 30 de noviembre de 2026.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-23 09:08",
       "cambios": [],
       "fecha_cambio": ""
@@ -3054,6 +3032,26 @@
       "fecha_cambio": "2026-10-21 09:09",
       "id": "bastionlux_04a973",
       "fecha_baja": "2026-10-23 09:08"
+    },
+    {
+      "hash": "c1768ea26d00c396e0a62bc98e2fd335",
+      "hotel": "Sonesta Miraflores",
+      "hotel_code": "ghlsonmfl",
+      "titulo": "Escapada 3x2: Lima Miraflores",
+      "categoria": "Fin de Semana",
+      "url": "https://www.sonestamiraflores.com/ofertas",
+      "country": "Perú",
+      "city": "Lima",
+      "c_tit": "Escapada 3x2: Lima Miraflores",
+      "c_sub": "",
+      "c_desc": "Extiende tu fin de semana en Miraflores con nuestra tarifa especial 3x2. Reserva tus noches de viernes y sábado a tarifa regular y disfruta la noche del domingo totalmente gratis con acceso completo a instalaciones.",
+      "c_disc": null,
+      "estado": "vigente",
+      "fecha_alta": "2026-10-16 09:09",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghlsonmfl_trespordos",
+      "fecha_baja": "2026-10-26 09:08"
     }
   ]
 }
