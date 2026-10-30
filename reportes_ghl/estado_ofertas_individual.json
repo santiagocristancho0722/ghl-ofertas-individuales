@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 32,
-  "last_run": "2026-10-29 08:51",
-  "prev_run": "2026-10-26 09:08",
+  "escaneos": 33,
+  "last_run": "2026-10-30 09:08",
+  "prev_run": "2026-10-29 08:51",
   "last_kpis": {
-    "activas": 90,
-    "nuevas": 1,
+    "activas": 88,
+    "nuevas": 0,
     "eliminadas": 2,
-    "cambios": 7,
-    "escaneos": 32
+    "cambios": 2,
+    "escaneos": 33
   },
   "offers": {
     "arsenal_ebkssdof": {
@@ -186,7 +186,7 @@
       "c_sub": "",
       "c_desc": "Reserva del 10 al 12 de junio y recibe un 15% de descuento para viajes hasta junio de 2027, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados",
       "c_disc": "15%",
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-29 08:51",
       "cambios": [],
       "fecha_cambio": ""
@@ -510,13 +510,10 @@
       "c_sub": "",
       "c_desc": "Planifique su próxima estadía con anticipación y aproveche una tarifa exclusiva. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con tiempo y disfrute de una experiencia llena de confort y momentos inolvidables.",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-10-21 09:09",
-      "cambios": [
-        "Descuento/beneficio: — → 15%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlmonteria_barrateof": {
       "hash": "9379e3a0a70e28a10d822c5be7de9840",
@@ -531,13 +528,10 @@
       "c_sub": "",
       "c_desc": "¡El momento perfecto para escaparse es ahora! Aproveche nuestra tarifa Late Escape Deal y disfrute de un 15 % de descuento en su estadía. Regálese una pausa de la rutina, descubra nuevas experiencias y disfrute del confort que merece con esta oferta especial.",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-10-21 09:09",
-      "cambios": [
-        "Descuento/beneficio: — → 15%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlmonteria_ebktrdof": {
       "hash": "9cb5a3edcac46e9e7445a412af4a97a1",
@@ -642,13 +636,10 @@
       "c_sub": "",
       "c_desc": "Disfruta una estadía inolvidable en Corales de Indias con desayuno buffet incluido, internet WiFi de cortesía, habitaciones con vista al mar y acceso a nuestras piscinas para adultos y niños.",
       "c_disc": "15%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-07-16 12:31",
-      "cambios": [
-        "Descuento/beneficio: 10% → 15%",
-        "Título modificado"
-      ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlcoralesindias_ebkssdof": {
       "hash": "2a6a8a0a7ef6ee0a6999994c38939e5d",
@@ -663,48 +654,45 @@
       "c_sub": "",
       "c_desc": "Planeen ese momento especial con anticipación y disfruten 20% OFF reservando con 60 días de anticipación. Habitación con vista al mar Desayuno tipo buffet incluido Cartagena, el mar y tiempo para disfrutar en pareja Reserva hoy y aseguren su escapada al mejor precio. Compra Anticipada 60 días |20% OFF",
       "c_disc": "20%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-08-12 08:38",
-      "cambios": [
-        "Descuento/beneficio: 15% → 20%",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlcostazul_ebkssdof": {
-      "hash": "14ab8195dd9b87eef49a5e7f01df9def",
+      "hash": "0b21a01c0cbec5f3ec44379912546bad",
       "hotel": "GHL Relax Costa Azul",
       "hotel_code": "ghlcostazul",
-      "titulo": "Early Booking 60 Days",
+      "titulo": "Anticípate 60 Días y Obtén 15% Off",
       "categoria": "Compra Anticipada",
-      "url": "https://en.ghlhotelcostaazul.com/offers",
+      "url": "https://www.ghlhotelcostaazul.com/ofertas",
       "country": "Colombia",
       "city": "Santa Marta",
-      "c_tit": "Early Booking 60 Days",
+      "c_tit": "Anticípate 60 días y obtén 15% OFF",
       "c_sub": "",
-      "c_desc": "“Book 60 days before your stay and get a 12% discount. If you sign up for GHL Plus, you’ll receive an additional discount",
-      "c_disc": "12%",
+      "c_desc": "Planifica tus próximas vacaciones en Santa Marta y ahorra un 15%. Reserva con 60 días de anticipación y asegura tiempo de descanso en familia, en pareja o con amigos. Condiciones -Reserva con 60 días de anticipación. -Disponibilidad sujeta a cupos y fechas. -No acumulable con otras promociones. -No aplica en temporada alta, sujeto a disponibilidad",
+      "c_disc": "15%",
       "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
       "cambios": [
-        "Descuento/beneficio: 15% → 12%",
+        "Descuento/beneficio: 12% → 15%",
         "Título modificado",
         "Descripción modificada"
       ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "fecha_cambio": "2026-10-30 09:08"
     },
     "ghlrelaxsunrise_ebkssdof": {
-      "hash": "017aa764ffd24b37442104cdc27a38d8",
+      "hash": "7004866b14c9cb6132687aa8e7748ba8",
       "hotel": "GHL Relax Sunrise",
       "hotel_code": "ghlrelaxsunrise",
-      "titulo": "Book 90 Days Early & Save",
+      "titulo": "Reserva con 90 Días de Anticipación y Ahorra",
       "categoria": "Compra Anticipada",
-      "url": "https://en.ghlhotelsunrise.com/offers",
+      "url": "https://www.ghlhotelsunrise.com/ofertas",
       "country": "Colombia",
       "city": "San Andrés",
-      "c_tit": "Book 90 Days Early & Save",
+      "c_tit": "Reserva con 90 días de anticipación y ahorra",
       "c_sub": "",
-      "c_desc": "Plan ahead and enjoy exclusive savings when you book your stay at Sunrise 90 days in advance.",
+      "c_desc": "Planea antes, paga menos. Obtén una tarifa especial reservando tu estadía con 90 días de anticipación en Sunrise.",
       "c_disc": null,
       "estado": "cambio",
       "fecha_alta": "2026-07-16 12:31",
@@ -712,7 +700,7 @@
         "Título modificado",
         "Descripción modificada"
       ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "fecha_cambio": "2026-10-30 09:08"
     },
     "ghlstyleyopal_oftoctubre": {
       "hash": "e8b6bc9f96da1affd5494cfac58d813a",
@@ -1092,42 +1080,6 @@
       "cambios": [],
       "fecha_cambio": ""
     },
-    "ghlsoncartagena_ebktrdof": {
-      "hash": "5e0e7c8e4ef1d05d0f68cf60bcca3c0e",
-      "hotel": "Sonesta Cartagena",
-      "hotel_code": "ghlsoncartagena",
-      "titulo": "Reserva con Anticipación y Disfruta 10% de Descuento",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sonestacartagena.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "Reserva con anticipación y disfruta 10% de descuento",
-      "c_sub": "",
-      "c_desc": "Vive una experiencia única en Sonesta Cartagena con acceso directo a una playa tranquila y segura ✓ Desayuno buffet incluido ✓ WiFi de cortesía ✓ Cancha de tenis",
-      "c_disc": "10%",
-      "estado": "vigente",
-      "fecha_alta": "2026-07-16 12:31",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
-    "ghlsoncartagena_ebkssdof": {
-      "hash": "0cfcac5656c0a0fdef5c3696f7d4b548",
-      "hotel": "Sonesta Cartagena",
-      "hotel_code": "ghlsoncartagena",
-      "titulo": "¡Planea Hoy y Vive el Caribe Al Mejor Precio 15%off!",
-      "categoria": "Compra Anticipada",
-      "url": "https://www.sonestacartagena.com/ofertas",
-      "country": "Colombia",
-      "city": "Cartagena",
-      "c_tit": "¡Planea hoy y vive el Caribe al mejor precio 15%off!",
-      "c_sub": "",
-      "c_desc": "Tu descanso incluye: ✓ Acceso directo a la playa ✓ Piscina semiolímpica ✓ Cancha de tenis ✓ Espacios ideales para relajarte frente al mar ✓ Habitaciones con el confort que mereces",
-      "c_disc": "15%",
-      "estado": "vigente",
-      "fecha_alta": "2026-08-12 08:38",
-      "cambios": [],
-      "fecha_cambio": ""
-    },
     "ghlsoncusco_barrateof": {
       "hash": "f06a28ba90aa1cade5e7a2626bf4578e",
       "hotel": "Sonesta Cusco",
@@ -1141,14 +1093,10 @@
       "c_sub": "",
       "c_desc": "Reserva ahora y opten un 20% de descuento, valido para viajar todo el mes de noviembre.",
       "c_disc": "20%",
-      "estado": "cambio",
+      "estado": "vigente",
       "fecha_alta": "2026-10-09 09:08",
-      "cambios": [
-        "Descuento/beneficio: 15% → 20%",
-        "Título modificado",
-        "Descripción modificada"
-      ],
-      "fecha_cambio": "2026-10-29 08:51"
+      "cambios": [],
+      "fecha_cambio": ""
     },
     "ghlsoncusco_lonstnof": {
       "hash": "7c1815edcfbf0c19b9de6e16080cdb24",
@@ -3097,6 +3045,46 @@
       "fecha_cambio": "",
       "id": "sanlazaro_ebkssdof",
       "fecha_baja": "2026-10-29 08:51"
+    },
+    {
+      "hash": "5e0e7c8e4ef1d05d0f68cf60bcca3c0e",
+      "hotel": "Sonesta Cartagena",
+      "hotel_code": "ghlsoncartagena",
+      "titulo": "Reserva con Anticipación y Disfruta 10% de Descuento",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestacartagena.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "Reserva con anticipación y disfruta 10% de descuento",
+      "c_sub": "",
+      "c_desc": "Vive una experiencia única en Sonesta Cartagena con acceso directo a una playa tranquila y segura ✓ Desayuno buffet incluido ✓ WiFi de cortesía ✓ Cancha de tenis",
+      "c_disc": "10%",
+      "estado": "vigente",
+      "fecha_alta": "2026-07-16 12:31",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghlsoncartagena_ebktrdof",
+      "fecha_baja": "2026-10-30 09:08"
+    },
+    {
+      "hash": "0cfcac5656c0a0fdef5c3696f7d4b548",
+      "hotel": "Sonesta Cartagena",
+      "hotel_code": "ghlsoncartagena",
+      "titulo": "¡Planea Hoy y Vive el Caribe Al Mejor Precio 15%off!",
+      "categoria": "Compra Anticipada",
+      "url": "https://www.sonestacartagena.com/ofertas",
+      "country": "Colombia",
+      "city": "Cartagena",
+      "c_tit": "¡Planea hoy y vive el Caribe al mejor precio 15%off!",
+      "c_sub": "",
+      "c_desc": "Tu descanso incluye: ✓ Acceso directo a la playa ✓ Piscina semiolímpica ✓ Cancha de tenis ✓ Espacios ideales para relajarte frente al mar ✓ Habitaciones con el confort que mereces",
+      "c_disc": "15%",
+      "estado": "vigente",
+      "fecha_alta": "2026-08-12 08:38",
+      "cambios": [],
+      "fecha_cambio": "",
+      "id": "ghlsoncartagena_ebkssdof",
+      "fecha_baja": "2026-10-30 09:08"
     }
   ]
 }

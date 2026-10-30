@@ -1499,7 +1499,25 @@
     "match_key": "ebkssdof",
     "categoria": "Compra Anticipada",
     "id": "ghlcostazul_ebkssdof",
-    "es": null,
+    "es": {
+      "lang": "es",
+      "url": "https://www.ghlhotelcostaazul.com/ofertas",
+      "slug": "ebkssdof",
+      "es_id": null,
+      "hotel": "GHL Relax Costa Azul",
+      "hotel_code": "ghlcostazul",
+      "titulo": "Anticípate 60 días y obtén 15% OFF",
+      "nombre_corto": "Anticípate 60 días y obtén 15% OFF",
+      "titular": "",
+      "descripcion": "Planifica tus próximas vacaciones en Santa Marta y ahorra un 15%. Reserva con 60 días de anticipación y asegura tiempo de descanso en familia, en pareja o con amigos. Condiciones -Reserva con 60 días de anticipación. -Disponibilidad sujeta a cupos y fechas. -No acumulable con otras promociones. -No aplica en temporada alta, sujeto a disponibilidad",
+      "categoria": "Compra Anticipada",
+      "canonical": "early_booking",
+      "param": 60,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "ebkssdof"
+    },
     "en": {
       "lang": "en",
       "url": "https://en.ghlhotelcostaazul.com/offers",
@@ -1519,7 +1537,7 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "hash": "df70b901be69cef74ede34ca1dbde83a"
+    "hash": "86f7cbeae653893aaed2fb408ba2b0db"
   },
   {
     "hotel": "GHL Relax Sunrise",
@@ -1527,7 +1545,25 @@
     "match_key": "ebkssdof",
     "categoria": "Compra Anticipada",
     "id": "ghlrelaxsunrise_ebkssdof",
-    "es": null,
+    "es": {
+      "lang": "es",
+      "url": "https://www.ghlhotelsunrise.com/ofertas",
+      "slug": "ebkssdof",
+      "es_id": null,
+      "hotel": "GHL Relax Sunrise",
+      "hotel_code": "ghlrelaxsunrise",
+      "titulo": "Reserva con 90 días de anticipación y ahorra",
+      "nombre_corto": "Reserva con 90 días de anticipación y ahorra",
+      "titular": "",
+      "descripcion": "Planea antes, paga menos. Obtén una tarifa especial reservando tu estadía con 90 días de anticipación en Sunrise.",
+      "categoria": "Compra Anticipada",
+      "canonical": "early_booking",
+      "param": 90,
+      "descuento": null,
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "ebkssdof"
+    },
     "en": {
       "lang": "en",
       "url": "https://en.ghlhotelsunrise.com/offers",
@@ -1547,7 +1583,7 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "hash": "aad25c4b0ba27521aff00fe2e3423969"
+    "hash": "a9d327c394f7b1c1fad9f22e406be943"
   },
   {
     "hotel": "GHL Style Yopal",
@@ -2496,98 +2532,6 @@
       "match_key": "fd"
     },
     "hash": "0d84ea090049c70ef1b295f3c842d389"
-  },
-  {
-    "hotel": "Sonesta Cartagena",
-    "hotel_code": "ghlsoncartagena",
-    "match_key": "ebktrdof",
-    "categoria": "Compra Anticipada",
-    "id": "ghlsoncartagena_ebktrdof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.sonestacartagena.com/ofertas",
-      "slug": "ebktrdof",
-      "es_id": null,
-      "hotel": "Sonesta Cartagena",
-      "hotel_code": "ghlsoncartagena",
-      "titulo": "Reserva con anticipación y disfruta 10% de descuento",
-      "nombre_corto": "Reserva con anticipación y disfruta 10% de descuento",
-      "titular": "",
-      "descripcion": "Vive una experiencia única en Sonesta Cartagena con acceso directo a una playa tranquila y segura ✓ Desayuno buffet incluido ✓ WiFi de cortesía ✓ Cancha de tenis",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": null,
-      "descuento": "10%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebktrdof"
-    },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestacartagena.com/offers",
-      "slug": "ebktrdof",
-      "es_id": null,
-      "hotel": "Sonesta Cartagena",
-      "hotel_code": "ghlsoncartagena",
-      "titulo": "Book in advance and save 10%",
-      "nombre_corto": "Book in advance and save 10%",
-      "titular": "",
-      "descripcion": "Experience the best of Sonesta Cartagena with direct access to a quiet and safe beach ✓ Buffet breakfast included ✓ Complimentary WiFi ✓ Tennis court",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": null,
-      "descuento": "10%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebktrdof"
-    },
-    "hash": "750aaa9e99c5aa5573ff7b26bc8e2940"
-  },
-  {
-    "hotel": "Sonesta Cartagena",
-    "hotel_code": "ghlsoncartagena",
-    "match_key": "ebkssdof",
-    "categoria": "Compra Anticipada",
-    "id": "ghlsoncartagena_ebkssdof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.sonestacartagena.com/ofertas",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "Sonesta Cartagena",
-      "hotel_code": "ghlsoncartagena",
-      "titulo": "¡Planea hoy y vive el Caribe al mejor precio 15%off!",
-      "nombre_corto": "¡Planea hoy y vive el Caribe al mejor precio 15%off!",
-      "titular": "",
-      "descripcion": "Tu descanso incluye: ✓ Acceso directo a la playa ✓ Piscina semiolímpica ✓ Cancha de tenis ✓ Espacios ideales para relajarte frente al mar ✓ Habitaciones con el confort que mereces",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestacartagena.com/offers",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "Sonesta Cartagena",
-      "hotel_code": "ghlsoncartagena",
-      "titulo": "60-Day Advance Purchase",
-      "nombre_corto": "60-Day Advance Purchase",
-      "titular": "",
-      "descripcion": "Direct beach access: ✓ Semi-Olympic swimming pool ✓ Tennis court ✓ Perfect spaces to relax by the Caribbean Sea ✓ Comfortable rooms designed for your perfect stay",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": null,
-      "descuento": null,
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
-    "hash": "fefc5aa1cfbddd4bc9db154ceef04afa"
   },
   {
     "hotel": "Sonesta Cusco",
