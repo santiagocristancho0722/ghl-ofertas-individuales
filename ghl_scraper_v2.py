@@ -34,7 +34,10 @@ HOTELS = [
     {"hotel":"San Lazaro Art","urls":{"es":"https://www.sanlazaroarthotel.com/ofertas","en":"https://en.sanlazaroarthotel.com/offers"}},
     {"hotel":"Sonesta Bucaramanga","urls":{"es":"https://www.sonestabucaramanga.com/ofertas","en":"https://www.sonestabucaramanga.com/offers"}},
     {"hotel":"Sonesta Cali","urls":{"es":"https://www.sonestacali.com/ofertas","en":"https://en.sonestacali.com/offers"}},
-    {"hotel":"Sonesta Cartagena","urls":{"es":"https://www.sonestacartagena.com/ofertas","en":"https://en.sonestacartagena.com/offers","pt":"https://pt.sonestacartagena.com/ofertas"}},
+    # Sonesta Cartagena: web en plataforma Eridanus/ROI (no la plantilla GHL .titular-title).
+    # Ofertas en .offers-eridanus__item -> extractor propio "eridanus". Solo ES: la pagina EN
+    # de esa plataforma esta rota (titulo sin traducir, link vacio). code_hint -> geo Cartagena.
+    {"hotel":"Sonesta Cartagena","urls":{"es":"https://www.sonestacartagena.com/es/ofertas/"},"extractor":"eridanus","code_hint":"ghlsoncartagena"},
     {"hotel":"Sonesta Cusco","urls":{"es":"https://www.sonestacusco.com/ofertas","en":"https://en.sonestacusco.com/offers"}},
     {"hotel":"Sonesta El Olivar","urls":{"es":"https://www.sonestaelolivar.com/ofertas","en":"https://en.sonestaelolivar.com/offers"}},
     {"hotel":"Sonesta Arequipa","urls":{"es":"https://www.sonestaarequipa.com/ofertas","en":"https://en.sonestaarequipa.com/offers"}},

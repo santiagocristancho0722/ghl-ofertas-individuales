@@ -82,11 +82,36 @@ JS_EXTRACT_BASTION = """
 })()
 """
 
+# Extractor propio para la plataforma Eridanus/ROI (p.ej. Sonesta Cartagena), que NO usa
+# .titular-title. Cada oferta vive en un .offers-eridanus__item con categoria, titular,
+# subtitulo (descripcion corta) y link de detalle.
+JS_EXTRACT_ERIDANUS = """
+(() => {
+  const offers = [];
+  document.querySelectorAll('.offers-eridanus__item').forEach(card => {
+    const pick = s => { const e = card.querySelector(s); return e ? e.innerText.trim() : ''; };
+    const cat = pick('.offers-eridanus__category');
+    const titulo = pick('.offers-eridanus__title') || pick('.offers-eridanus__subtitle') || cat;
+    if (!titulo || titulo.length < 3 || titulo.length > 200) return;
+    const subtitle = pick('.offers-eridanus__subtitle');
+    const link = card.querySelector('.offers-eridanus__link')
+      || card.querySelector('a[href*="/ofertas/"], a[href*="/offers/"]')
+      || card.querySelector('a[href]');
+    const href = link ? link.href : '';
+    const desc = [cat, subtitle].filter(Boolean).join('. ');
+    offers.push({titulo: titulo, descripcion: desc.substring(0, 600), href: href});
+  });
+  return JSON.stringify(offers);
+})()
+"""
+
 GENERIC_TITLES = {"ofertas", "offers", "promociones", "promotions"}
 
 async def _extract_offers_dom(page, extractor):
     if extractor == "bastion":
         return json.loads(await page.evaluate(JS_EXTRACT_BASTION))
+    if extractor == "eridanus":
+        return json.loads(await page.evaluate(JS_EXTRACT_ERIDANUS))
     offers = json.loads(await page.evaluate(JS_EXTRACT_PRIMARY))
     if not offers:
         parsed = json.loads(await page.evaluate(JS_EXTRACT_FALLBACK))
