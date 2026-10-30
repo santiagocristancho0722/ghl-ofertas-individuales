@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 23,
-  "last_run": "2026-10-29 14:01",
-  "prev_run": "2026-10-26 09:28",
+  "escaneos": 24,
+  "last_run": "2026-10-30 09:26",
+  "prev_run": "2026-10-29 14:01",
   "last_kpis": {
     "activas": 102,
-    "nuevas": 4,
-    "eliminadas": 4,
-    "cambios": 0,
-    "escaneos": 23
+    "nuevas": 0,
+    "eliminadas": 0,
+    "cambios": 3,
+    "escaneos": 24
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -906,7 +906,7 @@
       "c_sub": "",
       "c_desc": "Incluye: ADULTOS desde 13 años $120.000 incluye imp.\nUso de Piscina y zonas húmedas (sauna y turco).\nBebida de Bienvenida: Tinto de Verano.\nPicada + Bebida (Gaseosa o Cerveza). NIÑOS de 5 A 12 Años $90.000 incluye imp.\nUso de Piscina y zonas húmedas (sauna y turco).\nVaso de Helado.\nHamburguesa + papas a la francesa + gaseosa. Previa reserva\n*Sujeto a disponibilidad.\n*Horario: 10:30 am a 6:00 pm.\n*Presentar documento de identidad de todas las personas a ingresar incluyendo niños.\n*No se permite el ingreso de alimentos y bebidas.\n*Tarifa especial en servicio de parqueadero.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-29 14:01",
       "cambios": [],
       "fecha_cambio": ""
@@ -1086,7 +1086,7 @@
       "c_sub": "",
       "c_desc": "Con nuestro pasadía tendrás una experiencia para disfrutar: - Uso de zonas húmedas.\n- El 50% del valor del pasadía es consumible en nuestra carta.\n- Horario: 10:00 am a 5:00 p.m.\n- Sujeto a disponibilidad, cupos limitados. Precio Adulto: $150.000 Impuestos incluidos.\nPrecio Niño: $80.000 Impuestos incluidos.\n.",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-29 14:01",
       "cambios": [],
       "fecha_cambio": ""
@@ -1104,7 +1104,7 @@
       "c_sub": "",
       "c_desc": "Nuestro plan ❤️ Escapada Romántica Incluye:\n- ⁠Alojamiento 1 noche para dos personas en habitación superior con lencería de lujo (sujeta a disponibilidad).\n- ⁠Bebida de bienvenida.\n- ⁠Botella de vino espumoso.\n- Desayuno en la habitación o en restaurante mallorquín.\n- ⁠Cena 3 tiempos en Restaurante Mallorquín\n- Check in desde 3:00 p.m\n- Late check out 4:00 p.m (únicamente para reservas por la web)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-29 14:01",
       "cambios": [],
       "fecha_cambio": ""
@@ -1122,7 +1122,7 @@
       "c_sub": "",
       "c_desc": "Incluye:\n- Habitación Superior\n- Lencería de lujo\n- Bouquete de flores\n- Botella de vino\n- Mini tabla de queso\n- Corazón de Chocolate relleno de mini bombones\n- Desayuno en la habitación o en restaurante mallorquín\n- Late Check out hasta las 4 pm (Sujeto a disponibilidad)",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-10-29 14:01",
       "cambios": [],
       "fecha_cambio": ""
@@ -1236,7 +1236,7 @@
       "fecha_cambio": ""
     },
     "plan_ghlsonbucara_plan-pasadia": {
-      "hash": "16f525bd0e5839a3dbb868da3a0b0688",
+      "hash": "4b5de68ddf5e045685a42c137f8ae167",
       "hotel": "Sonesta Bucaramanga",
       "hotel_code": "ghlsonbucara",
       "titulo": "Plan Pasadia",
@@ -1246,12 +1246,14 @@
       "city": "Bucaramanga",
       "c_tit": "PLAN PASADIA",
       "c_sub": "",
-      "c_desc": "El dia que quieres Vivir Incluye:\n- Uso de la Piscina y Terraza\n- Toallas\n- Kit Amenities De Martes a Domingo (Lunes Piscina cerrada por mantenimiento)\nVALOR : $110.000 por persona , $50.000 consumibles en Siete Restaurante\nSujeto a disponibilidad No aplica en temporada alta (Semana Santa - Fin de año)",
+      "c_desc": "El dia que quieres Vivir Incluye:\n- Uso de la Piscina y Terraza.\n- Toallas.\n- Kit Amenities.\n- De Martes a Domingo (Lunes Piscina cerrada por mantenimiento)\n- VALOR : $110.000 por persona , $50.000 consumibles en Siete Restaurante.\n- Sujeto a disponibilidad.\n- No aplica en temporada alta (Semana Santa - Fin de año). Condiciones: Reserva con 24 horas de anticipación. Sujeto a disponibilidad. El plan se cobra 100% al confirmar la reserva.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-30 09:26"
     },
     "plan_ghlsonbucara_noche-romantica": {
       "hash": "9fb5dd42daf4c4b8dd41f4c0fe67bc15",
@@ -1272,7 +1274,7 @@
       "fecha_cambio": ""
     },
     "plan_ghlsonbucara_noche-de-bodas": {
-      "hash": "3ce08b2aa4d7e03ec54ce3bc1cb6d715",
+      "hash": "d82b298e55c7030e650304e0ae733180",
       "hotel": "Sonesta Bucaramanga",
       "hotel_code": "ghlsonbucara",
       "titulo": "Plan Noche de Bodas",
@@ -1282,15 +1284,17 @@
       "city": "Bucaramanga",
       "c_tit": "PLAN NOCHE DE BODAS",
       "c_sub": "",
-      "c_desc": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop.",
+      "c_desc": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.\n. Cena especial (sugerencia del chef).",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-30 09:26"
     },
     "plan_ghlsonbucara_plan-aniversario": {
-      "hash": "85ca13be6bc9d2b16157e1492760c6a0",
+      "hash": "88f55da6c8562ff99a199b652d51ff53",
       "hotel": "Sonesta Bucaramanga",
       "hotel_code": "ghlsonbucara",
       "titulo": "Plan Aniversario",
@@ -1300,12 +1304,14 @@
       "city": "Bucaramanga",
       "c_tit": "PLAN ANIVERSARIO",
       "c_sub": "",
-      "c_desc": "Más felices que nunca Incluye:\n. Alojamiento en habitación King.\n. Botella de vino espumoso.\n. Tabla de quesos.\n. Fresas con chocolate.\n. Decoración especial.\n. Desayuno a la habitación . late Check out hasta las 3:00 pm.",
+      "c_desc": "Más felices que nunca Incluye:\n. Alojamiento en habitación King.\n. Botella de vino espumoso.\n. Tabla de quesos.\n. Fresas con chocolate.\n. Decoración especial.\n. Desayuno a la habitación\n. late Check out hasta las 3:00 pm.\n\nCondiciones: Reserva con 24 horas de anticipación. Sujeto a disponibilidad. El plan se cobra 100% al confirmar la reserva.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-10-30 09:26"
     },
     "plan_ghlsonbucara_cena-romantica": {
       "hash": "d0d67bdbc36541b4b4f20d9784f3b708",
