@@ -1291,7 +1291,7 @@
     "en": {
       "lang": "en",
       "url": "https://en.hotelportonmedellin.com/offers",
-      "slug": "",
+      "slug": "ebktrdof",
       "es_id": null,
       "hotel": "GHL Porton Medellin",
       "hotel_code": "ghlportonmedellin",
@@ -1305,7 +1305,7 @@
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|30"
+      "match_key": "ebktrdof"
     },
     "hash": "bbc2763d446e14e38902e06051d9256e"
   },
@@ -1337,7 +1337,7 @@
     "en": {
       "lang": "en",
       "url": "https://en.hotelportonmedellin.com/offers",
-      "slug": "",
+      "slug": "lonstnof",
       "es_id": null,
       "hotel": "GHL Porton Medellin",
       "hotel_code": "ghlportonmedellin",
@@ -1351,7 +1351,7 @@
       "descuento": "17%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "min_stay|4"
+      "match_key": "lonstnof"
     },
     "hash": "1c4ac79fd5b1e83cf7f82aa3fdee58cb"
   },
@@ -2617,10 +2617,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.sonestaelolivar.com/offers",
-      "slug": "",
+      "slug": "ebktrdof",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "sonestaelolivar",
+      "hotel_code": "ghlsonolivar",
       "titulo": "Plan Ahead & Save: 12% OFF Early Bird Discount",
       "nombre_corto": "Plan Ahead & Save: 12% OFF Early Bird Discount",
       "titular": "",
@@ -2631,7 +2631,7 @@
       "descuento": "12%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|30"
+      "match_key": "ebktrdof"
     },
     "hash": "50981a9d82047dd4541b35af2ae54b3f"
   },
@@ -2663,10 +2663,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.sonestaelolivar.com/offers",
-      "slug": "",
+      "slug": "ebkssdof",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "sonestaelolivar",
+      "hotel_code": "ghlsonolivar",
       "titulo": "El Olivar 45: Strategy & Serenity",
       "nombre_corto": "El Olivar 45: Strategy & Serenity",
       "titular": "",
@@ -2677,7 +2677,7 @@
       "descuento": "17%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|45"
+      "match_key": "ebkssdof"
     },
     "hash": "c66737776dae6c7f970feddd66672ecb"
   },
@@ -2709,21 +2709,21 @@
     "en": {
       "lang": "en",
       "url": "https://en.sonestaelolivar.com/offers",
-      "slug": "",
+      "slug": "barrateof",
       "es_id": null,
       "hotel": "Sonesta El Olivar",
-      "hotel_code": "sonestaelolivar",
+      "hotel_code": "ghlsonolivar",
       "titulo": "Tarifa con descuento - BARATE",
       "nombre_corto": "Tarifa con descuento - BARATE",
       "titular": "",
       "descripcion": "Tarifa con descuento -BARATE",
-      "categoria": "Oferta General",
-      "canonical": "general",
+      "categoria": "Descuento Directo",
+      "canonical": "bar_rate",
       "param": null,
       "descuento": null,
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "general|None"
+      "match_key": "barrateof"
     },
     "hash": "3c16203c93d0a52b4061e64d0585b9de"
   },
