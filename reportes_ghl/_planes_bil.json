@@ -3504,7 +3504,7 @@
   {
     "hotel": "Sonesta Yucay",
     "hotel_code": "ghlsonvallesagrado",
-    "categoria": "Concierto/Evento",
+    "categoria": "Plan General",
     "id": "plan_ghlsonvallesagrado_fiesta-de-ano-nuevo-2027",
     "es": {
       "lang": "es",
@@ -3516,8 +3516,8 @@
       "titulo": "FIESTA DE AÑO NUEVO 2027",
       "nombre_corto": "FIESTA DE AÑO NUEVO 2027",
       "titular": "",
-      "descripcion": "Fecha: 31 de diciembre de 2026\nHora: 10:00 p. m. a 3:00 a. m. La fiesta incluye: Open Bar de 10:00 p. m. a 3:00 a. m. (Chilcanos, Mojitos, Whisky JW Red & Black Label, Cuba Libre, Gin & Tonics y soft drinks).\nCopa de espumante a medianoche.\nToldo impermeable y pista de baile.\nDJ en vivo.\nCotillón temático.\nJelly shots de bienvenida.\nAdobo cusqueño tradicional servido a las 2:00 a. m.\nFotocabina interactiva.\nKit Sagrado de la Suerte (cábala).\nCorcho libre.\nSorteo de premios. TARIFARIO – FIESTA\nAdultos: S/400.00\nPreventa adultos: S/370.00",
-      "categoria": "Concierto/Evento",
+      "descripcion": "Fecha: 31 de diciembre de 2026\nHora: 10:00 p. m. a 3:00 a. m. La fiesta incluye: Open Bar de 10:00 p. m. a 3:00 a. m. (Chilcanos, Mojitos, Whisky JW Red & Black Label, Cuba Libre, Gin & Tonics y soft drinks).\nCopa de espumante a medianoche.\nToldo impermeable y pista de baile.\nDJ en vivo.\nCotillón temático.\nJelly shots de bienvenida.\nAdobo cusqueño tradicional servido a las 2:00 a. m.\nFotocabina interactiva.\nKit Sagrado de la Suerte (cábala).\nCorcho libre.\nSorteo de premios. TARIFARIO – FIESTA\nAdultos: S/400.00",
+      "categoria": "Plan General",
       "descuento": null,
       "precio_desde": "PEN 400",
       "vigencia": null,
@@ -3533,55 +3533,14 @@
       "titulo": "FIESTA DE AÑO NUEVO 2027",
       "nombre_corto": "FIESTA DE AÑO NUEVO 2027",
       "titular": "",
-      "descripcion": "Date: December 31, 2026\nTime: 10:00 p. m. to 3:00 a. m. The party includes: Open Bar from 10:00 p. m. to 3:00 a. m. (Chilcanos, Mojitos, JW Red & Black Label Whisky, Cuba Libre, Gin & Tonics, and soft drinks).\nGlass of sparkling wine at midnight.\nWaterproof canopy and dance floor.\nLive DJ.\nThemed party favors.\nWelcome jelly shots.\nTraditional Cusqueño adobo served at 2:00 a. m.\nInteractive photo booth.\nSacred Luck Kit (good luck ritual).\nFree corkage.\nRaffle prizes. PRICING – PARTY\nAdults: S/400.00\nPresale adults: S/370.00",
+      "descripcion": "Date: December 31, 2026\nTime: 10:00 p. m. to 3:00 a. m. The party includes: Open Bar from 10:00 p. m. to 3:00 a. m. (Chilcanos, Mojitos, JW Red & Black Label Whisky, Cuba Libre, Gin & Tonics, and soft drinks).\nGlass of sparkling wine at midnight.\nWaterproof canopy and dance floor.\nLive DJ.\nThemed party favors.\nWelcome jelly shots.\nTraditional Cusqueño adobo served at 2:00 a. m.\nInteractive photo booth.\nSacred Luck Kit (good luck ritual).\nFree corkage.\nRaffle prizes. PRICING – PARTY\nAdults: S/400.00",
       "categoria": "Bienestar/Spa",
       "descuento": null,
       "precio_desde": "PEN 400",
       "vigencia": null,
       "tyc": null
     },
-    "hash": "31069df6be069cf52021322d2557ce38"
-  },
-  {
-    "hotel": "Sonesta Yucay",
-    "hotel_code": "ghlsonvallesagrado",
-    "categoria": "Romántico",
-    "id": "plan_ghlsonvallesagrado_pl-an-romantico-sonesta",
-    "es": {
-      "lang": "es",
-      "url": "https://www.sonestapiyucay.com/planes/pl-an-romantico-sonesta",
-      "page_url": "https://www.sonestapiyucay.com/planes",
-      "slug": "pl-an-romantico-sonesta",
-      "hotel": "Sonesta Yucay",
-      "hotel_code": "ghlsonvallesagrado",
-      "titulo": "PlAN ROMÁNTICO SONESTA",
-      "nombre_corto": "PlAN ROMÁNTICO SONESTA",
-      "titular": "",
-      "descripcion": "¡Ven y disfruta de la mágia del valle sagrado con un Plan Pasión Sonesta! Incluye:\n- 01 noche en habitación matrimonial\n- Botella importada de 750 ml a elección (espumante o vino\n- Desayuno buffet\n- Cena romántica de 5 tiempos para 2 personas (menú preestablecido)\n- Dulces en la habitación\n- Decoración romántica\nLate check-out (sujeto a disponibilidad) SUJETO A DISPONIBILIDAD\nNO INCLUYE: IMPUESTO IGV (18%) NI CARGO POR SERVICIO DE ALOJAMIENTO (10%)",
-      "categoria": "Romántico",
-      "descuento": null,
-      "precio_desde": "USD $ 163",
-      "vigencia": null,
-      "tyc": "• Puedes comprar este plan para regalarlo. • Este plan lo debes reservar con 2 días de anticipación. • Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Con este plan tienes alojamiento en habitación Superior. • Tu plan incluye Desayuno, Almuerzo. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Pago con tarjeta, Pago en el hotel. • Puedes modificar 1 tu reserva sin generar un valor adicional. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
-    },
-    "en": {
-      "lang": "en",
-      "url": "https://en.sonestapiyucay.com/plans/sonesta-romantic-plan",
-      "page_url": "https://en.sonestapiyucay.com/plans",
-      "slug": "sonesta-romantic-plan",
-      "hotel": "Sonesta Yucay",
-      "hotel_code": "ghlsonvallesagrado",
-      "titulo": "SONESTA ROMANTIC PLAN",
-      "nombre_corto": "SONESTA ROMANTIC PLAN",
-      "titular": "",
-      "descripcion": "Come and enjoy the magic of the Sacred Valley with a Passion Plan Sonesta! Includes:\n- 01 night in a matrimonial room\n- Imported 750 ml bottle of choice (sparkling wine or wine)\n- Buffet breakfast\n- 5-course romantic dinner for 2 people (set menu)\n- Sweets in the room\n- Romantic decoration\nLate check-out (subject to availability) SUBJECT TO AVAILABILITY\nDOES NOT INCLUDE: VAT (18%) OR ACCOMMODATION SERVICE CHARGE (10%) This amount will be charged at check-in once the plan and arrival time at the hotel are confirmed.",
-      "categoria": "Romántico",
-      "descuento": null,
-      "precio_desde": "USD 163",
-      "vigencia": null,
-      "tyc": "• You can buy this plan as a gift. • This plan must be booked with 2 days in advance. • You can enjoy this plan on the following days Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. • Your plan includes Breakfast, Lunch. • Your plan can be paid with: Prepaid, Bank transfer, Credit card payment, Payment at the hotel. • You can modify 1 your reservation without generating an additional value. BOOK Frequently Asked Questions Do you have parking? We have parking at no additional cost. Privacy Policy Data Protection Cookies policy Accommodation Contract GHL Hotels Complaints Book Fraud Prevention 2026"
-    },
-    "hash": "625c046db49207432ac499783a1b90be"
+    "hash": "aae77f525b0df611e6a2e3bcb95c186a"
   },
   {
     "hotel": "Irotama del Mar",
