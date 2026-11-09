@@ -416,52 +416,6 @@
   {
     "hotel": "GHL Collection 93",
     "hotel_code": "ghlstyle93",
-    "match_key": "prccolof",
-    "categoria": "Oferta General",
-    "id": "ghlstyle93_prccolof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.hotelghl93.com/ofertas",
-      "slug": "prccolof",
-      "es_id": null,
-      "hotel": "GHL Collection 93",
-      "hotel_code": "ghlstyle93",
-      "titulo": "¡Activa tu modo viaje!",
-      "nombre_corto": "¡Activa tu modo viaje!",
-      "titular": "",
-      "descripcion": "Reserva del 10 al 12 de junio y recibe un 15% de descuento para viajes hasta junio de 2027, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados",
-      "categoria": "Oferta General",
-      "canonical": "general",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "prccolof"
-    },
-    "en": {
-      "lang": "en",
-      "url": "https://en.hotelghl93.com/offers",
-      "slug": "prccolof",
-      "es_id": null,
-      "hotel": "GHL Collection 93",
-      "hotel_code": "ghlstyle93",
-      "titulo": "Activate Your Travel Mode",
-      "nombre_corto": "Activate Your Travel Mode",
-      "titular": "",
-      "descripcion": "Book from June 10th to 12th and receive a 15% discount for trips until June 2027. Not applicable to flight + hotel plans or packages. Subject to hotel availability. Not applicable to Sheraton or Four Points brand hotels and valid only for selected hotels",
-      "categoria": "Oferta General",
-      "canonical": "general",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "prccolof"
-    },
-    "hash": "8362c7b1eb6b794f9d976fff22a6249f"
-  },
-  {
-    "hotel": "GHL Collection 93",
-    "hotel_code": "ghlstyle93",
     "match_key": "ebktrdof",
     "categoria": "Compra Anticipada",
     "id": "ghlstyle93_ebktrdof",
@@ -504,6 +458,52 @@
       "match_key": "ebktrdof"
     },
     "hash": "dcf902282f8206dfd945a0b0ec10496a"
+  },
+  {
+    "hotel": "GHL Collection 93",
+    "hotel_code": "ghlstyle93",
+    "match_key": "prccolof",
+    "categoria": "Oferta General",
+    "id": "ghlstyle93_prccolof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.hotelghl93.com/ofertas",
+      "slug": "prccolof",
+      "es_id": null,
+      "hotel": "GHL Collection 93",
+      "hotel_code": "ghlstyle93",
+      "titulo": "¡Activa tu modo viaje!",
+      "nombre_corto": "¡Activa tu modo viaje!",
+      "titular": "",
+      "descripcion": "Reserva del 10 al 12 de junio y recibe un 15% de descuento para viajes hasta junio de 2027, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados",
+      "categoria": "Oferta General",
+      "canonical": "general",
+      "param": null,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "prccolof"
+    },
+    "en": {
+      "lang": "en",
+      "url": "https://en.hotelghl93.com/offers",
+      "slug": "prccolof",
+      "es_id": null,
+      "hotel": "GHL Collection 93",
+      "hotel_code": "ghlstyle93",
+      "titulo": "Activate Your Travel Mode",
+      "nombre_corto": "Activate Your Travel Mode",
+      "titular": "",
+      "descripcion": "Book from June 10th to 12th and receive a 15% discount for trips until June 2027. Not applicable to flight + hotel plans or packages. Subject to hotel availability. Not applicable to Sheraton or Four Points brand hotels and valid only for selected hotels",
+      "categoria": "Oferta General",
+      "canonical": "general",
+      "param": null,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "prccolof"
+    },
+    "hash": "8362c7b1eb6b794f9d976fff22a6249f"
   },
   {
     "hotel": "Armeria Real",
@@ -766,34 +766,6 @@
   {
     "hotel": "GHL Collection Hamilton",
     "hotel_code": "ghlstylehamilton",
-    "match_key": "lasmtdof",
-    "categoria": "Ultimo Minuto",
-    "id": "ghlstylehamilton_lasmtdof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.ghlcollectionhamilton.com/ofertas",
-      "slug": "lasmtdof",
-      "es_id": null,
-      "hotel": "GHL Collection Hamilton",
-      "hotel_code": "ghlstylehamilton",
-      "titulo": "Ultimo minuto 3 días",
-      "nombre_corto": "Ultimo minuto 3 días",
-      "titular": "",
-      "descripcion": "",
-      "categoria": "Ultimo Minuto",
-      "canonical": "last_minute",
-      "param": 3,
-      "descuento": null,
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "lasmtdof"
-    },
-    "en": null,
-    "hash": "319b3280890108fd0223a2e7db1366a1"
-  },
-  {
-    "hotel": "GHL Collection Hamilton",
-    "hotel_code": "ghlstylehamilton",
     "match_key": "ebktrdof",
     "categoria": "Compra Anticipada",
     "id": "ghlstylehamilton_ebktrdof",
@@ -848,32 +820,60 @@
     "hash": "ee5abf84c359db09edac2ae06ad72dc5"
   },
   {
+    "hotel": "GHL Collection Hamilton",
+    "hotel_code": "ghlstylehamilton",
+    "match_key": "lasmtdof",
+    "categoria": "Ultimo Minuto",
+    "id": "ghlstylehamilton_lasmtdof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "slug": "lasmtdof",
+      "es_id": null,
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Ultimo minuto 3 días",
+      "nombre_corto": "Ultimo minuto 3 días",
+      "titular": "",
+      "descripcion": "",
+      "categoria": "Ultimo Minuto",
+      "canonical": "last_minute",
+      "param": 3,
+      "descuento": null,
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "lasmtdof"
+    },
+    "en": null,
+    "hash": "319b3280890108fd0223a2e7db1366a1"
+  },
+  {
     "hotel": "GHL Grand Villavicencio",
-    "hotel_code": "ghlvillavi",
-    "match_key": "ebkqudof",
+    "hotel_code": "ghlgrandvillavicencio",
+    "match_key": "early_booking|15",
     "categoria": "Compra Anticipada",
-    "id": "ghlvillavi_ebkqudof",
+    "id": "ghlgrandvillavicencio_b6947d",
     "es": {
       "lang": "es",
       "url": "https://www.ghlvillavicencio.com/ofertas",
-      "slug": "ebkqudof",
+      "slug": "",
       "es_id": null,
       "hotel": "GHL Grand Villavicencio",
-      "hotel_code": "ghlvillavi",
+      "hotel_code": "ghlgrandvillavicencio",
       "titulo": "Reserva con anticipación y ahorra en GHL Hotel Villavicencio",
       "nombre_corto": "Reserva con anticipación y ahorra en GHL Hotel Villavicencio",
       "titular": "",
-      "descripcion": "Planifica tu próxima estadía en el GHL Hotel Villavicencio y accede a un 7% de descuento reservando con al menos 15 días de anticipación. Además, al hacerte miembro de GHL Plus, podrás disfrutar de hasta un 17% de descuento y beneficios exclusivos. Vive una experiencia de confort, ubicación estratégica y el mejor servicio en el corazón de la ciudad. Aprovecha esta oferta exclusiva para asegurar el mejor precio en tus viajes de negocios o placer. Incluye: Alojamiento en habitación elegida Acceso a las instalaciones del hotel WiFi gratuito",
+      "descripcion": "Planifica tu próxima estadía en el GHL Hotel Villavicencio y accede a un 7% de descuento reservando con al menos 15 días de anticipación. Además, al hacerte miembro de GHL Plus, podrás disfrutar de hasta un 17% de descuento y beneficios exclusivos. Vive una experiencia de confort, ubicación estratégica y el mejor servicio en el corazón de la ciudad. Aprovecha esta oferta exclusiva para asegurar el",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 15,
       "descuento": "7%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "ebkqudof"
+      "match_key": "early_booking|15"
     },
     "en": null,
-    "hash": "084d656f02367089838aeefbddb6df2b"
+    "hash": "39ea7e6c67f15c5ddc812cee9d770199"
   },
   {
     "hotel": "GHL Hotel Capital",
@@ -1108,34 +1108,6 @@
   {
     "hotel": "GHL Monteria",
     "hotel_code": "ghlmonteria",
-    "match_key": "ebkssdof",
-    "categoria": "Compra Anticipada",
-    "id": "ghlmonteria_ebkssdof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.ghlhotelmonteria.com/ofertas",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "GHL Monteria",
-      "hotel_code": "ghlmonteria",
-      "titulo": "Compra Anticipada 45 días",
-      "nombre_corto": "Compra Anticipada 45 días",
-      "titular": "",
-      "descripcion": "Planifique su próxima estadía con anticipación y aproveche una tarifa exclusiva. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con tiempo y disfrute de una experiencia llena de confort y momentos inolvidables.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 45,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
-    "en": null,
-    "hash": "44903a66a08f1cf7cdc4f4b6db09bf50"
-  },
-  {
-    "hotel": "GHL Monteria",
-    "hotel_code": "ghlmonteria",
     "match_key": "barrateof",
     "categoria": "Descuento Directo",
     "id": "ghlmonteria_barrateof",
@@ -1160,6 +1132,34 @@
     },
     "en": null,
     "hash": "1ee97be00842c9c6450b79f445f1f701"
+  },
+  {
+    "hotel": "GHL Monteria",
+    "hotel_code": "ghlmonteria",
+    "match_key": "ebkssdof",
+    "categoria": "Compra Anticipada",
+    "id": "ghlmonteria_ebkssdof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.ghlhotelmonteria.com/ofertas",
+      "slug": "ebkssdof",
+      "es_id": null,
+      "hotel": "GHL Monteria",
+      "hotel_code": "ghlmonteria",
+      "titulo": "Compra Anticipada 45 días",
+      "nombre_corto": "Compra Anticipada 45 días",
+      "titular": "",
+      "descripcion": "Planifique su próxima estadía con anticipación y aproveche una tarifa exclusiva. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con tiempo y disfrute de una experiencia llena de confort y momentos inolvidables.",
+      "categoria": "Compra Anticipada",
+      "canonical": "early_booking",
+      "param": 45,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "ebkssdof"
+    },
+    "en": null,
+    "hash": "44903a66a08f1cf7cdc4f4b6db09bf50"
   },
   {
     "hotel": "GHL Monteria",
@@ -2009,10 +2009,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.parklakeluxury.com/offers",
-      "slug": "",
+      "slug": "ebktrdof",
       "es_id": null,
       "hotel": "Park Lake Luxury",
-      "hotel_code": "parklakeluxury",
+      "hotel_code": "pllh",
       "titulo": "Early Booking – 30 Days",
       "nombre_corto": "Early Booking – 30 Days",
       "titular": "",
@@ -2023,7 +2023,7 @@
       "descuento": "30%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|30"
+      "match_key": "ebktrdof"
     },
     "hash": "f0c02a9056eedf1b29bbab48ba8ac0d4"
   },
@@ -2055,10 +2055,10 @@
     "en": {
       "lang": "en",
       "url": "https://en.parklakeluxury.com/offers",
-      "slug": "",
+      "slug": "ebkqudof",
       "es_id": null,
       "hotel": "Park Lake Luxury",
-      "hotel_code": "parklakeluxury",
+      "hotel_code": "pllh",
       "titulo": "15-Day Advance Purchase",
       "nombre_corto": "15-Day Advance Purchase",
       "titular": "",
@@ -2069,7 +2069,7 @@
       "descuento": "15%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|15"
+      "match_key": "ebkqudof"
     },
     "hash": "17201ddd66e7c340a7fc861693c5e46b"
   },
@@ -3200,10 +3200,10 @@
       "es_id": null,
       "hotel": "Irotama del Mar",
       "hotel_code": "irodmr",
-      "titulo": "10% de Descuento mínimo 2 noches",
-      "nombre_corto": "10% de Descuento mínimo 2 noches",
+      "titulo": "10% de Descuento mínimo 2 noches Irotama Del Mar",
+      "nombre_corto": "10% de Descuento mínimo 2 noches Irotama Del Mar",
       "titular": "",
-      "descripcion": "Reserva en Irotama Mar hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
+      "descripcion": "Reserva en Irotama Del Mar hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
       "categoria": "Oferta General",
       "canonical": "general",
       "param": 2,
@@ -3213,7 +3213,7 @@
       "match_key": "mindos"
     },
     "en": null,
-    "hash": "200a5425d98f2c0f0ebe104f0a33f4fe"
+    "hash": "6c65cdc7b96e1beae78b442da6c747b5"
   },
   {
     "hotel": "Irotama del Sol",
@@ -3228,10 +3228,10 @@
       "es_id": null,
       "hotel": "Irotama del Sol",
       "hotel_code": "irodsl",
-      "titulo": "10% de Descuento mínimo 2 noches",
-      "nombre_corto": "10% de Descuento mínimo 2 noches",
+      "titulo": "10% de Descuento mínimo 2 noches Irotama Del Sol",
+      "nombre_corto": "10% de Descuento mínimo 2 noches Irotama Del Sol",
       "titular": "",
-      "descripcion": "Reserva en Irotama Sol hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
+      "descripcion": "Reserva en Irotama Del Sol hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
       "categoria": "Oferta General",
       "canonical": "general",
       "param": 2,
@@ -3241,35 +3241,35 @@
       "match_key": "mindos"
     },
     "en": null,
-    "hash": "dedc2675ac588ed413fffbf57037586a"
+    "hash": "99fd0bb9ac1a29fe66922516491e22b6"
   },
   {
     "hotel": "Irotama Bungalows y Bohios",
     "hotel_code": "irohbb",
-    "match_key": "ebventiuno",
-    "categoria": "Compra Anticipada",
-    "id": "irohbb_ebventiuno",
+    "match_key": "mindos",
+    "categoria": "Oferta General",
+    "id": "irohbb_mindos",
     "es": {
       "lang": "es",
       "url": "https://www.irotama.com/ofertas",
-      "slug": "ebventiuno",
+      "slug": "mindos",
       "es_id": null,
       "hotel": "Irotama Bungalows y Bohios",
       "hotel_code": "irohbb",
-      "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.",
-      "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.",
+      "titulo": "10% de Descuento mínimo 2 noches Irotama Bungalows & Bohios",
+      "nombre_corto": "10% de Descuento mínimo 2 noches Irotama Bungalows & Bohios",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama Bungalows y Bohios reservando con más de 21 días de anticipación.. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 21,
-      "descuento": "25%",
+      "descripcion": "Reserva en Irotama Bungalows & Bohios hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
+      "categoria": "Oferta General",
+      "canonical": "general",
+      "param": 2,
+      "descuento": "10%",
       "precio_desde": null,
-      "vigencia": "Hasta el 28 de Noviembre de 2026",
-      "match_key": "ebventiuno"
+      "vigencia": null,
+      "match_key": "mindos"
     },
     "en": null,
-    "hash": "c9ee473e6ac6bd6cd27035140a5368d0"
+    "hash": "dc4fb2abfbd4849cbe3527216347a3de"
   },
   {
     "hotel": "Irotama Lago",
@@ -3284,8 +3284,8 @@
       "es_id": null,
       "hotel": "Irotama Lago",
       "hotel_code": "irolago",
-      "titulo": "10% de Descuento mínimo 2 noches",
-      "nombre_corto": "10% de Descuento mínimo 2 noches",
+      "titulo": "10% de Descuento mínimo 2 noches Irotama Lago",
+      "nombre_corto": "10% de Descuento mínimo 2 noches Irotama Lago",
       "titular": "",
       "descripcion": "Reserva en Irotama Lago hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
       "categoria": "Oferta General",
@@ -3297,7 +3297,7 @@
       "match_key": "mindos"
     },
     "en": null,
-    "hash": "3078f08dc371e63f7f55385a2226baab"
+    "hash": "2713e5f6e231c1f16ea466887dea5537"
   },
   {
     "hotel": "Irotama Reservado",
@@ -3312,8 +3312,8 @@
       "es_id": null,
       "hotel": "Irotama Reservado",
       "hotel_code": "irorvd",
-      "titulo": "10% de Descuento mínimo 2 noches",
-      "nombre_corto": "10% de Descuento mínimo 2 noches",
+      "titulo": "10% de Descuento mínimo 2 noches Irotama Reservado",
+      "nombre_corto": "10% de Descuento mínimo 2 noches Irotama Reservado",
       "titular": "",
       "descripcion": "Reserva en Irotama Reservado hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
       "categoria": "Oferta General",
@@ -3325,35 +3325,35 @@
       "match_key": "mindos"
     },
     "en": null,
-    "hash": "46842c2b3d5aec573b350364705b78e3"
+    "hash": "f62d4eb6d485d5b668ee8afc90c660ae"
   },
   {
     "hotel": "Irotama XXI",
     "hotel_code": "iroxxl",
-    "match_key": "ebventiuno",
-    "categoria": "Compra Anticipada",
-    "id": "iroxxl_ebventiuno",
+    "match_key": "mindos",
+    "categoria": "Oferta General",
+    "id": "iroxxl_mindos",
     "es": {
       "lang": "es",
       "url": "https://www.irotama.com/ofertas",
-      "slug": "ebventiuno",
+      "slug": "mindos",
       "es_id": null,
       "hotel": "Irotama XXI",
       "hotel_code": "iroxxl",
-      "titulo": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación.",
-      "nombre_corto": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación.",
+      "titulo": "10% de Descuento mínimo 2 noches Irotama XXI",
+      "nombre_corto": "10% de Descuento mínimo 2 noches Irotama XXI",
       "titular": "",
-      "descripcion": "Disfruta un 25% de descuento en tu estadía para Irotama XXI reservando con más de 21 días de anticipación. Reserva hasta el 28 de Noviembre de 2026 y disfruta de tu estadía entre el mes de octubre y hasta el 19 de Diciembre de 2026. Sujeto a disponibilidad y fechas de restricción. Aplican términos y condiciones.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 21,
-      "descuento": "25%",
+      "descripcion": "Reserva en Irotama XXI hasta el 30 de noviembre estancias entre el 20 y 29 de diciembre mínimo 2 noches y obtén un 10% de descuento.",
+      "categoria": "Oferta General",
+      "canonical": "general",
+      "param": 2,
+      "descuento": "10%",
       "precio_desde": null,
-      "vigencia": "Hasta el 28 de Noviembre de 2026",
-      "match_key": "ebventiuno"
+      "vigencia": null,
+      "match_key": "mindos"
     },
     "en": null,
-    "hash": "9de5a1924ac6ab4b105dd0eb17d00a6f"
+    "hash": "18265fb57f69155140fe263495b97d6d"
   },
   {
     "hotel": "Bastión Luxury Hotel",
