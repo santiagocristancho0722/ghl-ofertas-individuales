@@ -8,6 +8,18 @@ $py        = "C:\Users\santiago.cristancho\AppData\Local\Programs\Python\Python3
 $log       = Join-Path $proj "reportes_ghl\cron_planes.log"
 $stderrFile = Join-Path $proj "reportes_ghl\_last_stderr_planes.txt"
 
+# Reintenta `git push` ante fallos transitorios de red/auth (visto: commit quedo local sin
+# empujar -> el dashboard no se actualizo). Tras volver, $LASTEXITCODE refleja el ultimo push.
+function Invoke-GitPushRetry {
+    param([string]$LogFile, [int]$Max = 3)
+    for ($i = 1; $i -le $Max; $i++) {
+        git push | Tee-Object -Append -FilePath $LogFile
+        if ($LASTEXITCODE -eq 0) { return }
+        Add-Content $LogFile "git push fallo (intento $i/$Max, codigo $LASTEXITCODE)."
+        if ($i -lt $Max) { Start-Sleep -Seconds 15 }
+    }
+}
+
 Set-Location $proj
 $fecha = Get-Date -Format "yyyy-MM-dd HH:mm"
 Add-Content $log "`n=== $fecha ==="
@@ -43,7 +55,7 @@ git add reportes_ghl/_planes_bil.json reportes_ghl/estado_planes.json `
 $changes = git diff --cached --name-only
 if ($changes) {
     git commit -m "Escaneo semanal planes - $fecha" | Tee-Object -Append -FilePath $log
-    git push | Tee-Object -Append -FilePath $log
+    Invoke-GitPushRetry $log
     if ($LASTEXITCODE -ne 0) { Add-Content $log "ERROR: git push (repo principal) codigo $LASTEXITCODE" }
 } else {
     Add-Content $log "Datos de planes sin cambios en el repo principal."
@@ -56,7 +68,7 @@ git add index.html
 $pchanges = git diff --cached --name-only
 if ($pchanges) {
     git commit -m "Dashboard planes actualizado - $fecha" | Tee-Object -Append -FilePath $log
-    git push | Tee-Object -Append -FilePath $log
+    Invoke-GitPushRetry $log
     if ($LASTEXITCODE -eq 0) {
         Add-Content $log "Dashboard de planes publicado en https://santiagocristancho0722.github.io/ghl-planes-y-ofertas/"
     } else {
