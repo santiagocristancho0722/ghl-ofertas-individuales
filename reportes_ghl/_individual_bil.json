@@ -323,17 +323,17 @@
   },
   {
     "hotel": "Geotel Antofagasta",
-    "hotel_code": "geotelantofagasta",
-    "match_key": "early_booking|15",
+    "hotel_code": "antofagasta",
+    "match_key": "ebkqudof",
     "categoria": "Compra Anticipada",
-    "id": "geotelantofagasta_417347",
+    "id": "antofagasta_ebkqudof",
     "es": {
       "lang": "es",
       "url": "https://www.geotelantofagasta.com/ofertas",
-      "slug": "",
+      "slug": "ebkqudof",
       "es_id": null,
       "hotel": "Geotel Antofagasta",
-      "hotel_code": "geotelantofagasta",
+      "hotel_code": "antofagasta",
       "titulo": "Compra Anticipada 15 días",
       "nombre_corto": "Compra Anticipada 15 días",
       "titular": "",
@@ -344,7 +344,7 @@
       "descuento": "20%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|15"
+      "match_key": "ebkqudof"
     },
     "en": {
       "lang": "en",
@@ -416,38 +416,28 @@
   {
     "hotel": "GHL Collection 93",
     "hotel_code": "ghlstyle93",
-    "match_key": "prccolof",
-    "categoria": "Oferta General",
-    "id": "ghlstyle93_prccolof",
-    "es": null,
-    "en": {
-      "lang": "en",
-      "url": "https://en.hotelghl93.com/offers",
-      "slug": "prccolof",
-      "es_id": null,
-      "hotel": "GHL Collection 93",
-      "hotel_code": "ghlstyle93",
-      "titulo": "Activate Your Travel Mode",
-      "nombre_corto": "Activate Your Travel Mode",
-      "titular": "",
-      "descripcion": "Book from June 10th to 12th and receive a 15% discount for trips until June 2027. Not applicable to flight + hotel plans or packages. Subject to hotel availability. Not applicable to Sheraton or Four Points brand hotels and valid only for selected hotels",
-      "categoria": "Oferta General",
-      "canonical": "general",
-      "param": null,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "prccolof"
-    },
-    "hash": "29085d618a06d4e232dca0028985092b"
-  },
-  {
-    "hotel": "GHL Collection 93",
-    "hotel_code": "ghlstyle93",
     "match_key": "ebktrdof",
     "categoria": "Compra Anticipada",
     "id": "ghlstyle93_ebktrdof",
-    "es": null,
+    "es": {
+      "lang": "es",
+      "url": "https://www.hotelghl93.com/ofertas",
+      "slug": "ebktrdof",
+      "es_id": null,
+      "hotel": "GHL Collection 93",
+      "hotel_code": "ghlstyle93",
+      "titulo": "Compra Anticipada 30 días",
+      "nombre_corto": "Compra Anticipada 30 días",
+      "titular": "",
+      "descripcion": "Reserva con anticipación y disfruta un 10% de descuento en tu estadía en GHL 93. Planea tu viaje con tiempo y vive una experiencia de descanso, comodidad y ubicación privilegiada en Bogotá.",
+      "categoria": "Compra Anticipada",
+      "canonical": "early_booking",
+      "param": 30,
+      "descuento": "10%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "ebktrdof"
+    },
     "en": {
       "lang": "en",
       "url": "https://en.hotelghl93.com/offers",
@@ -467,7 +457,53 @@
       "vigencia": null,
       "match_key": "ebktrdof"
     },
-    "hash": "23acd26a007a3d2ebb04d9e86e3a4f65"
+    "hash": "dcf902282f8206dfd945a0b0ec10496a"
+  },
+  {
+    "hotel": "GHL Collection 93",
+    "hotel_code": "ghlstyle93",
+    "match_key": "prccolof",
+    "categoria": "Oferta General",
+    "id": "ghlstyle93_prccolof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.hotelghl93.com/ofertas",
+      "slug": "prccolof",
+      "es_id": null,
+      "hotel": "GHL Collection 93",
+      "hotel_code": "ghlstyle93",
+      "titulo": "¡Activa tu modo viaje!",
+      "nombre_corto": "¡Activa tu modo viaje!",
+      "titular": "",
+      "descripcion": "Reserva del 10 al 12 de junio y recibe un 15% de descuento para viajes hasta junio de 2027, No aplica para planes ni paquetes de vuelo + hotel. Sujeto a disponibilidad del hotel, No aplica para hoteles marca sheraton, four points, y únicamente para hoteles seleccionados",
+      "categoria": "Oferta General",
+      "canonical": "general",
+      "param": null,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "prccolof"
+    },
+    "en": {
+      "lang": "en",
+      "url": "https://en.hotelghl93.com/offers",
+      "slug": "prccolof",
+      "es_id": null,
+      "hotel": "GHL Collection 93",
+      "hotel_code": "ghlstyle93",
+      "titulo": "Activate Your Travel Mode",
+      "nombre_corto": "Activate Your Travel Mode",
+      "titular": "",
+      "descripcion": "Book from June 10th to 12th and receive a 15% discount for trips until June 2027. Not applicable to flight + hotel plans or packages. Subject to hotel availability. Not applicable to Sheraton or Four Points brand hotels and valid only for selected hotels",
+      "categoria": "Oferta General",
+      "canonical": "general",
+      "param": null,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "prccolof"
+    },
+    "hash": "8362c7b1eb6b794f9d976fff22a6249f"
   },
   {
     "hotel": "Armeria Real",
@@ -702,34 +738,6 @@
   {
     "hotel": "GHL Collection Hamilton",
     "hotel_code": "ghlstylehamilton",
-    "match_key": "ebkssdof",
-    "categoria": "Compra Anticipada",
-    "id": "ghlstylehamilton_ebkssdof",
-    "es": {
-      "lang": "es",
-      "url": "https://www.ghlcollectionhamilton.com/ofertas",
-      "slug": "ebkssdof",
-      "es_id": null,
-      "hotel": "GHL Collection Hamilton",
-      "hotel_code": "ghlstylehamilton",
-      "titulo": "Compra Anticipada 45 días",
-      "nombre_corto": "Compra Anticipada 45 días",
-      "titular": "",
-      "descripcion": "Planifique su próxima estadía con tiempo y aproveche una tarifa especial. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con anticipación y prepárese para disfrutar de una experiencia inolvidable.",
-      "categoria": "Compra Anticipada",
-      "canonical": "early_booking",
-      "param": 45,
-      "descuento": "15%",
-      "precio_desde": null,
-      "vigencia": null,
-      "match_key": "ebkssdof"
-    },
-    "en": null,
-    "hash": "450492b9066313484d9b891bb385f47a"
-  },
-  {
-    "hotel": "GHL Collection Hamilton",
-    "hotel_code": "ghlstylehamilton",
     "match_key": "lonstnof",
     "categoria": "Minima Estadia",
     "id": "ghlstylehamilton_lonstnof",
@@ -782,6 +790,34 @@
     },
     "en": null,
     "hash": "319b3280890108fd0223a2e7db1366a1"
+  },
+  {
+    "hotel": "GHL Collection Hamilton",
+    "hotel_code": "ghlstylehamilton",
+    "match_key": "ebkssdof",
+    "categoria": "Compra Anticipada",
+    "id": "ghlstylehamilton_ebkssdof",
+    "es": {
+      "lang": "es",
+      "url": "https://www.ghlcollectionhamilton.com/ofertas",
+      "slug": "ebkssdof",
+      "es_id": null,
+      "hotel": "GHL Collection Hamilton",
+      "hotel_code": "ghlstylehamilton",
+      "titulo": "Compra Anticipada 45 días",
+      "nombre_corto": "Compra Anticipada 45 días",
+      "titular": "",
+      "descripcion": "Planifique su próxima estadía con tiempo y aproveche una tarifa especial. Reserve con al menos 45 días de anticipación y obtenga un 15 % de descuento en su reserva. Organice su viaje con anticipación y prepárese para disfrutar de una experiencia inolvidable.",
+      "categoria": "Compra Anticipada",
+      "canonical": "early_booking",
+      "param": 45,
+      "descuento": "15%",
+      "precio_desde": null,
+      "vigencia": null,
+      "match_key": "ebkssdof"
+    },
+    "en": null,
+    "hash": "450492b9066313484d9b891bb385f47a"
   },
   {
     "hotel": "GHL Collection Hamilton",
@@ -2757,17 +2793,17 @@
   },
   {
     "hotel": "Sonesta Bogota",
-    "hotel_code": "sonestabogota",
-    "match_key": "early_booking|20",
+    "hotel_code": "ghlsonbogota",
+    "match_key": "ebkqudof",
     "categoria": "Compra Anticipada",
-    "id": "sonestabogota_db9e00",
+    "id": "ghlsonbogota_ebkqudof",
     "es": {
       "lang": "es",
       "url": "https://www.sonestabogota.com/ofertas",
-      "slug": "",
+      "slug": "ebkqudof",
       "es_id": null,
       "hotel": "Sonesta Bogota",
-      "hotel_code": "sonestabogota",
+      "hotel_code": "ghlsonbogota",
       "titulo": "Compra Anticipada 20 días",
       "nombre_corto": "Compra Anticipada 20 días",
       "titular": "",
@@ -2778,7 +2814,7 @@
       "descuento": "10%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|20"
+      "match_key": "ebkqudof"
     },
     "en": {
       "lang": "en",
@@ -2987,17 +3023,17 @@
   },
   {
     "hotel": "Sonesta Yucay",
-    "hotel_code": "sonestayucay",
-    "match_key": "early_booking|30",
+    "hotel_code": "ghlsonvallesagrado",
+    "match_key": "ebktrdof",
     "categoria": "Compra Anticipada",
-    "id": "sonestayucay_9b943c",
+    "id": "ghlsonvallesagrado_ebktrdof",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapiyucay.com/ofertas",
-      "slug": "",
+      "slug": "ebktrdof",
       "es_id": null,
       "hotel": "Sonesta Yucay",
-      "hotel_code": "sonestayucay",
+      "hotel_code": "ghlsonvallesagrado",
       "titulo": "El momento perfecto empieza hoy",
       "nombre_corto": "El momento perfecto empieza hoy",
       "titular": "",
@@ -3008,7 +3044,7 @@
       "descuento": "20%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|30"
+      "match_key": "ebktrdof"
     },
     "en": {
       "lang": "en",
@@ -3033,28 +3069,28 @@
   },
   {
     "hotel": "Sonesta Yucay",
-    "hotel_code": "sonestayucay",
-    "match_key": "early_booking|60",
+    "hotel_code": "ghlsonvallesagrado",
+    "match_key": "ebkssdof",
     "categoria": "Compra Anticipada",
-    "id": "sonestayucay_1479ff",
+    "id": "ghlsonvallesagrado_ebkssdof",
     "es": {
       "lang": "es",
       "url": "https://www.sonestapiyucay.com/ofertas",
-      "slug": "",
+      "slug": "ebkssdof",
       "es_id": null,
       "hotel": "Sonesta Yucay",
-      "hotel_code": "sonestayucay",
+      "hotel_code": "ghlsonvallesagrado",
       "titulo": "Llamado del Valle Sagrado",
       "nombre_corto": "Llamado del Valle Sagrado",
       "titular": "",
-      "descripcion": "Hay lugares que llaman al alma mucho antes de ser visitados. El Valle Sagrado es uno de ellos. Atiende ese llamado y reserva tu estadía con 60 días de anticipación para recibir un 30% de descuento exclusivo. En Sonesta Posadas del Inca, cada amanecer, cada montaña y cada silencio te invitan a reconectar con lo esencial. Una experiencia que se honra desde el momento en que se decide vivirla. Tarifa",
+      "descripcion": "Hay lugares que llaman al alma mucho antes de ser visitados. El Valle Sagrado es uno de ellos. Atiende ese llamado y reserva tu estadía con 60 días de anticipación para recibir un 30% de descuento exclusivo. En Sonesta Posadas del Inca, cada amanecer, cada montaña y cada silencio te invitan a reconectar con lo esencial. Una experiencia que se honra desde el momento en que se decide vivirla. Tarifa no reembolsable.",
       "categoria": "Compra Anticipada",
       "canonical": "early_booking",
       "param": 60,
       "descuento": "30%",
       "precio_desde": null,
       "vigencia": null,
-      "match_key": "early_booking|60"
+      "match_key": "ebkssdof"
     },
     "en": {
       "lang": "en",
@@ -3075,7 +3111,7 @@
       "vigencia": null,
       "match_key": "ebkssdof"
     },
-    "hash": "01e29eaf0b8ef687bc8d87e2cf76168d"
+    "hash": "034e003e7ef0a288c1e9f2da8786f2a2"
   },
   {
     "hotel": "Sonesta Miraflores",
