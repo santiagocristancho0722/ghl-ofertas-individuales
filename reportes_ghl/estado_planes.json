@@ -1,14 +1,14 @@
 {
   "hash_version": 2,
-  "escaneos": 34,
-  "last_run": "2026-11-23 09:31",
-  "prev_run": "2026-11-20 09:26",
+  "escaneos": 35,
+  "last_run": "2026-11-25 09:26",
+  "prev_run": "2026-11-23 09:31",
   "last_kpis": {
-    "activas": 113,
-    "nuevas": 5,
+    "activas": 114,
+    "nuevas": 1,
     "eliminadas": 0,
-    "cambios": 0,
-    "escaneos": 34
+    "cambios": 1,
+    "escaneos": 35
   },
   "offers": {
     "plan_biohotelghl_plan-noche-de-bodas": {
@@ -834,7 +834,7 @@
       "c_sub": "",
       "c_desc": "Celebra la magia de la Navidad con nosotros!\nDisfruta una noche especial llena de sabor, música y momentos para compartir. La celebración incluye:\nCena buffet.\nMúsica en vivo.\nAnimación durante la velada.\nBrindis especial.\nPremios y regalos. ¡Celebra, comparte y vive una Nochebuena inolvidable!",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-11-23 09:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -852,7 +852,7 @@
       "c_sub": "",
       "c_desc": "¡Despide el año y recibe el nuevo con una celebración inolvidable!\nDisfruta una noche llena de alegría, música y momentos especiales. La celebración incluye:\nCena buffet.\nMúsica en vivo.\nAnimación.\nUvas para pedir tus deseos.\nBrindis de Año Nuevo.\nPremios y regalos.\nOpen bar. ¡Celebra, brinda y recibe el nuevo año con nosotros!",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-11-23 09:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1235,6 +1235,24 @@
       "cambios": [],
       "fecha_cambio": ""
     },
+    "plan_ghlabadiaplaza_plan-con-alimentacion": {
+      "hash": "f78be563f7de7560d9953a506054feaf",
+      "hotel": "GHL Hotel Abadia Plaza",
+      "hotel_code": "ghlabadiaplaza",
+      "titulo": "Plan con Alimentacion",
+      "categoria": "Gastronómico",
+      "url": "https://www.hotelabadiaplaza.com/planes/plan-con-alimentacion",
+      "country": "Colombia",
+      "city": "Pereira",
+      "c_tit": "PLAN CON ALIMENTACION",
+      "c_sub": "",
+      "c_desc": "Incluye:\nHabitación estándar.\nDesayuno Buffet.\nCena tipo menú Restaurante Borbón (entrada, fuerte, postre y jugo) para 1 persona.\nUso de zonas húmedas, gimnasio. Valor $355.000 impuestos incluidos.\nDisponible de Lunes a Viernes.",
+      "c_disc": null,
+      "estado": "nueva",
+      "fecha_alta": "2026-11-25 09:26",
+      "cambios": [],
+      "fecha_cambio": ""
+    },
     "plan_ghlgrandbarranquilla_pasadia": {
       "hash": "3141772315d25ddc74df81ce723ac2f0",
       "hotel": "GHL Grand Barranquilla",
@@ -1416,7 +1434,7 @@
       "fecha_cambio": ""
     },
     "plan_ghlsonbucara_noche-de-bodas": {
-      "hash": "d82b298e55c7030e650304e0ae733180",
+      "hash": "b39c707045499dd1b6dc5ebfd5a4fa39",
       "hotel": "Sonesta Bucaramanga",
       "hotel_code": "ghlsonbucara",
       "titulo": "Plan Noche de Bodas",
@@ -1426,12 +1444,14 @@
       "city": "Bucaramanga",
       "c_tit": "PLAN NOCHE DE BODAS",
       "c_sub": "",
-      "c_desc": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.\n. Cena especial (sugerencia del chef).",
+      "c_desc": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.",
       "c_disc": null,
-      "estado": "vigente",
+      "estado": "cambio",
       "fecha_alta": "2026-08-27 11:30",
-      "cambios": [],
-      "fecha_cambio": ""
+      "cambios": [
+        "Descripción modificada"
+      ],
+      "fecha_cambio": "2026-11-25 09:26"
     },
     "plan_ghlsonbucara_plan-aniversario": {
       "hash": "88f55da6c8562ff99a199b652d51ff53",
@@ -1896,7 +1916,7 @@
       "c_sub": "",
       "c_desc": "Incluye: - Menu especial para dos personas\n- 2 copas de vino espumoso\n- Decoración especial",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-11-23 09:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1914,7 +1934,7 @@
       "c_sub": "",
       "c_desc": "Incluye: - Alojamiento para dos personas\n- Decoración especial (Letrero, globos, serpentinas)\n- Torta de cumpleaños\n- Botella de vino espumoso\n- Desayuno especial",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-11-23 09:31",
       "cambios": [],
       "fecha_cambio": ""
@@ -1932,7 +1952,7 @@
       "c_sub": "",
       "c_desc": "Incluye: - Alojamiento para dos personas\n- Bebida de bienvenida\n- Decoracion especial con lenceria de lujo\n- Globos, arreglo floral\n- Desayuno especial\n- Fresas achocolatadas\n- Cena a la eleccion del chef\n- Botella de vino espumoso\n- Obsequio por parte del Hotel",
       "c_disc": null,
-      "estado": "nueva",
+      "estado": "vigente",
       "fecha_alta": "2026-11-23 09:31",
       "cambios": [],
       "fecha_cambio": ""

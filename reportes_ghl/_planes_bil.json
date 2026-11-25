@@ -2468,6 +2468,31 @@
     "hash": "bb6af1ffd36b496a6677f988bd26f484"
   },
   {
+    "hotel": "GHL Hotel Abadia Plaza",
+    "hotel_code": "ghlabadiaplaza",
+    "categoria": "Gastronómico",
+    "id": "plan_ghlabadiaplaza_plan-con-alimentacion",
+    "es": {
+      "lang": "es",
+      "url": "https://www.hotelabadiaplaza.com/planes/plan-con-alimentacion",
+      "page_url": "https://www.hotelabadiaplaza.com/planes",
+      "slug": "plan-con-alimentacion",
+      "hotel": "GHL Hotel Abadia Plaza",
+      "hotel_code": "ghlabadiaplaza",
+      "titulo": "PLAN CON ALIMENTACION",
+      "nombre_corto": "PLAN CON ALIMENTACION",
+      "titular": "",
+      "descripcion": "Incluye:\nHabitación estándar.\nDesayuno Buffet.\nCena tipo menú Restaurante Borbón (entrada, fuerte, postre y jugo) para 1 persona.\nUso de zonas húmedas, gimnasio. Valor $355.000 impuestos incluidos.\nDisponible de Lunes a Viernes.",
+      "categoria": "Gastronómico",
+      "descuento": null,
+      "precio_desde": "COP $ 355,000",
+      "vigencia": null,
+      "tyc": "• Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes. • Con este plan tienes alojamiento en habitación Estándar. • Las zonas que puedes disfrutar del hotel con el plan son: Gimnasio, Business center. • Tu plan incluye Desayuno, Cena. • Tu plan lo puedes pagar con: Prepago, Transferencia bancaria, Wompi, Pago con tarjeta. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
+    },
+    "en": null,
+    "hash": "e09be43188e86ae370de9f3a2caf9a99"
+  },
+  {
     "hotel": "GHL Grand Barranquilla",
     "hotel_code": "ghlgrandbarranquilla",
     "categoria": "Pasadía",
@@ -2812,7 +2837,7 @@
       "titulo": "PLAN NOCHE DE BODAS",
       "nombre_corto": "PLAN NOCHE DE BODAS",
       "titular": "",
-      "descripcion": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.\n. Cena especial (sugerencia del chef).",
+      "descripcion": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.",
       "categoria": "Noche de bodas",
       "descuento": null,
       "precio_desde": "COP $ 760,000",
@@ -2829,14 +2854,14 @@
       "titulo": "PLAN NOCHE DE BODAS",
       "nombre_corto": "PLAN NOCHE DE BODAS",
       "titular": "",
-      "descripcion": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.\n. Cena especial (sugerencia del chef).",
+      "descripcion": "UNA NOCHE MÁGICA. Incluye:\n. Alojamiento para dos personas en habitación Superior.\n. Lencería de lujo.\n. Cortesía especial del chef en la habitación.\n. Decoración romántica en la habitación.\n. Habitación para arreglo de la novia.\n. Botella de vino espumoso.\n. Regalo especial para los novios.\n. Desayuno en la habitación.\n. Aceites relajantes.\n. Cena de aniversario al año en Peregrina Rooftop, desayuno.",
       "categoria": "Noche de bodas",
       "descuento": null,
       "precio_desde": "COP $ 760,000",
       "vigencia": null,
       "tyc": "• Este plan lo debes reservar con 1 día de anticipación. • Tu plan será cobrado al 100% una vez realices la reserva. • Puedes disfrutar este plan los días Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo. • Tu plan incluye Desayuno. • Tu plan lo puedes pagar con: Prepago, Pago con tarjeta. RESERVAR Preguntas frecuentes ¿Tienen parqueadero? Contamos con parqueadero sin costo adicional."
     },
-    "hash": "78b64d1c32ed3a516865b35f3db559a1"
+    "hash": "8704b2f671c7f944282df8d091a2523b"
   },
   {
     "hotel": "Sonesta Bucaramanga",
